@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+<main id="main" class="auth-layout">
+  <section class="brand-panel">
+    <p class="eyebrow">Account Setup</p>
+    <h1>Create your access</h1>
+    <p class="lead">Choose whether you are joining as an investor or inventor, connect your account to an existing dataset entity, and continue to your own dashboard.</p>
+  </section>
+
+  <section class="auth-card auth-card-wide">
+    <h2>Sign up</h2>
+    <form method="post" class="auth-form">
+      <div>
+        <label for="role">Account type</label>
+        <select id="role" name="role" required>
+          <option value="">Select one</option>
+          <option value="investor">Investor</option>
+          <option value="inventor">Inventor</option>
+        </select>
+      </div>
+      <div>
+        <label for="display_name">Display name</label>
+        <input id="display_name" name="display_name" required>
+      </div>
+      <div>
+        <label for="username_signup">Username</label>
+        <input id="username_signup" name="username" autocomplete="username" required>
+      </div>
+      <div>
+        <label for="password_signup">Password</label>
+        <div class="password-wrap">
+          <input id="password_signup" name="password" type="password" autocomplete="new-password" required>
+          <button type="button" class="ghost-btn password-toggle" data-target="password_signup" aria-label="Show password">Show</button>
+        </div>
+      </div>
+      <div class="full-span">
+        <label for="entity_id">Choose profile from dataset</label>
+        <select id="entity_id" name="entity_id" required></select>
+      </div>
+      <button type="submit">Create account</button>
+    </form>
+    <p class="helper-text">Already have an account? <a href="{{ url_for('login_page') }}">Go to login</a></p>
+  </section>
+</main>
+
+<script id="investor-options" type="application/json">{{ investor_options | tojson }}</script>
+<script id="inventor-options" type="application/json">{{ inventor_options | tojson }}</script>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='ui.js') }}"></script>
+{% endblock %}

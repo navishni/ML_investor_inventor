@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+{% block content %}
+<main id="main">
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Inventor Dashboard</p>
+      <h1>{{ payload.profile.idea_title }}</h1>
+      <p class="lead small">Best model right now: <strong>{{ bootstrap.best_model }}</strong></p>
+    </div>
+    <nav class="top-actions" aria-label="User navigation">
+      <a class="link-btn" href="{{ url_for('logout') }}">Logout</a>
+    </nav>
+  </header>
+
+  <section class="grid main-grid">
+    <article class="card">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Inventor Profile</p>
+          <h2>Update your profile</h2>
+        </div>
+      </div>
+      <form id="inventorProfileForm" class="grid form-grid" data-idea-id="{{ payload.entity_id }}">
+        <div>
+          <label for="founderName">Founder name</label>
+          <input id="founderName" value="{{ payload.profile.founder_name or '' }}" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" value="{{ payload.profile.email or '' }}" type="email">
+        </div>
+        <div class="full-span">
+          <label for="linkedin">LinkedIn</label>
+          <input id="linkedin" value="{{ payload.profile.linkedin or '' }}">
+        </div>
+        <div class="full-span">
+          <label for="description">Project summary</label>
+          <textarea id="description">{{ payload.profile.description or payload.profile.idea_text or '' }}</textarea>
+        </div>
+        <div class="full-span">
+          <label for="achievements">Achievements</label>
+          <textarea id="achievements">{{ payload.profile.achievements or '' }}</textarea>
+        </div>
+        <div class="full-span">
+          <label for="patents">Patents</label>
+          <textarea id="patents">{{ payload.profile.patents or '' }}</textarea>
+        </div>
+        <button type="submit">Save profile</button>
+      </form>
+      <div id="profileStatus" class="status-box" aria-live="polite"></div>
+    </article>
+
+    <article class="card">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Match Results</p>
+          <h2>Top investor matches</h2>
+        </div>
+        <button id="refreshInventorBtn" type="button" class="secondary-btn" data-idea-id="{{ payload.entity_id }}">Refresh results</button>
+      </div>
+      <div id="inventorMatches">
+        {% for item in payload.matches %}
+        <article class="recommendation-card">
+          <div class="recommendation-head">
+            <div>
+              <h3>{{ item.investor_name }}</h3>
+              <p>{{ item.focus_domain }} | {{ item.industry_focus }}</p>
+              <p>{{ item.preferred_location }} | {{ item.preferred_risk_appetite }}</p>
+            </div>
+            <div class="score-box"><strong>{{ item.best_score }}%</strong><span>{{ item.best_model }}</span></div>
+          </div>
+          <div class="chip-row">
+            {% for reason in item.reasons %}<span class="chip">{{ reason }}</span>{% endfor %}
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </article>
+  </section>
+
+  <section class="card">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Model Comparison</p>
+        <h2>Performance table</h2>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Model</th>
+            <th>Accuracy</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1</th>
+            <th>ROC AUC</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for row in bootstrap.model_comparison %}
+          <tr>
+            <td>{{ row.name }}{% if row.name == bootstrap.best_model %} <span class="chip">Best</span>{% endif %}</td>
+            <td>{{ "%.2f"|format(row.accuracy * 100) }}%</td>
+            <td>{{ "%.2f"|format(row.precision * 100) }}%</td>
+            <td>{{ "%.2f"|format(row.recall * 100) }}%</td>
+            <td>{{ "%.2f"|format(row.f1 * 100) }}%</td>
+            <td>{{ "%.2f"|format(row.roc_auc * 100) }}%</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+{% endblock %}
+{% block scripts %}
+<script>window.MATCHTANK_BOOTSTRAP = {{ bootstrap | tojson }};</script>
+<script src="{{ url_for('static', filename='dashboard.js') }}"></script>
+{% endblock %}
