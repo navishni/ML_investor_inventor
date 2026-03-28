@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% block content %}
+<main id="main">
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Investor Dashboard</p>
+      <h1>{{ user.display_name }}</h1>
+      <p class="lead small">Best model right now: <strong>{{ bootstrap.best_model }}</strong></p>
+    </div>
+    <nav class="top-actions" aria-label="User navigation">
+      <a class="link-btn" href="{{ url_for('logout') }}">Logout</a>
+    </nav>
+  </header>
+
+  <section class="grid stats-grid">
+    <article class="card stat-card"><span>Focus Domain</span><strong>{{ payload.profile.focus_domain }}</strong></article>
+    <article class="card stat-card"><span>Industry</span><strong>{{ payload.profile.industry_focus }}</strong></article>
+    <article class="card stat-card"><span>Funds</span><strong>{{ "{:,.0f}".format(payload.profile.available_funds) }}</strong></article>
+    <article class="card stat-card"><span>Risk</span><strong>{{ payload.profile.preferred_risk_appetite }}</strong></article>
+  </section>
+
+  <section class="grid main-grid">
+    <article class="card">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Model Comparison</p>
+          <h2>Performance table</h2>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Model</th>
+              <th>Accuracy</th>
+              <th>Precision</th>
+              <th>Recall</th>
+              <th>F1</th>
+              <th>ROC AUC</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in bootstrap.model_comparison %}
+            <tr>
+              <td>{{ row.name }}{% if row.name == bootstrap.best_model %} <span class="chip">Best</span>{% endif %}</td>
+              <td>{{ "%.2f"|format(row.accuracy * 100) }}%</td>
+              <td>{{ "%.2f"|format(row.precision * 100) }}%</td>
+              <td>{{ "%.2f"|format(row.recall * 100) }}%</td>
+              <td>{{ "%.2f"|format(row.f1 * 100) }}%</td>
+              <td>{{ "%.2f"|format(row.roc_auc * 100) }}%</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      <p class="note">This score is based on the current dummy dataset. With random synthetic data, very high real accuracy is not reliable without better source data.</p>
+    </article>
+
+    <article class="card">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Deal Support</p>
+          <h2>Equity calculator</h2>
+        </div>
+      </div>
+      <form id="equityForm" class="stack">
+        <div>
+          <label for="preMoney">Pre-money valuation</label>
+          <input id="preMoney" type="number" required>
+        </div>
+        <div>
+          <label for="investmentAmount">Investment amount</label>
+          <input id="investmentAmount" type="number" required>
+        </div>
+        <div>
+          <label for="founderEquityBefore">Founder equity before deal (%)</label>
+          <input id="founderEquityBefore" type="number" value="100" required>
+        </div>
+        <button type="submit">Calculate</button>
+      </form>
+      <div id="equityResult" class="status-box" aria-live="polite"></div>
+    </article>
+  </section>
+
+  <section class="card">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Recommendations</p>
+        <h2>Top inventor matches</h2>
+      </div>
+      <button id="refreshInvestorBtn" type="button" class="secondary-btn" data-investor-id="{{ payload.entity_id }}">Refresh results</button>
+    </div>
+    <div id="investorRecommendations">
+      {% for item in payload.recommendations %}
+      <article class="recommendation-card">
+        <div class="recommendation-head">
+          <div>
+            <h3>{{ item.idea_title }}</h3>
+            <p>{{ item.domain }} | {{ item.technology }} | {{ item.risk_level }} risk | {{ item.location }}</p>
+            <p>Funding required: {{ "{:,.0f}".format(item.funding_required) }} | Team size: {{ item.team_size }}</p>
+          </div>
+          <div class="score-box"><strong>{{ item.best_score }}%</strong><span>{{ item.best_model }}</span></div>
+        </div>
+        <p>{{ item.summary }}</p>
+        <div class="chip-row">
+          {% for reason in item.reasons %}<span class="chip">{{ reason }}</span>{% endfor %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+</main>
+{% endblock %}
+{% block scripts %}
+<script>window.MATCHTANK_BOOTSTRAP = {{ bootstrap | tojson }};</script>
+<script src="{{ url_for('static', filename='dashboard.js') }}"></script>
+{% endblock %}
