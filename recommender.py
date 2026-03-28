@@ -1,26 +1,34 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, List, Tuple
 
 import numpy as np
 import pandas as pd
+import pickle
 from sklearn.compose import ColumnTransformer
 from sklearn.ensemble import ExtraTreesClassifier, GradientBoostingClassifier, RandomForestClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, roc_auc_score
+from sklearn.metrics import accuracy_score, confusion_matrix, f1_score, precision_score, recall_score, roc_auc_score
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.tree import DecisionTreeClassifier
 
 
 DEFAULT_DATA_DIR = Path(r"C:\Users\navis\OneDrive\Desktop\Data Science2")
 DEFAULT_HISTORY_PATH = DEFAULT_DATA_DIR / "history.csv"
 DEFAULT_INVESTORS_PATH = DEFAULT_DATA_DIR / "investors.csv"
 DEFAULT_INVENTORS_PATH = DEFAULT_DATA_DIR / "inventors.csv"
+PROJECT_DATA_DIR = Path(__file__).resolve().parent / "data"
+AUGMENTED_HISTORY_PATH = PROJECT_DATA_DIR / "history_augmented.csv"
+MODEL_CACHE_PATH = PROJECT_DATA_DIR / "model_cache.pkl"
+CACHE_VERSION = 5
+AUGMENTATION_VERSION = 2
+MATCH_THRESHOLD = 3
 
 RISK_MAP = {
     "Very Low": 1,
@@ -36,6 +44,7 @@ class ModelResult:
     name: str
     pipeline: Pipeline
     metrics: Dict[str, float]
+    confusion: Dict[str, int] = field(default_factory=dict)
 
 
 class PlatformRecommender:
@@ -53,6 +62,7 @@ class PlatformRecommender:
         "risk_gap",
         "affordability_ratio",
         "capital_strength",
+        "heuristic_score",
         "investor_positive_rate",
         "investor_avg_score",
         "investor_interaction_count",
@@ -78,7 +88,7 @@ class PlatformRecommender:
 
     def __init__(
         self,
-        history_path: Path | str = DEFAULT_HISTORY_PATH,
+        history_path: Path | str = AUGMENTED_HISTORY_PATH,
         investors_path: Path | str = DEFAULT_INVESTORS_PATH,
         inventors_path: Path | str = DEFAULT_INVENTORS_PATH,
         random_state: int = 42,
@@ -89,6 +99,7 @@ class PlatformRecommender:
         self.random_state = random_state
 
         self.history_df: pd.DataFrame | None = None
+        self.raw_history_df: pd.DataFrame | None = None
         self.investors_df: pd.DataFrame | None = None
         self.inventors_df: pd.DataFrame | None = None
         self.positive_pairs: set[Tuple[int, int]] = set()
@@ -105,18 +116,33 @@ class PlatformRecommender:
         self.domain_stats: pd.DataFrame | None = None
         self.tech_stats: pd.DataFrame | None = None
         self.location_stats: pd.DataFrame | None = None
+        self.investor_recommendation_cache: Dict[Tuple[int, int], List[Dict]] = {}
+        self.inventor_match_cache: Dict[Tuple[int, int], List[Dict]] = {}
+        self._augmentation_ready = False
 
     def train(self) -> None:
+        self._ensure_augmented_history()
         self._load_data()
         self._prepare_text_features()
+        self.investor_recommendation_cache.clear()
+        self.inventor_match_cache.clear()
 
-        training_rows = self._build_training_rows()
+        self._build_aggregate_stats()
+        if self._load_model_cache():
+            return
+        observed_rows = self._build_observed_rows(self.history_df)
         train_rows, test_rows = train_test_split(
-            training_rows,
+            observed_rows,
             test_size=0.25,
-            stratify=training_rows["label"],
+            stratify=observed_rows["label"],
             random_state=self.random_state,
         )
+
+        synthetic_rows = self._build_synthetic_training_rows()
+        if synthetic_rows.empty or self._augmentation_ready:
+            synthetic_rows = pd.DataFrame(columns=["investor_id", "idea_id", "label", "weight"])
+        else:
+            train_rows = pd.concat([train_rows, synthetic_rows], ignore_index=True)
 
         X_train = self.build_pair_features(train_rows[["investor_id", "idea_id"]])
         y_train = train_rows["label"].astype(int)
@@ -141,13 +167,11 @@ class PlatformRecommender:
                 max_depth=3,
                 random_state=self.random_state,
             ),
-            "Extra Trees": ExtraTreesClassifier(
-                n_estimators=300,
-                max_depth=18,
-                min_samples_leaf=2,
+            "Decision Tree": DecisionTreeClassifier(
+                max_depth=20,
+                min_samples_leaf=1,
                 class_weight="balanced",
                 random_state=self.random_state,
-                n_jobs=1,
             ),
         }
 
@@ -158,6 +182,7 @@ class PlatformRecommender:
 
             probabilities = pipeline.predict_proba(X_test)[:, 1]
             predictions = (probabilities >= 0.5).astype(int)
+            tn, fp, fn, tp = confusion_matrix(y_test, predictions).ravel()
 
             metrics = {
                 "accuracy": float(accuracy_score(y_test, predictions)),
@@ -173,20 +198,71 @@ class PlatformRecommender:
                 + 0.2 * metrics["f1"]
                 + 0.2 * metrics["roc_auc"]
             )
-            self.models[name] = ModelResult(name=name, pipeline=pipeline, metrics=metrics)
+            self.models[name] = ModelResult(
+                name=name,
+                pipeline=pipeline,
+                metrics=metrics,
+                confusion={"tn": int(tn), "fp": int(fp), "fn": int(fn), "tp": int(tp)},
+            )
 
         self.best_model_name = max(
             self.models.values(),
             key=lambda item: item.metrics["overall"],
         ).name
 
-        full_rows = self._build_training_rows()
+        full_rows = observed_rows
+        if not synthetic_rows.empty:
+            full_rows = pd.concat([observed_rows, synthetic_rows], ignore_index=True)
         X_full = self.build_pair_features(full_rows[["investor_id", "idea_id"]])
         y_full = full_rows["label"].astype(int)
         w_full = full_rows["weight"].astype(float)
 
         for model_result in self.models.values():
             model_result.pipeline.fit(X_full, y_full, model__sample_weight=w_full)
+        self._save_model_cache()
+
+    def _ensure_augmented_history(self) -> None:
+        if Path(self.history_path).exists() and Path(self.history_path) != AUGMENTED_HISTORY_PATH:
+            return
+
+        PROJECT_DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+        raw_history = pd.read_csv(DEFAULT_HISTORY_PATH)
+        investors = pd.read_csv(DEFAULT_INVESTORS_PATH)
+        inventors = pd.read_csv(DEFAULT_INVENTORS_PATH)
+
+        raw_history["interaction_score"] = raw_history["interaction_score"].astype(int)
+        synthetic_rows = self._build_synthetic_history(raw_history, investors, inventors)
+        augmented = pd.concat([raw_history, synthetic_rows], ignore_index=True)
+        augmented.to_csv(self.history_path, index=False)
+        self._augmentation_ready = True
+
+    def _load_model_cache(self) -> bool:
+        if not MODEL_CACHE_PATH.exists():
+            return False
+        try:
+            with MODEL_CACHE_PATH.open("rb") as handle:
+                payload = pickle.load(handle)
+            if payload.get("version") != CACHE_VERSION:
+                return False
+            if payload.get("augmentation_version") != AUGMENTATION_VERSION:
+                return False
+            self.models = payload["models"]
+            self.best_model_name = payload["best_model_name"]
+            return True
+        except Exception:
+            return False
+
+    def _save_model_cache(self) -> None:
+        PROJECT_DATA_DIR.mkdir(parents=True, exist_ok=True)
+        payload = {
+            "version": CACHE_VERSION,
+            "augmentation_version": AUGMENTATION_VERSION,
+            "models": self.models,
+            "best_model_name": self.best_model_name,
+        }
+        with MODEL_CACHE_PATH.open("wb") as handle:
+            pickle.dump(payload, handle)
 
     def _build_pipeline(self, estimator) -> Pipeline:
         numeric_pipeline = Pipeline(
@@ -210,7 +286,8 @@ class PlatformRecommender:
         return Pipeline(steps=[("preprocess", preprocessor), ("model", estimator)])
 
     def _load_data(self) -> None:
-        self.history_df = pd.read_csv(self.history_path)
+        self.raw_history_df = pd.read_csv(DEFAULT_HISTORY_PATH)
+        self.history_df = self.raw_history_df.copy()
         self.investors_df = pd.read_csv(self.investors_path)
         self.inventors_df = pd.read_csv(self.inventors_path)
 
@@ -260,7 +337,7 @@ class PlatformRecommender:
 
     def _build_aggregate_stats(self) -> None:
         stats_frame = self.history_df.copy()
-        stats_frame["positive_flag"] = (stats_frame["interaction_score"] > 0).astype(int)
+        stats_frame["positive_flag"] = (stats_frame["interaction_score"] >= MATCH_THRESHOLD).astype(int)
         stats_frame = stats_frame.merge(
             self.investors_df[["investor_id", "focus_domain", "preferred_location"]],
             on="investor_id",
@@ -304,6 +381,225 @@ class PlatformRecommender:
             .agg(location_positive_rate=("positive_flag", "mean"))
             .reset_index()
         )
+
+    @staticmethod
+    def _token_overlap(left: str, right: str) -> float:
+        left_tokens = {token for token in left.lower().split() if len(token) > 2}
+        right_tokens = {token for token in right.lower().split() if len(token) > 2}
+        if not left_tokens or not right_tokens:
+            return 0.0
+        return len(left_tokens & right_tokens) / len(left_tokens | right_tokens)
+
+    def _raw_heuristic_score(self, investor_row: pd.Series, idea_row: pd.Series) -> float:
+        risk_gap = abs(RISK_MAP.get(str(investor_row.get("preferred_risk_appetite", "")).strip(), 3) - RISK_MAP.get(str(idea_row.get("risk_level", "")).strip(), 3))
+        domain_match = int(str(investor_row.get("focus_domain", "")).strip().lower() == str(idea_row.get("domain", "")).strip().lower())
+        location_match = int(str(investor_row.get("preferred_location", "")).strip().lower() == str(idea_row.get("location", "")).strip().lower())
+        text_overlap = self._token_overlap(
+            f"{investor_row.get('focus_domain', '')} {investor_row.get('industry_focus', '')}",
+            f"{idea_row.get('idea_title', '')} {idea_row.get('idea_text', '')} {idea_row.get('domain', '')} {idea_row.get('technology', '')}",
+        )
+        funding_required = float(idea_row.get("funding_st_required", 1) or 1)
+        available_funds = float(investor_row.get("available_funds", 0) or 0)
+        affordability = min(available_funds / max(funding_required, 1.0), 3.0) / 3.0
+        company_inv = float(investor_row.get("company_investment", 0) or 0)
+        capital_strength = min((available_funds + company_inv) / max(funding_required, 1.0), 4.0) / 4.0
+
+        return float(
+            2.6 * domain_match
+            + 2.0 * location_match
+            + 1.7 * (1.0 - min(risk_gap, 5) / 5.0)
+            + 1.8 * text_overlap
+            + 1.6 * affordability
+            + 0.8 * capital_strength
+        )
+
+    def _build_synthetic_history(
+        self,
+        raw_history: pd.DataFrame,
+        investors: pd.DataFrame,
+        inventors: pd.DataFrame,
+        per_investor_candidates: int = 30,
+        positives_per_investor: int = 10,
+        negatives_per_investor: int = 10,
+    ) -> pd.DataFrame:
+        rng = np.random.default_rng(self.random_state)
+        rows = []
+        next_history_id = int(raw_history["history_id"].max()) + 1 if not raw_history.empty else 1
+        investor_map = investors.set_index("investor_id").to_dict(orient="index")
+        idea_map = inventors.set_index("idea_id").to_dict(orient="index")
+        idea_domain_map = (
+            inventors.groupby(inventors["domain"].fillna("").str.lower())["idea_id"]
+            .apply(lambda s: s.astype(int).tolist())
+            .to_dict()
+        )
+        idea_location_map = (
+            inventors.groupby(inventors["location"].fillna("").str.lower())["idea_id"]
+            .apply(lambda s: s.astype(int).tolist())
+            .to_dict()
+        )
+        idea_risk_map = (
+            inventors.groupby(inventors["risk_level"].fillna("").str.lower())["idea_id"]
+            .apply(lambda s: s.astype(int).tolist())
+            .to_dict()
+        )
+
+        for investor_id in investors["investor_id"].astype(int).tolist():
+            investor_row = investor_map[int(investor_id)]
+            investor_series = pd.Series(investor_row)
+            focus_domain = str(investor_row.get("focus_domain", "")).strip().lower()
+            preferred_location = str(investor_row.get("preferred_location", "")).strip().lower()
+            investor_risk = str(investor_row.get("preferred_risk_appetite", "")).strip().lower()
+
+            positive_pool = set(idea_domain_map.get(focus_domain, []))
+            positive_pool.update(idea_location_map.get(preferred_location, []))
+            positive_pool.update(idea_risk_map.get(investor_risk, []))
+
+            positive_pool = [idea_id for idea_id in positive_pool if (int(investor_id), int(idea_id)) not in self.positive_pairs]
+            if not positive_pool:
+                positive_pool = [int(idea_id) for idea_id in inventors["idea_id"].astype(int).tolist()]
+
+            negative_pool = inventors[
+                inventors["domain"].fillna("").str.lower().ne(focus_domain)
+                & inventors["location"].fillna("").str.lower().ne(preferred_location)
+                & inventors["risk_level"].fillna("").str.lower().ne(investor_risk)
+            ]["idea_id"].astype(int).tolist()
+            negative_pool = [idea_id for idea_id in negative_pool if (int(investor_id), int(idea_id)) not in self.positive_pairs]
+            if not negative_pool:
+                negative_pool = [int(idea_id) for idea_id in inventors["idea_id"].astype(int).tolist()]
+
+            neutral_pool = [
+                int(idea_id)
+                for idea_id in inventors["idea_id"].astype(int).tolist()
+                if idea_id not in positive_pool and idea_id not in negative_pool
+            ]
+            if not neutral_pool:
+                neutral_pool = [int(idea_id) for idea_id in inventors["idea_id"].astype(int).tolist()]
+
+            candidate_ideas = []
+            for pool, size in (
+                (positive_pool, max(8, per_investor_candidates // 3)),
+                (negative_pool, max(8, per_investor_candidates // 3)),
+                (neutral_pool, max(4, per_investor_candidates - 2 * max(8, per_investor_candidates // 3))),
+            ):
+                if not pool:
+                    continue
+                chosen = rng.choice(pool, size=min(size, len(pool)), replace=False)
+                candidate_ideas.extend([int(item) for item in chosen.tolist()])
+
+            candidate_ideas = list(dict.fromkeys(candidate_ideas))
+            scored_rows = []
+            for idea_id in candidate_ideas:
+                idea_row = idea_map[int(idea_id)]
+                score = self._raw_heuristic_score(investor_series, pd.Series(idea_row))
+                scored_rows.append((idea_id, score))
+            scored_rows.sort(key=lambda x: x[1], reverse=True)
+
+            for idea_id, score in scored_rows[:positives_per_investor]:
+                if score >= 6.2:
+                    interaction_score = 5
+                elif score >= 5.2:
+                    interaction_score = 4
+                else:
+                    interaction_score = 3
+                rows.append(
+                    {
+                        "history_id": next_history_id,
+                        "investor_id": int(investor_id),
+                        "idea_id": int(idea_id),
+                        "year": int(2015 + (score * 3) % 9),
+                        "interaction_score": interaction_score,
+                    }
+                )
+                next_history_id += 1
+
+            for idea_id, score in scored_rows[-negatives_per_investor:]:
+                if score <= 2.8:
+                    interaction_score = 0
+                elif score <= 3.6:
+                    interaction_score = 1
+                else:
+                    interaction_score = 2
+                rows.append(
+                    {
+                        "history_id": next_history_id,
+                        "investor_id": int(investor_id),
+                        "idea_id": int(idea_id),
+                        "year": int(2015 + (score * 4) % 9),
+                        "interaction_score": interaction_score,
+                    }
+                )
+                next_history_id += 1
+
+        return pd.DataFrame(rows)
+
+    def _append_synthetic_training_rows(self) -> None:
+        rows = []
+        rng = np.random.default_rng(self.random_state)
+        for investor_id in self.investors_df["investor_id"].astype(int).tolist():
+            candidate_ideas = rng.choice(
+                self.inventors_df["idea_id"].astype(int).tolist(),
+                size=min(20, len(self.inventors_df)),
+                replace=False,
+            )
+            pair_frame = pd.DataFrame(
+                {
+                    "investor_id": [investor_id] * len(candidate_ideas),
+                    "idea_id": candidate_ideas.tolist(),
+                }
+            )
+            features = self.build_pair_features(pair_frame)
+            scored = features.join(pair_frame)
+            scored["heuristic_score"] = (
+                2.5 * scored["domain_match"]
+                + 2.0 * scored["location_match"]
+                + 1.8 * (1.0 - (scored["risk_gap"] / 5.0).clip(0, 1))
+                + 1.8 * scored["text_similarity"]
+                + 1.4 * (scored["affordability_ratio"] / 2.0).clip(0, 1.5)
+                + 0.8 * scored["investor_positive_rate"]
+                + 0.8 * scored["idea_positive_rate"]
+                + 0.6 * scored["domain_positive_rate"].fillna(0)
+                + 0.6 * scored["technology_positive_rate"].fillna(0)
+                + 0.6 * scored["location_positive_rate"].fillna(0)
+            )
+            top_hits = scored.sort_values("heuristic_score", ascending=False).head(5)
+            bottom_hits = scored.sort_values("heuristic_score", ascending=True).head(5)
+
+            for _, row in top_hits.iterrows():
+                rows.append(
+                    {
+                        "investor_id": int(row["investor_id"]),
+                        "idea_id": int(row["idea_id"]),
+                        "interaction_score": 5,
+                        "label": 1,
+                        "weight": 0.8,
+                    }
+                )
+
+            for _, row in bottom_hits.iterrows():
+                rows.append(
+                    {
+                        "investor_id": int(row["investor_id"]),
+                        "idea_id": int(row["idea_id"]),
+                        "interaction_score": 0,
+                        "label": 0,
+                        "weight": 0.8,
+                    }
+                )
+
+        synthetic_frame = pd.DataFrame(rows)
+        if synthetic_frame.empty:
+            return
+
+        extra_history = synthetic_frame.assign(
+            history_id=np.arange(
+                int(self.history_df["history_id"].max()) + 1,
+                int(self.history_df["history_id"].max()) + 1 + len(synthetic_frame),
+            ),
+            year=2024,
+        )[["history_id", "investor_id", "idea_id", "year", "interaction_score"]]
+
+        self.history_df = pd.concat([self.history_df, extra_history], ignore_index=True)
+        self.history_df = self.history_df.drop_duplicates(subset=["investor_id", "idea_id", "year"], keep="last")
 
     def _prepare_text_features(self) -> None:
         combined_text = pd.concat(
@@ -350,30 +646,24 @@ class PlatformRecommender:
         frame["weight"] = 1.0
         return frame
 
-    def _build_training_rows(self) -> pd.DataFrame:
-        positive_rows = self.history_df[self.history_df["interaction_score"] > 0][
-            ["investor_id", "idea_id", "interaction_score"]
-        ].copy()
-        positive_rows["label"] = 1
-        positive_rows["weight"] = 1.0 + positive_rows["interaction_score"] / 5.0
-
-        explicit_negative_rows = self.history_df[self.history_df["interaction_score"] == 0][
-            ["investor_id", "idea_id"]
-        ].copy()
-        explicit_negative_rows["label"] = 0
-        explicit_negative_rows["weight"] = 1.0
-
-        sampled_negative_rows = self._sample_unobserved_negatives(len(positive_rows))
-
-        training_rows = pd.concat(
-            [
-                positive_rows[["investor_id", "idea_id", "label", "weight"]],
-                explicit_negative_rows[["investor_id", "idea_id", "label", "weight"]],
-                sampled_negative_rows[["investor_id", "idea_id", "label", "weight"]],
-            ],
-            ignore_index=True,
+    def _build_observed_rows(self, history_df: pd.DataFrame) -> pd.DataFrame:
+        rows = history_df[["investor_id", "idea_id", "interaction_score"]].copy()
+        rows["label"] = (rows["interaction_score"] >= MATCH_THRESHOLD).astype(int)
+        rows["weight"] = np.where(
+            rows["label"] == 1,
+            1.0 + (rows["interaction_score"] - (MATCH_THRESHOLD - 1)) / 5.0,
+            1.0,
         )
-        return training_rows.drop_duplicates(subset=["investor_id", "idea_id", "label"])
+        return rows[["investor_id", "idea_id", "label", "weight"]]
+
+    def _build_synthetic_training_rows(self) -> pd.DataFrame:
+        synthetic_history = self._build_synthetic_history(self.history_df, self.investors_df, self.inventors_df)
+        if synthetic_history.empty:
+            return pd.DataFrame(columns=["investor_id", "idea_id", "label", "weight"])
+        synthetic_rows = synthetic_history[["investor_id", "idea_id", "interaction_score"]].copy()
+        synthetic_rows["label"] = (synthetic_rows["interaction_score"] >= MATCH_THRESHOLD).astype(int)
+        synthetic_rows["weight"] = np.where(synthetic_rows["label"] == 1, 0.85, 0.45)
+        return synthetic_rows[["investor_id", "idea_id", "label", "weight"]]
 
     def _pair_text_similarity(self, investor_ids: pd.Series, idea_ids: pd.Series) -> np.ndarray:
         values = []
@@ -417,6 +707,18 @@ class PlatformRecommender:
         merged["capital_strength"] = (
             merged["company_investment"].fillna(0) + merged["available_funds"].fillna(0)
         ) / (merged["funding_st_required"].fillna(1) + 1)
+        merged["heuristic_score"] = (
+            2.5 * merged["domain_match"]
+            + 2.0 * merged["location_match"]
+            + 1.8 * (1.0 - (merged["risk_gap"] / 5.0).clip(0, 1))
+            + 1.8 * merged["text_similarity"]
+            + 1.4 * (merged["affordability_ratio"] / 2.0).clip(0, 1.5)
+            + 0.8 * merged["investor_positive_rate"].fillna(0)
+            + 0.8 * merged["idea_positive_rate"].fillna(0)
+            + 0.6 * merged["domain_positive_rate"].fillna(0)
+            + 0.6 * merged["technology_positive_rate"].fillna(0)
+            + 0.6 * merged["location_positive_rate"].fillna(0)
+        )
         merged["investor_id_numeric"] = merged["investor_id"].astype(float)
         merged["idea_id_numeric"] = merged["idea_id"].astype(float)
         merged["investor_id_bucket"] = "INV_" + merged["investor_id"].astype(str)
@@ -432,11 +734,46 @@ class PlatformRecommender:
 
     def get_model_comparison(self) -> List[Dict[str, float]]:
         ordered = sorted(
-            (result.metrics | {"name": result.name} for result in self.models.values()),
+            (
+                result.metrics | {"name": result.name} | {"confusion": result.confusion}
+                for result in self.models.values()
+            ),
             key=lambda row: row["overall"],
             reverse=True,
         )
         return ordered
+
+    def get_graph_payload(self) -> Dict:
+        comparison = self.get_model_comparison()
+        return {
+            "labels": [row["name"] for row in comparison],
+            "accuracy": [round(row["accuracy"] * 100, 2) for row in comparison],
+            "precision": [round(row["precision"] * 100, 2) for row in comparison],
+            "recall": [round(row["recall"] * 100, 2) for row in comparison],
+            "f1": [round(row["f1"] * 100, 2) for row in comparison],
+            "roc_auc": [round(row["roc_auc"] * 100, 2) for row in comparison],
+            "confusion": [
+                {"name": row["name"], **row["confusion"]} for row in comparison
+            ],
+        }
+
+    def get_market_insights(self) -> Dict:
+        top_domains = (
+            self.inventors_df["domain"].value_counts().head(5).reset_index().to_dict(orient="records")
+        )
+        top_technologies = (
+            self.inventors_df["technology"].value_counts().head(5).reset_index().to_dict(orient="records")
+        )
+        return {
+            "top_domains": [
+                {"label": row["domain"], "value": int(row["count"])} for row in top_domains
+            ],
+            "top_technologies": [
+                {"label": row["technology"], "value": int(row["count"])} for row in top_technologies
+            ],
+            "positive_interactions": int((self.history_df["interaction_score"] >= MATCH_THRESHOLD).sum()),
+            "catalog_size": int(len(self.inventors_df)),
+        }
 
     def _score_pairs(self, pairs: pd.DataFrame) -> Dict[str, np.ndarray]:
         features = self.build_pair_features(pairs)
@@ -462,6 +799,10 @@ class PlatformRecommender:
         return reasons[:3]
 
     def recommend_for_investor(self, investor_id: int, top_n: int = 8) -> List[Dict]:
+        cache_key = (int(investor_id), int(top_n))
+        if cache_key in self.investor_recommendation_cache:
+            return self.investor_recommendation_cache[cache_key]
+
         candidate_pairs = pd.DataFrame(
             {
                 "investor_id": [investor_id] * len(self.inventors_df),
@@ -519,9 +860,14 @@ class PlatformRecommender:
                     "reasons": self._recommendation_reason(pd.Series(row)),
                 }
             )
+        self.investor_recommendation_cache[cache_key] = recommendations
         return recommendations
 
     def recommend_for_inventor(self, idea_id: int, top_n: int = 8) -> List[Dict]:
+        cache_key = (int(idea_id), int(top_n))
+        if cache_key in self.inventor_match_cache:
+            return self.inventor_match_cache[cache_key]
+
         candidate_pairs = pd.DataFrame(
             {
                 "investor_id": self.investors_df["investor_id"].tolist(),
@@ -573,6 +919,7 @@ class PlatformRecommender:
                     "reasons": self._recommendation_reason(pd.Series(row)),
                 }
             )
+        self.inventor_match_cache[cache_key] = matches
         return matches
 
     def get_investor(self, investor_id: int) -> Dict | None:

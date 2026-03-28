@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-<main id="main">
+<main id="main" data-role="investor" data-entity-id="{{ payload.entity_id }}">
   <header class="topbar">
     <div>
       <p class="eyebrow">Investor Dashboard</p>
@@ -8,6 +8,12 @@
       <p class="lead small">Best model right now: <strong>{{ bootstrap.best_model }}</strong></p>
     </div>
     <nav class="top-actions" aria-label="User navigation">
+      <button id="chatInboxBtn" type="button" class="secondary-btn chat-inbox-btn" aria-label="Open chat inbox">
+        <span aria-hidden="true">&#128172;</span>
+        <span>Inbox</span>
+        <span id="chatUnreadBadge" class="badge-count" {% if payload.chat_unread_count == 0 %}hidden{% endif %}>{{ payload.chat_unread_count }}</span>
+      </button>
+      <a class="secondary-btn" href="{{ url_for('analytics_page') }}">Analytics</a>
       <a class="link-btn" href="{{ url_for('logout') }}">Logout</a>
     </nav>
   </header>
@@ -53,7 +59,7 @@
           </tbody>
         </table>
       </div>
-      <p class="note">This score is based on the current dummy dataset. With random synthetic data, very high real accuracy is not reliable without better source data.</p>
+      <p class="note">Metrics are evaluated on a held-out slice of the raw interaction history. Synthetic rows help training, but they do not decide the reported score.</p>
     </article>
 
     <article class="card">
@@ -85,10 +91,70 @@
   <section class="card">
     <div class="section-head">
       <div>
+        <p class="eyebrow">Quick Visuals</p>
+        <h2>Charts and matrices</h2>
+      </div>
+      <a class="secondary-btn" href="{{ url_for('analytics_page') }}">Open full analytics</a>
+    </div>
+    <div class="chart-block">
+      {% for row in bootstrap.model_comparison %}
+      <div class="bar-row">
+        <div class="bar-labels">
+          <strong>{{ row.name }}</strong>
+          <span>Accuracy {{ "%.2f"|format(row.accuracy * 100) }}%</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill" style="width: {{ (row.accuracy * 100)|round(2) }}%;"></div></div>
+      </div>
+      {% endfor %}
+    </div>
+    <p class="eyebrow" style="margin-top: 1rem;">Comparison Matrix</p>
+    <div class="matrix-grid" style="margin-top: 1rem;">
+      {% for row in bootstrap.graph_payload.confusion %}
+      <article class="matrix-card">
+        <h3>{{ row.name }}</h3>
+        <div class="matrix-table">
+          <div class="matrix-cell"><span>TN</span><strong>{{ row.tn }}</strong></div>
+          <div class="matrix-cell"><span>FP</span><strong>{{ row.fp }}</strong></div>
+          <div class="matrix-cell"><span>FN</span><strong>{{ row.fn }}</strong></div>
+          <div class="matrix-cell"><span>TP</span><strong>{{ row.tp }}</strong></div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="grid stats-grid">
+    <article class="card stat-card"><span>Top domain in catalog</span><strong>{{ bootstrap.market_insights.top_domains[0].label }}</strong></article>
+    <article class="card stat-card"><span>Ideas in top domain</span><strong>{{ bootstrap.market_insights.top_domains[0].value }}</strong></article>
+    <article class="card stat-card"><span>Top technology</span><strong>{{ bootstrap.market_insights.top_technologies[0].label }}</strong></article>
+    <article class="card stat-card"><span>Positive interactions</span><strong>{{ bootstrap.market_insights.positive_interactions }}</strong></article>
+  </section>
+
+  <section class="card">
+    <div class="section-head">
+      <div>
         <p class="eyebrow">Recommendations</p>
         <h2>Top inventor matches</h2>
       </div>
       <button id="refreshInvestorBtn" type="button" class="secondary-btn" data-investor-id="{{ payload.entity_id }}">Refresh results</button>
+    </div>
+    <div class="grid filters-grid">
+      <div>
+        <label for="domainFilter">Search inventors by domain</label>
+        <input id="domainFilter" type="text" placeholder="Example: FinTech">
+      </div>
+      <div>
+        <label for="riskFilter">Filter by risk or fit</label>
+        <input id="riskFilter" type="text" placeholder="Example: Low">
+      </div>
+      <div>
+        <label for="searchFilter">Search idea title or technology</label>
+        <input id="searchFilter" type="text" placeholder="AI, ML, cybersecurity">
+      </div>
+    </div>
+    <div class="section-head">
+      <h3>Recommended list</h3>
+      <button id="viewShortlistBtn" type="button" class="secondary-btn">View shortlist</button>
     </div>
     <div id="investorRecommendations">
       {% for item in payload.recommendations %}
@@ -104,14 +170,109 @@
         <p>{{ item.summary }}</p>
         <div class="chip-row">
           {% for reason in item.reasons %}<span class="chip">{{ reason }}</span>{% endfor %}
+          {% set reaction = payload.feedback.get(item.idea_id|string) %}
+          {% if reaction %}<span class="chip">{{ reaction|title }}</span>{% endif %}
+        </div>
+        <div class="top-actions" style="margin-top:0.75rem; flex-wrap: wrap;">
+          <button type="button" class="secondary-btn shortlist-btn" data-id="{{ item.idea_id }}" data-title="{{ item.idea_title }}">Add to shortlist</button>
+          <button type="button" class="secondary-btn feedback-btn" data-action="like" data-idea-id="{{ item.idea_id }}">Like</button>
+          <button type="button" class="secondary-btn feedback-btn" data-action="dislike" data-idea-id="{{ item.idea_id }}">Dislike</button>
+          <button type="button" class="secondary-btn detail-btn" data-idea-id="{{ item.idea_id }}">View achievements</button>
+          <button type="button" class="secondary-btn chat-btn" data-idea-id="{{ item.idea_id }}" data-investor-id="{{ payload.entity_id }}" data-label="{{ item.idea_title }}" data-counterparty="Inventor">Chat</button>
         </div>
       </article>
       {% endfor %}
+    </div>
+    <div id="shortlistPanel" class="status-box"></div>
+  </section>
+
+  <section class="card" id="detailPanel" hidden>
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Inventor Detail</p>
+        <h2>Achievements and patents</h2>
+      </div>
+      <button type="button" class="secondary-btn" id="closeDetailBtn">Close</button>
+    </div>
+    <div id="detailContent"></div>
+  </section>
+
+  <section class="card" id="chatPanel">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Shared Chat</p>
+        <h2>Common investor-inventor thread</h2>
+      </div>
+      <button type="button" class="secondary-btn" id="closeChatBtn">Clear</button>
+    </div>
+    <div class="chat-shell">
+      <aside class="chat-thread-list" id="chatSidebar" aria-label="Shared conversations and contacts">
+        <div class="chat-thread-search">
+          <label for="chatThreadSearch">Search conversations or people</label>
+          <input id="chatThreadSearch" type="text" placeholder="Search investor, inventor, idea, or message">
+        </div>
+        <section class="chat-section">
+          <p class="eyebrow">Messages</p>
+          <div id="chatConversationList">
+          {% for thread in payload.conversations %}
+            <button
+              type="button"
+              class="secondary-btn chat-thread-btn chat-open-btn"
+              data-investor-id="{{ thread.investor_id }}"
+              data-idea-id="{{ thread.idea_id }}"
+              data-label="{{ thread.label }}"
+              data-counterparty="{{ thread.counterparty_name }}"
+            >
+              <strong>{{ thread.label }}</strong>
+              <span>{{ thread.counterparty_name }}</span>
+              <small>Last by {{ thread.last_sender or thread.counterparty_name }}</small>
+              <small>{{ thread.last_message_preview or "No messages yet." }}</small>
+              {% if thread.unread_count %}<span class="badge-count thread-badge">{{ thread.unread_count }}</span>{% endif %}
+            </button>
+          {% else %}
+          <p class="note">No conversations yet. Open a recommendation to start one.</p>
+          {% endfor %}
+          </div>
+        </section>
+        <section class="chat-section">
+          <p class="eyebrow">People to contact</p>
+          <div id="chatDirectoryList">
+            {% for item in payload.chat_contacts %}
+            <button
+              type="button"
+              class="secondary-btn chat-open-btn chat-directory-btn"
+              data-investor-id="{{ payload.entity_id }}"
+              data-idea-id="{{ item.idea_id }}"
+              data-label="{{ item.display_name }}"
+              data-counterparty="{{ item.counterparty_name }}"
+            >
+              <strong>{{ item.display_name }}</strong>
+              <span>{{ item.subtitle }}</span>
+              <small>{{ item.detail_line }}</small>
+              <small>{{ item.counterparty_name }}</small>
+            </button>
+            {% else %}
+            <p class="note">No suggested inventors right now.</p>
+            {% endfor %}
+          </div>
+        </section>
+      </aside>
+      <div class="chat-window">
+        <div id="chatMeta" class="note">Select a conversation from the left or open someone from People to contact.</div>
+        <div id="chatMessages" class="chat-log" aria-live="polite"></div>
+        <form id="chatForm" class="chat-form">
+          <label for="chatInput">Write a message</label>
+          <textarea id="chatInput" placeholder="Ask about traction, milestones, or next steps..."></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
     </div>
   </section>
 </main>
 {% endblock %}
 {% block scripts %}
 <script>window.MATCHTANK_BOOTSTRAP = {{ bootstrap | tojson }};</script>
+<script>window.MATCHTANK_CONTEXT = {{ {"role": "investor", "entityId": payload.entity_id, "feedback": payload.feedback, "conversations": payload.conversations, "chatContacts": payload.chat_contacts} | tojson }};</script>
+<script>window.MATCHTANK_RECOMMENDATIONS = {{ payload.recommendations | tojson }};</script>
 <script src="{{ url_for('static', filename='dashboard.js') }}"></script>
 {% endblock %}
