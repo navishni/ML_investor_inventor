@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+<main id="main" class="auth-layout">
+  <section class="brand-panel">
+    <p class="eyebrow">Investor Inventor Matchmaking</p>
+    <h1>MatchTank AI</h1>
+    <p class="lead">
+      Login first, then move into a dedicated investor or inventor dashboard. The platform compares three machine learning models and uses the strongest one for final recommendations.
+    </p>
+    <div class="stats-row">
+      <div class="mini-stat"><span>Investors</span><strong>{{ bootstrap.dataset.investors }}</strong></div>
+      <div class="mini-stat"><span>Inventors</span><strong>{{ bootstrap.dataset.inventors }}</strong></div>
+      <div class="mini-stat"><span>Interactions</span><strong>{{ bootstrap.dataset.interactions }}</strong></div>
+    </div>
+    <div class="demo-box">
+      <h2>Demo accounts</h2>
+      <p>Investor: <code>{{ bootstrap.demo_accounts.investor.username }}</code> / <code>{{ bootstrap.demo_accounts.investor.password }}</code></p>
+      <p>Inventor: <code>{{ bootstrap.demo_accounts.inventor.username }}</code> / <code>{{ bootstrap.demo_accounts.inventor.password }}</code></p>
+    </div>
+  </section>
+
+  <section class="auth-card">
+    <h2>Login</h2>
+    <form method="post" class="auth-form">
+      <div>
+        <label for="username">Username</label>
+        <input id="username" name="username" autocomplete="username" required>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <div class="password-wrap">
+          <input id="password" name="password" type="password" autocomplete="current-password" required>
+          <button type="button" class="ghost-btn password-toggle" data-target="password" aria-label="Show password">Show</button>
+        </div>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+    <p class="helper-text">New here? <a href="{{ url_for('signup_page') }}">Create an account</a></p>
+  </section>
+</main>
+{% endblock %}
+{% block scripts %}
+<script src="{{ url_for('static', filename='ui.js') }}"></script>
+{% endblock %}

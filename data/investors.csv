@@ -1,0 +1,1001 @@
+investor_id,investor_name,preferred_risk_appetite,company_investment,past_investments,preferred_location,industry_focus,available_funds,focus_domain
+1,Wipro Ventures,Very High,9928470,49,UAE,Cybersecurity,284397873,Consumer Tech
+2,Tiger Global,Very High,3449555,19,Japan,Media & Entertainment,60407725,Smart Infrastructure
+3,Google Ventures,High,10651937,29,UAE,Automotive,387265369,Research
+4,Alibaba Group,Very High,958418,153,India,Manufacturing,263690682,Research
+5,Accel,Medium,225158,106,UAE,EdTech,416197497,Financial Services
+6,Netflix Ventures,Very High,1994590,128,UAE,Telecommunications,205563079,Financial Services
+7,Nexus Venture Partners,Very High,833500,191,France,Artificial Intelligence,67534267,Startup
+8,Lightspeed Venture Partners,Low,12974530,154,Germany,FoodTech,223157445,Enterprise
+9,Flipkart Ventures,Medium,16780841,110,Netherlands,Gaming,254365821,Education Platforms
+10,Uber Ventures,Medium,3656994,12,Japan,Supply Chain,254189638,Financial Services
+11,Sequoia Capital,Very High,1412224,133,India,Gaming,368436964,Social Impact
+12,Adani Enterprises,Low,1258239,82,Japan,Clean Energy,246268216,Social Impact
+13,Google Ventures,Medium,3449742,89,Netherlands,HealthTech,421859189,Consumer Tech
+14,Nexus Venture Partners,Medium,1613813,142,India,Aerospace,1820825,Deep Tech
+15,Adani Enterprises,Low,2951000,111,USA,E-commerce,286802076,Startup
+16,Cisco Investments,Very High,14145839,155,Singapore,Clean Energy,215471082,Consumer Tech
+17,Lightspeed Venture Partners,Medium,10971235,70,Australia,Clean Energy,106486652,Research
+18,Qualcomm Ventures,Low,10965803,22,UAE,Logistics,272680527,Startup
+19,Samsung Ventures,Very High,1388394,75,Netherlands,Biotechnology,248930764,Government Tech
+20,Apple Ventures,Medium,2126595,94,Germany,IoT,316982557,Startup
+21,Netflix Ventures,Medium,2373560,111,USA,FinTech,228296859,B2B Platforms
+22,Tencent Holdings,Very High,6323588,87,Japan,SaaS,442577860,B2C Platforms
+23,Tata Capital,Medium,12792176,107,Canada,Automotive,495786252,Startup
+24,Tiger Global,Low,14368230,75,Australia,Automotive,291824679,B2B Platforms
+25,Tiger Global,Very High,6958466,106,Germany,Clean Energy,480614073,Enterprise
+26,Cisco Investments,Low,6085690,98,UAE,Artificial Intelligence,128164432,Social Impact
+27,Tata Capital,Low,3766563,175,UK,IoT,453418741,Startup
+28,Uber Ventures,Medium,9604365,192,UAE,HealthTech,407092184,B2B Platforms
+29,Samsung Ventures,Low,2845296,162,Japan,Logistics,344929216,Open Source
+30,Cisco Investments,Medium,16039438,192,Australia,SaaS,264824600,Smart Infrastructure
+31,SoftBank Vision Fund,Medium,11277518,89,UK,Telecommunications,277261148,Research
+32,Apple Ventures,Low,17025359,191,UAE,IoT,283963885,Financial Services
+33,SoftBank Vision Fund,Low,11149628,68,Germany,Aerospace,211917497,Social Impact
+34,Flipkart Ventures,Medium,18779189,95,Japan,AgriTech,61092912,Research
+35,Samsung Ventures,High,17298464,178,UAE,IoT,226182442,Education Platforms
+36,Matrix Partners,Medium,8194947,113,Germany,Biotechnology,86194633,B2C Platforms
+37,Intel Capital,Very High,16070989,151,Germany,Manufacturing,378027542,Open Source
+38,Intel Capital,Low,284222,188,France,E-commerce,158640539,Government Tech
+39,Nexus Venture Partners,Medium,936242,54,Singapore,EdTech,490230800,Government Tech
+40,Alibaba Group,Low,8126363,89,Australia,Logistics,332979544,Enterprise
+41,Google Ventures,Low,4013931,59,USA,IoT,238892499,Consumer Tech
+42,Wipro Ventures,Very High,10200193,75,UAE,EdTech,97234275,Healthcare Systems
+43,Wipro Ventures,Medium,10838240,131,USA,AgriTech,303442150,Research
+44,Accel,High,15366880,63,India,EdTech,275719394,Financial Services
+45,Flipkart Ventures,High,5946926,75,Canada,Media & Entertainment,56427399,Consumer Tech
+46,Accel,Medium,9701263,172,India,Clean Energy,467964180,Open Source
+47,Andreessen Horowitz,Medium,273899,155,Australia,IoT,429049963,Smart Infrastructure
+48,Andreessen Horowitz,Medium,17213267,91,Netherlands,Manufacturing,143621159,Research
+49,Tiger Global,Medium,13518210,19,Canada,Supply Chain,43546304,Startup
+50,Lightspeed Venture Partners,Very High,611527,37,UK,Logistics,103970662,Enterprise
+51,Lightspeed Venture Partners,High,18168583,199,Australia,E-commerce,474050912,B2C Platforms
+52,Paytm Ventures,Low,15218640,35,Singapore,Gaming,91003095,Enterprise
+53,Wipro Ventures,Low,13858931,44,South Korea,Biotechnology,273827677,Deep Tech
+54,Qualcomm Ventures,High,2315021,170,France,SaaS,358436797,Financial Services
+55,Samsung Ventures,Very High,7182565,50,Canada,Real Estate Tech,492084540,Smart Infrastructure
+56,Samsung Ventures,Medium,9500745,113,France,Media & Entertainment,68459368,Open Source
+57,Reliance Industries,Medium,5975616,74,Japan,FinTech,91928005,Consumer Tech
+58,Meta Platforms,High,9511148,103,India,SaaS,211125979,Financial Services
+59,Netflix Ventures,Medium,4776000,141,South Korea,Biotechnology,187396013,Smart Infrastructure
+60,Flipkart Ventures,High,7914540,168,UK,Manufacturing,78567599,Startup
+61,Lightspeed Venture Partners,Very High,16199705,186,South Korea,EdTech,103710220,B2C Platforms
+62,Cisco Investments,Medium,16530623,47,Australia,Biotechnology,488489257,Research
+63,Meta Platforms,High,7143706,37,Japan,Gaming,445363734,Education Platforms
+64,Tencent Holdings,High,16346062,123,USA,Real Estate Tech,463633727,Deep Tech
+65,Lightspeed Venture Partners,Medium,12370136,197,USA,Supply Chain,427098374,Enterprise
+66,Matrix Partners,High,14034947,160,USA,HealthTech,409844847,Startup
+67,SoftBank Vision Fund,Low,18630686,172,Canada,AgriTech,424700537,Consumer Tech
+68,Matrix Partners,Low,3785800,19,France,HealthTech,292731687,Deep Tech
+69,Tiger Global,Medium,15484094,198,India,Biotechnology,246805919,Healthcare Systems
+70,Qualcomm Ventures,High,4751156,118,South Korea,Supply Chain,47790067,Open Source
+71,SoftBank Vision Fund,Very High,15514014,113,Canada,Biotechnology,404849551,Startup
+72,Google Ventures,Very High,14566315,38,South Korea,Automotive,36890845,B2B Platforms
+73,Alibaba Group,Medium,7984850,107,UK,Manufacturing,484426400,Research
+74,Accel,High,14957037,147,Singapore,TravelTech,95814605,Social Impact
+75,Nexus Venture Partners,Low,14571777,84,UK,Manufacturing,24797366,Consumer Tech
+76,Tiger Global,High,8914337,135,USA,AgriTech,149415171,Enterprise
+77,Adani Enterprises,High,13046352,37,Singapore,Automotive,61810521,Deep Tech
+78,Bessemer Venture Partners,Very High,10176057,41,Australia,Gaming,471352179,B2C Platforms
+79,Qualcomm Ventures,High,8043874,191,Singapore,Gaming,183134506,Smart Infrastructure
+80,SoftBank Vision Fund,High,10957222,171,India,HealthTech,395181566,B2C Platforms
+81,Kalaari Capital,Very High,288590,144,Singapore,Cybersecurity,106147323,Research
+82,Uber Ventures,Low,9871955,131,Canada,Supply Chain,243033603,Smart Infrastructure
+83,Sequoia Capital,Low,8690199,125,Singapore,Artificial Intelligence,467660771,Deep Tech
+84,Uber Ventures,Low,6111902,171,South Korea,Automotive,50443988,Open Source
+85,Andreessen Horowitz,Medium,18057830,189,UAE,Media & Entertainment,361534136,Financial Services
+86,Netflix Ventures,Low,11257536,27,India,Manufacturing,344650469,Smart Infrastructure
+87,Paytm Ventures,Low,12386608,167,Canada,Supply Chain,362069500,Startup
+88,Samsung Ventures,Low,1886464,37,Singapore,Blockchain,99114200,Government Tech
+89,Apple Ventures,Medium,9048359,33,Australia,SaaS,349289820,Research
+90,Cisco Investments,High,12166100,39,Canada,TravelTech,358299650,Startup
+91,Intel Capital,Low,3600756,122,Netherlands,Telecommunications,293299477,Healthcare Systems
+92,Andreessen Horowitz,High,9086175,113,India,Artificial Intelligence,471226004,Social Impact
+93,Accel,Very High,2237508,138,USA,Real Estate Tech,326964803,Financial Services
+94,Infosys Ventures,Low,2959304,109,Germany,Automotive,254856287,B2C Platforms
+95,Bessemer Venture Partners,Medium,6846099,94,Singapore,AgriTech,66747099,B2B Platforms
+96,Wipro Ventures,High,18404448,40,Australia,HealthTech,416017374,Social Impact
+97,Nexus Venture Partners,High,14062430,61,India,FinTech,400361329,Education Platforms
+98,Apple Ventures,Low,6745087,163,USA,Supply Chain,488749673,Social Impact
+99,Intel Capital,Very High,10795291,50,Japan,FinTech,422156846,Deep Tech
+100,Wipro Ventures,Low,11821608,161,Canada,TravelTech,149819596,Research
+101,Cisco Investments,High,13397731,18,South Korea,AgriTech,253851670,B2B Platforms
+102,Infosys Ventures,Low,13151914,9,USA,Gaming,30135733,Open Source
+103,Uber Ventures,Very High,18546547,173,Netherlands,HealthTech,84880282,Deep Tech
+104,Tata Capital,Medium,11846928,188,India,Manufacturing,449358860,Smart Infrastructure
+105,Uber Ventures,Medium,5794892,19,Netherlands,Robotics,430101188,B2C Platforms
+106,Flipkart Ventures,Low,4748833,97,France,IoT,103434080,Smart Infrastructure
+107,Apple Ventures,Medium,4535163,18,USA,Blockchain,269166587,Deep Tech
+108,Matrix Partners,High,2897460,104,Germany,Logistics,99672669,Social Impact
+109,Wipro Ventures,Very High,11895476,174,Australia,Real Estate Tech,93815846,Smart Infrastructure
+110,Tencent Holdings,Low,6006244,198,Netherlands,Biotechnology,323472440,Education Platforms
+111,Microsoft Ventures,High,12087532,166,Canada,Media & Entertainment,497719895,Consumer Tech
+112,Alibaba Group,Very High,10682645,24,France,E-commerce,4083155,Smart Infrastructure
+113,Accel,Very High,16146245,118,France,Supply Chain,141804349,Deep Tech
+114,Adani Enterprises,High,13596987,87,India,SaaS,92105414,Social Impact
+115,Tiger Global,Medium,16261275,33,UK,Real Estate Tech,362134045,Enterprise
+116,Alibaba Group,Low,16811333,97,Australia,Real Estate Tech,441548877,Smart Infrastructure
+117,Tencent Holdings,High,8128759,162,India,Aerospace,423309076,Social Impact
+118,Accel,High,1138398,134,South Korea,SaaS,154309980,Smart Infrastructure
+119,Sequoia Capital,Low,17705800,27,India,FinTech,274969430,B2C Platforms
+120,Intel Capital,Very High,3379782,147,Netherlands,Aerospace,78890842,Education Platforms
+121,Nexus Venture Partners,Medium,10333728,87,Singapore,Aerospace,211916583,Financial Services
+122,Adani Enterprises,Medium,16106172,28,South Korea,HealthTech,205903780,Smart Infrastructure
+123,Bessemer Venture Partners,High,19987959,174,India,Clean Energy,95189531,Deep Tech
+124,Reliance Industries,Very High,13998589,86,Netherlands,EdTech,450897404,Deep Tech
+125,Bessemer Venture Partners,Medium,5318660,123,Singapore,Supply Chain,288497356,Social Impact
+126,Tiger Global,Very High,14607279,130,Japan,Manufacturing,363235073,Open Source
+127,Wipro Ventures,Very High,7547847,188,South Korea,FoodTech,247461091,Healthcare Systems
+128,Tata Capital,High,12943886,69,South Korea,Supply Chain,193547242,Government Tech
+129,Microsoft Ventures,Low,11074575,140,India,HealthTech,77834077,Education Platforms
+130,Nexus Venture Partners,Very High,13639732,168,Netherlands,IoT,158676303,Financial Services
+131,Uber Ventures,High,3301039,112,Singapore,Telecommunications,460073972,Deep Tech
+132,Adani Enterprises,Medium,17711587,144,France,Manufacturing,413173901,Education Platforms
+133,Google Ventures,High,18650526,115,Australia,HealthTech,252564799,Consumer Tech
+134,Bessemer Venture Partners,Very High,5610595,181,Australia,Aerospace,23811995,Financial Services
+135,Nexus Venture Partners,Medium,1190583,154,France,FoodTech,13121824,Government Tech
+136,Microsoft Ventures,Medium,11469114,159,Singapore,FoodTech,49332392,Deep Tech
+137,Reliance Industries,Medium,11996221,75,Japan,TravelTech,375941403,Open Source
+138,Reliance Industries,Medium,715312,155,Canada,Gaming,59144230,Research
+139,Flipkart Ventures,Medium,17724299,180,India,FinTech,87996680,Social Impact
+140,Nexus Venture Partners,Medium,9405654,102,Canada,Manufacturing,43914807,B2C Platforms
+141,Infosys Ventures,High,16760830,118,Australia,Artificial Intelligence,397824333,Deep Tech
+142,Alibaba Group,Low,11840749,146,Japan,TravelTech,80249131,Deep Tech
+143,Qualcomm Ventures,Medium,8925980,177,Australia,FinTech,470881871,B2C Platforms
+144,Tiger Global,High,15901493,106,Netherlands,FinTech,163637611,Healthcare Systems
+145,Uber Ventures,Medium,4688560,173,UAE,Cybersecurity,457631961,Consumer Tech
+146,Matrix Partners,High,17737041,71,India,E-commerce,141392183,B2C Platforms
+147,Alibaba Group,Low,16359498,105,India,SaaS,160612300,B2C Platforms
+148,Matrix Partners,Low,10729389,70,Germany,Artificial Intelligence,413309025,Consumer Tech
+149,Matrix Partners,Very High,14217223,98,Japan,Supply Chain,186328073,Deep Tech
+150,Lightspeed Venture Partners,Low,17412557,131,France,TravelTech,300412809,Consumer Tech
+151,Microsoft Ventures,Low,18892158,123,India,Gaming,417987499,Smart Infrastructure
+152,Matrix Partners,Low,10208922,134,Germany,SaaS,114072614,Financial Services
+153,Lightspeed Venture Partners,Medium,10998347,198,Netherlands,Automotive,343050309,Consumer Tech
+154,Qualcomm Ventures,Low,7925362,12,USA,Biotechnology,28015390,Research
+155,Cisco Investments,Very High,231964,7,Germany,Manufacturing,417646626,Startup
+156,Tencent Holdings,Very High,889802,184,Canada,IoT,339089679,Government Tech
+157,Matrix Partners,Medium,5830181,122,UK,Telecommunications,495560576,Deep Tech
+158,Alibaba Group,Very High,348103,31,Netherlands,E-commerce,313710117,Enterprise
+159,Kalaari Capital,Very High,9586600,170,UAE,Gaming,30710765,Enterprise
+160,Tencent Holdings,Very High,18399078,91,Japan,Cybersecurity,177237135,Social Impact
+161,Andreessen Horowitz,Very High,2625987,92,Japan,Logistics,305103687,Open Source
+162,Kalaari Capital,Very High,9869627,166,France,Gaming,463505894,Healthcare Systems
+163,Apple Ventures,Low,9442068,26,Netherlands,Aerospace,482534549,Education Platforms
+164,Bessemer Venture Partners,Medium,15104350,153,Germany,Supply Chain,392980801,Open Source
+165,Lightspeed Venture Partners,Medium,6369331,121,UK,Robotics,116650394,Research
+166,Matrix Partners,High,8364428,11,UK,FinTech,270137456,Financial Services
+167,Intel Capital,Very High,15153562,50,UAE,FoodTech,24586823,Enterprise
+168,Flipkart Ventures,High,1534131,199,Netherlands,HealthTech,108266876,B2C Platforms
+169,Google Ventures,Low,17334131,6,India,FinTech,106583992,Government Tech
+170,Bessemer Venture Partners,Medium,9622551,129,Australia,Supply Chain,378574859,Social Impact
+171,Andreessen Horowitz,High,7976872,75,India,Manufacturing,18281626,Consumer Tech
+172,Tencent Holdings,High,17070586,65,UK,Biotechnology,384690330,Government Tech
+173,Meta Platforms,Low,16331700,73,Singapore,Aerospace,424200722,Startup
+174,Microsoft Ventures,High,5177103,162,Canada,Artificial Intelligence,419021978,Research
+175,Flipkart Ventures,Medium,13186969,19,Japan,Telecommunications,227960345,Enterprise
+176,Tencent Holdings,Very High,13620444,5,India,Gaming,124590274,Startup
+177,Google Ventures,High,18624032,100,South Korea,HealthTech,106921560,Deep Tech
+178,Reliance Industries,Low,15879729,64,Canada,Clean Energy,373309734,Social Impact
+179,Matrix Partners,Very High,6832704,59,Germany,FinTech,271493681,B2C Platforms
+180,Reliance Industries,Medium,15128902,47,UK,Gaming,195752492,Open Source
+181,Microsoft Ventures,Very High,11834982,22,France,Manufacturing,11775243,Consumer Tech
+182,Apple Ventures,High,17000427,152,France,E-commerce,140854969,Deep Tech
+183,Lightspeed Venture Partners,Very High,15219665,54,Germany,Manufacturing,216459835,Enterprise
+184,Cisco Investments,Very High,19389951,190,India,Blockchain,357181598,B2B Platforms
+185,Intel Capital,High,5741790,173,South Korea,IoT,322591129,Financial Services
+186,Tiger Global,Very High,1023464,172,Canada,SaaS,397256276,Deep Tech
+187,Google Ventures,Medium,18405278,190,France,Automotive,449409505,Open Source
+188,Tiger Global,Very High,3217171,115,Japan,Logistics,478900553,Financial Services
+189,Wipro Ventures,Low,11282933,140,Japan,Artificial Intelligence,418991018,Open Source
+190,Netflix Ventures,Medium,3279556,29,Japan,Cybersecurity,449326409,Healthcare Systems
+191,Amazon Ventures,Very High,9818591,175,Australia,Artificial Intelligence,193827984,Startup
+192,Alibaba Group,Medium,9177525,103,UAE,Media & Entertainment,291070379,Social Impact
+193,Microsoft Ventures,Very High,13278119,199,South Korea,Supply Chain,158324551,Social Impact
+194,Tata Capital,Medium,16736953,67,Singapore,Cybersecurity,202443399,Healthcare Systems
+195,Adani Enterprises,Very High,6140506,181,Japan,Supply Chain,296025333,Deep Tech
+196,SoftBank Vision Fund,Medium,5730249,106,South Korea,Robotics,417928670,Enterprise
+197,Uber Ventures,Medium,11515442,154,France,Artificial Intelligence,403833410,Financial Services
+198,Tata Capital,Low,9142786,5,Australia,FinTech,79729638,Healthcare Systems
+199,Adani Enterprises,Low,11667257,178,South Korea,Robotics,240315343,Consumer Tech
+200,Alibaba Group,Medium,15320733,164,UAE,FinTech,133300217,Government Tech
+201,Accel,Low,6155059,100,Australia,FinTech,89704324,Consumer Tech
+202,Tiger Global,Medium,15738481,65,South Korea,Blockchain,6917317,B2C Platforms
+203,Nexus Venture Partners,Medium,19000198,140,South Korea,Manufacturing,328545328,Open Source
+204,Apple Ventures,Low,2378899,199,India,FoodTech,482736172,Smart Infrastructure
+205,Accel,Very High,19682346,186,Japan,Gaming,78349044,Research
+206,Wipro Ventures,Low,13947545,14,Singapore,EdTech,476981741,B2B Platforms
+207,Google Ventures,Low,9880468,161,Japan,Logistics,319194602,Smart Infrastructure
+208,Wipro Ventures,High,13506609,120,Germany,IoT,145075915,Social Impact
+209,Bessemer Venture Partners,Very High,19677695,177,South Korea,FoodTech,424766629,B2C Platforms
+210,Bessemer Venture Partners,Low,11974919,23,Singapore,AgriTech,355787002,Enterprise
+211,Alibaba Group,Very High,16583578,56,India,Supply Chain,231908747,Enterprise
+212,Meta Platforms,Low,13398708,55,India,Logistics,296171170,Education Platforms
+213,Nexus Venture Partners,Very High,12162229,103,Japan,Artificial Intelligence,368417239,Healthcare Systems
+214,Qualcomm Ventures,Very High,14678685,128,Canada,Biotechnology,320799605,Enterprise
+215,Tiger Global,High,1851195,33,Singapore,Aerospace,478542493,Social Impact
+216,Adani Enterprises,Very High,8173635,88,France,IoT,426450709,Consumer Tech
+217,Lightspeed Venture Partners,Very High,3550975,148,Canada,EdTech,73261067,Open Source
+218,Tiger Global,Medium,14052166,109,France,Clean Energy,470738468,B2C Platforms
+219,Google Ventures,Low,1586818,184,USA,Telecommunications,238665924,Consumer Tech
+220,Matrix Partners,Very High,5467770,35,Germany,Blockchain,217786558,B2C Platforms
+221,Qualcomm Ventures,Low,19665594,16,South Korea,Media & Entertainment,251750536,Social Impact
+222,Alibaba Group,High,1633145,168,India,IoT,359619429,Education Platforms
+223,Bessemer Venture Partners,Medium,10584315,9,Singapore,Robotics,204794942,Startup
+224,Matrix Partners,Very High,18236319,6,Germany,SaaS,38637191,Enterprise
+225,Intel Capital,Low,7864116,131,USA,Telecommunications,331766960,B2C Platforms
+226,SoftBank Vision Fund,High,2937874,20,Germany,AgriTech,362356232,Financial Services
+227,Adani Enterprises,High,5418118,48,Canada,Supply Chain,235412822,Healthcare Systems
+228,Meta Platforms,Very High,15757968,60,Germany,Gaming,43378464,B2B Platforms
+229,Netflix Ventures,Medium,12416984,171,Germany,Logistics,68204453,Consumer Tech
+230,Google Ventures,Very High,14028013,175,France,Cybersecurity,352574942,Open Source
+231,Adani Enterprises,Low,2599543,65,Singapore,Real Estate Tech,325556733,Startup
+232,Nexus Venture Partners,Very High,11356817,102,South Korea,Clean Energy,463189737,Open Source
+233,Tiger Global,High,14107358,57,Canada,SaaS,119598663,Healthcare Systems
+234,Tata Capital,Very High,16615973,181,South Korea,Aerospace,151722380,Healthcare Systems
+235,Sequoia Capital,Low,15999901,195,France,Aerospace,415291951,Education Platforms
+236,Reliance Industries,Medium,7067790,26,India,Supply Chain,118245932,Open Source
+237,Tiger Global,Very High,19020477,15,South Korea,Robotics,382631744,B2B Platforms
+238,Wipro Ventures,High,2611205,158,Australia,Manufacturing,463535936,Research
+239,Cisco Investments,Very High,17118895,56,UK,IoT,157835086,Smart Infrastructure
+240,Wipro Ventures,Very High,15829725,176,France,Clean Energy,32152207,Social Impact
+241,SoftBank Vision Fund,Low,15754661,8,Japan,E-commerce,293991180,Enterprise
+242,Matrix Partners,High,549714,80,Australia,HealthTech,135642093,Financial Services
+243,Amazon Ventures,Very High,2760672,117,Singapore,Media & Entertainment,301765223,Government Tech
+244,Google Ventures,Medium,7597487,168,UK,FinTech,166906432,Financial Services
+245,Kalaari Capital,High,4930485,185,India,Automotive,380946050,Smart Infrastructure
+246,Netflix Ventures,High,18435779,81,France,Automotive,154518569,Research
+247,Flipkart Ventures,Medium,3005113,105,Singapore,Robotics,315988375,Financial Services
+248,Sequoia Capital,High,3996852,193,UK,Aerospace,284392766,Smart Infrastructure
+249,Cisco Investments,Very High,15470531,133,Singapore,TravelTech,240714840,Financial Services
+250,SoftBank Vision Fund,Very High,16167530,157,India,Biotechnology,197186464,Enterprise
+251,Meta Platforms,Very High,13410658,34,Germany,AgriTech,163700158,Open Source
+252,Andreessen Horowitz,Low,19102671,162,UK,AgriTech,307621423,Deep Tech
+253,Alibaba Group,Medium,11117986,140,UK,Automotive,324288283,Startup
+254,Paytm Ventures,Very High,13999315,163,Singapore,Aerospace,122338128,Startup
+255,Lightspeed Venture Partners,High,10012911,19,India,HealthTech,473929737,Healthcare Systems
+256,Alibaba Group,High,16312460,129,Japan,Telecommunications,165784284,Enterprise
+257,Bessemer Venture Partners,High,1826803,154,Canada,Clean Energy,401036113,Research
+258,Sequoia Capital,Very High,3897857,61,Germany,FoodTech,49519532,Consumer Tech
+259,Reliance Industries,Very High,9582840,91,France,HealthTech,205988470,Research
+260,Intel Capital,Very High,11762955,7,India,Robotics,236366764,Enterprise
+261,SoftBank Vision Fund,High,6964343,31,Australia,Blockchain,235524263,Social Impact
+262,Uber Ventures,Very High,11511020,126,UK,Manufacturing,490561562,Financial Services
+263,Paytm Ventures,High,14789895,90,France,HealthTech,15608609,Enterprise
+264,Alibaba Group,Very High,3132780,127,India,Telecommunications,396955870,B2C Platforms
+265,Matrix Partners,Very High,651342,105,Singapore,Blockchain,247468384,B2C Platforms
+266,Alibaba Group,Very High,11399535,183,India,E-commerce,57228485,Healthcare Systems
+267,Reliance Industries,Very High,18992708,174,USA,Automotive,486788695,Education Platforms
+268,Matrix Partners,Medium,19196499,108,USA,Robotics,2968420,B2B Platforms
+269,Tiger Global,Medium,19034112,134,France,Telecommunications,77051593,B2C Platforms
+270,Infosys Ventures,Very High,9027033,134,Australia,Manufacturing,185415364,Financial Services
+271,Wipro Ventures,High,12534171,93,South Korea,Media & Entertainment,207471623,B2C Platforms
+272,Meta Platforms,Very High,507099,9,UK,Supply Chain,275771219,B2B Platforms
+273,Netflix Ventures,High,4605042,83,Germany,Artificial Intelligence,289306940,Startup
+274,Nexus Venture Partners,High,18869288,169,France,Telecommunications,380020251,Social Impact
+275,Meta Platforms,High,17949459,11,Japan,SaaS,127992576,Deep Tech
+276,SoftBank Vision Fund,Low,18431685,111,Canada,Aerospace,61415001,Startup
+277,Infosys Ventures,Very High,11191727,115,UAE,E-commerce,268295243,Government Tech
+278,Adani Enterprises,High,12013667,192,Canada,Real Estate Tech,376172256,Startup
+279,Cisco Investments,High,16444791,105,UAE,Automotive,201839625,Enterprise
+280,Alibaba Group,Very High,8787017,113,Singapore,Real Estate Tech,499232761,Enterprise
+281,Paytm Ventures,Medium,13033632,198,South Korea,Manufacturing,98909705,Education Platforms
+282,Apple Ventures,Low,8088324,169,Singapore,Clean Energy,149095244,Startup
+283,Intel Capital,Medium,6714578,24,Japan,Real Estate Tech,198331868,B2B Platforms
+284,Intel Capital,Medium,723516,170,India,Supply Chain,337107970,Startup
+285,Sequoia Capital,Very High,5112276,124,UK,Logistics,72479648,Consumer Tech
+286,Google Ventures,High,5856171,158,Canada,Telecommunications,405407301,Healthcare Systems
+287,Lightspeed Venture Partners,Low,10913589,64,UAE,Manufacturing,489944380,B2C Platforms
+288,Intel Capital,Low,16578710,163,Australia,Supply Chain,125911307,Healthcare Systems
+289,Tiger Global,Low,262878,192,UK,FinTech,62822031,Startup
+290,Microsoft Ventures,Medium,2504195,84,UK,SaaS,499664012,Open Source
+291,Microsoft Ventures,High,1049772,187,Australia,Automotive,155960733,Startup
+292,Intel Capital,High,9196434,5,Singapore,E-commerce,13251069,Startup
+293,Amazon Ventures,Very High,998706,175,UK,Logistics,33453598,Healthcare Systems
+294,Sequoia Capital,Low,13800434,167,UAE,Cybersecurity,251221284,Government Tech
+295,Accel,High,13617300,168,India,EdTech,327602201,Social Impact
+296,Netflix Ventures,Very High,6311255,84,France,SaaS,27246416,Healthcare Systems
+297,Apple Ventures,Low,2958685,168,Canada,Telecommunications,131205592,Smart Infrastructure
+298,Infosys Ventures,Very High,19023079,17,Japan,IoT,467256126,B2C Platforms
+299,Matrix Partners,Medium,13508877,105,Canada,TravelTech,88017355,Research
+300,SoftBank Vision Fund,Low,7082264,51,India,IoT,110900346,Government Tech
+301,Intel Capital,High,2714315,141,Australia,HealthTech,79739680,Consumer Tech
+302,Flipkart Ventures,Medium,8912721,20,UAE,Aerospace,175504506,Financial Services
+303,Lightspeed Venture Partners,High,14598799,104,Netherlands,Clean Energy,368444338,Smart Infrastructure
+304,Google Ventures,High,18294417,17,UAE,Automotive,167228738,Social Impact
+305,Sequoia Capital,High,7691909,109,Singapore,TravelTech,134143751,B2C Platforms
+306,Paytm Ventures,Very High,11614334,76,France,Logistics,19586741,Healthcare Systems
+307,Lightspeed Venture Partners,Medium,15530326,170,India,Telecommunications,266961200,Financial Services
+308,Reliance Industries,Very High,15056971,155,Japan,AgriTech,460439682,B2C Platforms
+309,Nexus Venture Partners,Low,5780060,122,France,Artificial Intelligence,291339484,Financial Services
+310,Tata Capital,Very High,1798749,21,USA,Aerospace,300250003,Research
+311,Cisco Investments,Low,593254,66,India,TravelTech,417493814,Financial Services
+312,Apple Ventures,Very High,15470750,49,India,Robotics,385166184,Government Tech
+313,Nexus Venture Partners,High,1632792,57,South Korea,Real Estate Tech,1888269,Financial Services
+314,Paytm Ventures,Medium,397656,45,Canada,Manufacturing,314343931,B2B Platforms
+315,Microsoft Ventures,Very High,17735594,41,UK,FoodTech,494457211,Healthcare Systems
+316,Andreessen Horowitz,High,4749806,51,USA,EdTech,161606961,Education Platforms
+317,Bessemer Venture Partners,High,2113728,15,India,AgriTech,297433213,Social Impact
+318,Microsoft Ventures,Medium,11788267,188,India,FinTech,150759489,Research
+319,Flipkart Ventures,Medium,14438337,61,France,Cybersecurity,442615965,Social Impact
+320,Microsoft Ventures,Very High,19450913,112,India,AgriTech,281406012,Consumer Tech
+321,SoftBank Vision Fund,Medium,17168431,40,Australia,Robotics,409170327,Consumer Tech
+322,Apple Ventures,Low,17128745,89,South Korea,FinTech,83606615,Deep Tech
+323,Sequoia Capital,Low,15001362,44,Australia,AgriTech,120938377,Startup
+324,Netflix Ventures,Medium,10497488,20,Canada,Real Estate Tech,172330219,Deep Tech
+325,Nexus Venture Partners,Medium,9159649,5,UK,TravelTech,456620512,Open Source
+326,Netflix Ventures,Low,14854993,125,India,Gaming,122959152,Enterprise
+327,Kalaari Capital,Medium,3520583,82,Canada,Logistics,427419065,Education Platforms
+328,Meta Platforms,Very High,13168000,89,India,TravelTech,65663760,Deep Tech
+329,Adani Enterprises,High,11922808,56,South Korea,FinTech,322006055,Financial Services
+330,Meta Platforms,Medium,16786782,180,USA,Logistics,408359913,Startup
+331,Google Ventures,Low,17750235,71,USA,Artificial Intelligence,235318124,Startup
+332,Andreessen Horowitz,Low,14473541,189,UK,Aerospace,430674724,Financial Services
+333,Google Ventures,High,12592169,148,South Korea,SaaS,180040972,Deep Tech
+334,Matrix Partners,Very High,1003239,67,India,Aerospace,261266731,Research
+335,Meta Platforms,High,16845749,153,UK,SaaS,292038674,Education Platforms
+336,Alibaba Group,High,3800523,176,Canada,TravelTech,209764039,Startup
+337,Alibaba Group,High,13559574,137,Australia,Logistics,440003576,B2B Platforms
+338,Meta Platforms,Low,12313445,23,South Korea,E-commerce,29183323,Startup
+339,Reliance Industries,Low,7105202,134,Australia,Robotics,479966656,Consumer Tech
+340,Andreessen Horowitz,Very High,10045713,198,Japan,EdTech,401350446,Enterprise
+341,Amazon Ventures,Low,19501260,131,Germany,Robotics,77841633,Deep Tech
+342,Reliance Industries,Medium,194004,33,Netherlands,IoT,411271538,Education Platforms
+343,Accel,Very High,8000618,149,USA,Cybersecurity,201923482,Consumer Tech
+344,Lightspeed Venture Partners,Very High,17029045,196,India,Media & Entertainment,489340080,Social Impact
+345,Flipkart Ventures,Medium,5996765,184,Netherlands,HealthTech,98104381,Social Impact
+346,Samsung Ventures,High,10344141,9,France,TravelTech,230686307,Enterprise
+347,Flipkart Ventures,High,11558235,49,France,Blockchain,214745318,Smart Infrastructure
+348,Tencent Holdings,Medium,9887390,149,Singapore,Artificial Intelligence,491483518,B2B Platforms
+349,Andreessen Horowitz,Very High,4371337,7,Australia,Logistics,253294495,Consumer Tech
+350,Kalaari Capital,Low,18823844,105,UAE,IoT,348856469,Deep Tech
+351,Matrix Partners,High,14099021,7,USA,Artificial Intelligence,3929522,Education Platforms
+352,Tencent Holdings,High,2356800,91,France,SaaS,327567873,Education Platforms
+353,Intel Capital,Medium,1208869,168,UK,Robotics,290415302,Financial Services
+354,Alibaba Group,Low,17580728,107,Canada,Logistics,256203318,Education Platforms
+355,Amazon Ventures,Medium,17458857,49,Netherlands,Biotechnology,377292619,Startup
+356,Accel,Medium,2511850,110,USA,Manufacturing,414417244,Smart Infrastructure
+357,Wipro Ventures,Low,10479123,198,South Korea,E-commerce,291446937,Open Source
+358,Tiger Global,Low,9602265,181,UAE,Real Estate Tech,327145309,Smart Infrastructure
+359,Meta Platforms,Medium,6216141,67,France,Blockchain,359132350,Education Platforms
+360,Accel,Medium,18115634,198,Singapore,SaaS,395008855,Government Tech
+361,Tencent Holdings,High,11303187,168,UK,Logistics,160060387,Healthcare Systems
+362,Paytm Ventures,Medium,1678896,65,Netherlands,Logistics,34064365,Consumer Tech
+363,Google Ventures,Medium,8178475,136,Canada,Clean Energy,388368870,B2B Platforms
+364,Nexus Venture Partners,Very High,17772985,66,UAE,Biotechnology,179663953,Government Tech
+365,Intel Capital,Low,19415038,157,Singapore,Real Estate Tech,30879755,Open Source
+366,Tiger Global,Very High,19776314,41,India,Cybersecurity,118512840,Open Source
+367,Amazon Ventures,Very High,9415114,62,Germany,EdTech,93340017,Consumer Tech
+368,Cisco Investments,Very High,5716409,84,Australia,Blockchain,180531624,Government Tech
+369,Matrix Partners,Low,5291391,177,UAE,Media & Entertainment,336174661,Education Platforms
+370,Tata Capital,High,6656224,26,Australia,TravelTech,455718609,Smart Infrastructure
+371,SoftBank Vision Fund,Medium,12009729,170,India,SaaS,91232372,Healthcare Systems
+372,Microsoft Ventures,Very High,4633535,146,Japan,EdTech,199164938,B2B Platforms
+373,Intel Capital,High,17070696,98,Japan,Aerospace,369115811,Deep Tech
+374,Kalaari Capital,Low,8460930,102,Netherlands,AgriTech,420750074,Deep Tech
+375,Meta Platforms,Very High,4488570,138,UAE,Artificial Intelligence,177366589,Financial Services
+376,Netflix Ventures,Medium,14875089,81,Netherlands,HealthTech,220198424,Government Tech
+377,Sequoia Capital,High,18364420,58,USA,IoT,87306960,Healthcare Systems
+378,Google Ventures,Medium,18820490,36,UK,FoodTech,299946124,Research
+379,Kalaari Capital,Low,18267212,48,Australia,Supply Chain,221629853,B2C Platforms
+380,Kalaari Capital,Medium,19272777,136,France,Cybersecurity,63585845,Social Impact
+381,Sequoia Capital,Low,14005981,191,Japan,TravelTech,353127231,Government Tech
+382,Adani Enterprises,Low,1079669,198,Australia,Logistics,234130575,Financial Services
+383,Tiger Global,High,10770014,64,UK,Logistics,157102593,Consumer Tech
+384,Lightspeed Venture Partners,High,4582078,47,Australia,Supply Chain,9076583,Startup
+385,Accel,Low,10392692,52,USA,Logistics,305938739,Healthcare Systems
+386,Tencent Holdings,Very High,15699052,192,Canada,EdTech,155290117,Deep Tech
+387,Tiger Global,High,1769725,120,USA,Biotechnology,373819930,Deep Tech
+388,Bessemer Venture Partners,High,9271611,87,India,Telecommunications,52896312,Consumer Tech
+389,Lightspeed Venture Partners,Low,10668943,28,Germany,Supply Chain,157705868,Government Tech
+390,Lightspeed Venture Partners,Medium,6452856,122,South Korea,Telecommunications,213362603,Healthcare Systems
+391,Intel Capital,Medium,8675777,79,Germany,IoT,65029597,Smart Infrastructure
+392,Amazon Ventures,Medium,6258337,84,South Korea,Biotechnology,144998582,Smart Infrastructure
+393,Accel,Medium,8989108,166,Netherlands,Gaming,318160579,Healthcare Systems
+394,Sequoia Capital,Low,7432809,69,Canada,Clean Energy,451901718,Social Impact
+395,Wipro Ventures,Medium,10233553,31,Australia,Blockchain,464542588,Education Platforms
+396,Intel Capital,Very High,12913933,197,Japan,Robotics,282385477,Deep Tech
+397,Reliance Industries,High,18216871,126,Singapore,E-commerce,158246023,B2C Platforms
+398,Qualcomm Ventures,Medium,7219105,23,France,Cybersecurity,146731596,Enterprise
+399,Qualcomm Ventures,High,17156553,46,Canada,Blockchain,200241460,Deep Tech
+400,Tencent Holdings,Medium,8651420,34,Netherlands,Blockchain,439361118,Government Tech
+401,Apple Ventures,High,9085883,192,UK,Biotechnology,286330974,Enterprise
+402,Bessemer Venture Partners,Low,3396003,17,France,Clean Energy,51119089,Social Impact
+403,Meta Platforms,High,567237,105,Canada,SaaS,219087207,B2C Platforms
+404,Qualcomm Ventures,Low,8668519,29,India,Gaming,357395432,Social Impact
+405,Flipkart Ventures,Low,3552199,40,South Korea,Logistics,232028838,Consumer Tech
+406,Andreessen Horowitz,Medium,3720270,101,Canada,FoodTech,363790589,Social Impact
+407,Infosys Ventures,Low,2054439,11,Canada,TravelTech,163785075,B2C Platforms
+408,Wipro Ventures,Very High,11118243,5,Singapore,AgriTech,443865233,B2C Platforms
+409,Alibaba Group,Medium,5435502,169,USA,Cybersecurity,44856868,Research
+410,Paytm Ventures,Low,155274,31,Singapore,FoodTech,378066003,Smart Infrastructure
+411,Flipkart Ventures,High,10527780,137,Singapore,E-commerce,147244827,Social Impact
+412,Alibaba Group,Very High,19324232,163,UK,Clean Energy,50632075,Deep Tech
+413,Tata Capital,Low,4027469,69,Germany,Media & Entertainment,91303820,Startup
+414,SoftBank Vision Fund,Low,5653432,177,Singapore,IoT,328345445,Enterprise
+415,Wipro Ventures,High,12592336,83,India,Robotics,47919458,Government Tech
+416,Cisco Investments,Low,17433722,143,Japan,Media & Entertainment,438861890,Consumer Tech
+417,Accel,Very High,14856041,118,France,TravelTech,169207953,B2C Platforms
+418,Alibaba Group,Low,16294737,74,South Korea,HealthTech,121865881,Healthcare Systems
+419,Lightspeed Venture Partners,High,7706185,167,USA,IoT,129616676,Open Source
+420,Paytm Ventures,Very High,12958692,135,UK,FoodTech,86162828,B2C Platforms
+421,Infosys Ventures,Medium,17698569,188,Singapore,Blockchain,161400181,Startup
+422,Sequoia Capital,Very High,938574,48,UK,Telecommunications,140918513,Open Source
+423,Paytm Ventures,Very High,12530021,109,Australia,Blockchain,392149671,Social Impact
+424,Nexus Venture Partners,Low,7307721,179,Japan,FoodTech,10950835,Healthcare Systems
+425,Infosys Ventures,High,15478752,88,UAE,Robotics,484446881,Government Tech
+426,Uber Ventures,Low,17668817,185,France,Cybersecurity,210533885,Consumer Tech
+427,Sequoia Capital,Medium,16976764,154,Netherlands,Manufacturing,115310987,Healthcare Systems
+428,Qualcomm Ventures,High,15091510,80,Netherlands,Media & Entertainment,269725604,Startup
+429,Bessemer Venture Partners,High,11334639,190,UK,IoT,114445700,Research
+430,Tiger Global,Medium,5889267,129,Australia,Artificial Intelligence,458071550,Government Tech
+431,Reliance Industries,Low,7941937,33,South Korea,Supply Chain,196509241,Social Impact
+432,Meta Platforms,Very High,2097631,170,USA,Biotechnology,326194592,B2C Platforms
+433,Netflix Ventures,Medium,13500472,116,Germany,Telecommunications,26955262,Smart Infrastructure
+434,Reliance Industries,Medium,12212448,51,France,FoodTech,352782085,B2B Platforms
+435,Meta Platforms,Low,18488072,199,UAE,Cybersecurity,166344100,Research
+436,SoftBank Vision Fund,Low,9008622,126,Australia,Biotechnology,494356764,Startup
+437,Matrix Partners,High,9568562,26,Netherlands,Aerospace,171464807,Smart Infrastructure
+438,Tencent Holdings,Very High,2025289,166,South Korea,Real Estate Tech,203044153,Smart Infrastructure
+439,Kalaari Capital,Very High,19144633,63,India,SaaS,42949400,Financial Services
+440,Netflix Ventures,Low,17867804,89,Canada,Gaming,270708502,Enterprise
+441,Wipro Ventures,Medium,12599755,78,USA,SaaS,198753946,Education Platforms
+442,Paytm Ventures,Low,12312220,18,USA,Logistics,187425802,Healthcare Systems
+443,Andreessen Horowitz,Medium,15961703,193,Canada,Artificial Intelligence,412565307,Financial Services
+444,Netflix Ventures,High,10136798,63,Canada,SaaS,204726398,Research
+445,Qualcomm Ventures,Low,12697072,119,UAE,Cybersecurity,38246522,Government Tech
+446,Lightspeed Venture Partners,Low,4753613,21,India,Automotive,310904825,B2C Platforms
+447,Uber Ventures,Medium,7359983,98,France,Biotechnology,350598563,Education Platforms
+448,Bessemer Venture Partners,Very High,19005162,119,Canada,Gaming,194608764,Social Impact
+449,Andreessen Horowitz,Low,14016587,33,South Korea,TravelTech,25579525,Research
+450,Reliance Industries,Medium,8214555,100,Canada,SaaS,124857268,Open Source
+451,Paytm Ventures,Very High,13639354,23,Germany,Blockchain,279015800,Startup
+452,Wipro Ventures,Medium,11314111,27,Japan,IoT,320985278,Consumer Tech
+453,Kalaari Capital,Very High,10716082,130,Singapore,TravelTech,225913725,B2C Platforms
+454,Tata Capital,High,6602433,21,USA,Real Estate Tech,340046569,Enterprise
+455,Uber Ventures,High,15889255,176,UAE,E-commerce,491417945,Smart Infrastructure
+456,Amazon Ventures,Low,2826671,31,France,IoT,462452225,Research
+457,Meta Platforms,High,4904761,165,India,Aerospace,420494870,B2C Platforms
+458,Cisco Investments,Low,16747841,80,South Korea,Manufacturing,351278819,Smart Infrastructure
+459,Tiger Global,Very High,15983012,61,USA,HealthTech,450827718,Financial Services
+460,Wipro Ventures,Low,10122677,134,India,Cybersecurity,70216700,Research
+461,Infosys Ventures,Very High,14691645,31,UK,Blockchain,396510923,Deep Tech
+462,Tencent Holdings,Low,17392065,44,India,HealthTech,49804381,Research
+463,Sequoia Capital,Medium,5910688,77,Australia,Robotics,311474849,Open Source
+464,Tencent Holdings,Very High,16658207,34,Japan,Aerospace,252161303,Consumer Tech
+465,SoftBank Vision Fund,Medium,2183602,80,UK,Automotive,121170374,Healthcare Systems
+466,Uber Ventures,Very High,14830166,58,Japan,Blockchain,391158652,Deep Tech
+467,Flipkart Ventures,Very High,3995365,89,UAE,Manufacturing,9426451,B2C Platforms
+468,Lightspeed Venture Partners,Low,9563953,34,Singapore,Clean Energy,53721062,Deep Tech
+469,Matrix Partners,Low,3914678,85,UK,Blockchain,112453422,Financial Services
+470,Adani Enterprises,Low,17802804,187,Netherlands,Clean Energy,138510108,Social Impact
+471,SoftBank Vision Fund,Medium,17218716,184,UAE,E-commerce,18045345,Healthcare Systems
+472,Nexus Venture Partners,Very High,15079305,59,UAE,IoT,366518516,Startup
+473,Google Ventures,High,6740294,27,UAE,Supply Chain,131591687,B2C Platforms
+474,Andreessen Horowitz,Medium,14736426,10,Japan,Artificial Intelligence,14454822,Deep Tech
+475,Amazon Ventures,Low,569631,27,France,TravelTech,308304826,Enterprise
+476,Uber Ventures,High,19494298,112,Netherlands,Cybersecurity,299190476,Financial Services
+477,Flipkart Ventures,Medium,12391058,138,USA,EdTech,82087439,Smart Infrastructure
+478,Nexus Venture Partners,High,19594816,46,UAE,FinTech,326972167,Social Impact
+479,Nexus Venture Partners,Low,15053006,141,USA,FinTech,39272622,Financial Services
+480,Apple Ventures,High,6270939,71,Australia,Cybersecurity,116331654,Government Tech
+481,Adani Enterprises,Low,19242951,87,UAE,AgriTech,352256505,Open Source
+482,Nexus Venture Partners,High,19228289,127,Singapore,Cybersecurity,417174064,Research
+483,Infosys Ventures,Medium,15362936,171,Netherlands,TravelTech,110209539,Smart Infrastructure
+484,Alibaba Group,Low,13791465,119,Germany,Biotechnology,57999230,Research
+485,Uber Ventures,Very High,12381089,199,South Korea,Telecommunications,208640800,Healthcare Systems
+486,Infosys Ventures,Medium,16846839,117,Canada,Biotechnology,132142791,Government Tech
+487,Tencent Holdings,High,4447166,96,UAE,FinTech,200865233,Government Tech
+488,Amazon Ventures,Very High,5782063,110,Canada,Manufacturing,365740433,Healthcare Systems
+489,Microsoft Ventures,Medium,289844,93,Germany,Artificial Intelligence,454126539,B2C Platforms
+490,Apple Ventures,Very High,18193269,99,South Korea,FoodTech,461949188,B2C Platforms
+491,Meta Platforms,Low,9653642,29,Germany,Telecommunications,29159146,Enterprise
+492,Adani Enterprises,High,440601,198,France,Manufacturing,51864537,Healthcare Systems
+493,Matrix Partners,High,5736877,163,France,AgriTech,181971163,Deep Tech
+494,Reliance Industries,Low,4321068,185,Australia,Automotive,35655239,Open Source
+495,Sequoia Capital,Very High,11910642,173,Australia,E-commerce,23177964,Deep Tech
+496,Tata Capital,Medium,1762068,32,USA,Telecommunications,103201130,Government Tech
+497,Flipkart Ventures,Very High,13887345,132,USA,Logistics,175268084,Smart Infrastructure
+498,Wipro Ventures,High,1646807,147,South Korea,E-commerce,365035484,Social Impact
+499,Apple Ventures,Very High,9595100,199,South Korea,Blockchain,13720490,Healthcare Systems
+500,Google Ventures,Medium,18878156,117,Canada,IoT,80715770,Social Impact
+501,Kalaari Capital,Very High,18868240,170,Canada,Supply Chain,322385471,Startup
+502,Qualcomm Ventures,Medium,3151333,152,Japan,FoodTech,326273836,Social Impact
+503,Samsung Ventures,Medium,4478386,161,UK,Supply Chain,427687038,Smart Infrastructure
+504,Amazon Ventures,Very High,3046398,16,USA,AgriTech,259686588,Financial Services
+505,Andreessen Horowitz,Medium,3656362,198,UK,FoodTech,919247,Healthcare Systems
+506,Tencent Holdings,Low,2170055,140,France,IoT,11160727,Healthcare Systems
+507,Matrix Partners,Low,12803157,99,Canada,Artificial Intelligence,276589471,B2C Platforms
+508,Apple Ventures,High,13298774,44,UAE,Artificial Intelligence,360398736,Deep Tech
+509,Kalaari Capital,Very High,3464017,85,India,FinTech,124694093,Social Impact
+510,Microsoft Ventures,Medium,5189237,22,Canada,Artificial Intelligence,343839658,Consumer Tech
+511,Tencent Holdings,High,16553594,56,UAE,Aerospace,413504835,Social Impact
+512,Amazon Ventures,Very High,12043065,42,Netherlands,Clean Energy,133742336,Startup
+513,Amazon Ventures,Very High,19099031,36,Germany,FoodTech,300193280,Healthcare Systems
+514,Intel Capital,Low,4319432,34,Germany,FinTech,494317676,Social Impact
+515,Accel,Very High,12833066,5,India,Logistics,408257169,B2C Platforms
+516,SoftBank Vision Fund,Very High,1324120,90,UK,Robotics,158593342,Consumer Tech
+517,Adani Enterprises,Medium,538662,81,India,E-commerce,11680695,B2C Platforms
+518,Accel,Medium,12476239,61,South Korea,Supply Chain,109894921,Government Tech
+519,Paytm Ventures,Low,17937258,29,South Korea,Robotics,461953910,B2C Platforms
+520,Intel Capital,Low,6458601,160,Singapore,FinTech,328113759,Consumer Tech
+521,Apple Ventures,Low,2836550,118,France,Automotive,291572282,Startup
+522,Andreessen Horowitz,High,795972,115,Germany,E-commerce,446750191,Education Platforms
+523,Paytm Ventures,High,6958446,104,Australia,Manufacturing,351792594,B2B Platforms
+524,Infosys Ventures,Low,2907646,179,France,E-commerce,123043467,Enterprise
+525,Apple Ventures,High,2326012,14,France,Cybersecurity,307099951,Social Impact
+526,Amazon Ventures,High,17645857,57,India,Clean Energy,479295795,Startup
+527,Meta Platforms,Low,14519937,146,South Korea,Clean Energy,230344576,Open Source
+528,Intel Capital,Medium,17250282,134,USA,Cybersecurity,494942855,Education Platforms
+529,Nexus Venture Partners,Medium,9385276,163,Netherlands,Artificial Intelligence,485084950,Research
+530,Tencent Holdings,Medium,13531472,156,Australia,TravelTech,254689233,Consumer Tech
+531,Paytm Ventures,Medium,6341601,40,Netherlands,EdTech,404699196,Startup
+532,Sequoia Capital,Medium,5237781,182,Germany,Real Estate Tech,387183891,Healthcare Systems
+533,Kalaari Capital,High,2162921,104,UK,Automotive,123831028,Financial Services
+534,Bessemer Venture Partners,Low,4665014,99,Canada,AgriTech,431325935,Financial Services
+535,Reliance Industries,High,6675825,65,South Korea,Robotics,276780611,Smart Infrastructure
+536,Google Ventures,Low,11256266,60,South Korea,Artificial Intelligence,441653253,Open Source
+537,Flipkart Ventures,Low,4609360,15,USA,EdTech,337096567,Social Impact
+538,Alibaba Group,Very High,16658958,171,Germany,Logistics,279332459,Education Platforms
+539,Microsoft Ventures,High,11780253,103,Australia,Clean Energy,235900335,Financial Services
+540,Apple Ventures,Very High,5175531,29,Canada,TravelTech,433501488,B2B Platforms
+541,Samsung Ventures,Low,16269079,190,Netherlands,Artificial Intelligence,185117428,B2B Platforms
+542,Google Ventures,High,4541555,123,Australia,Telecommunications,30581091,B2C Platforms
+543,Qualcomm Ventures,Low,8262822,166,Germany,Logistics,452249263,Smart Infrastructure
+544,Infosys Ventures,Medium,15719848,66,South Korea,Logistics,437063014,Financial Services
+545,Apple Ventures,High,2119672,195,Singapore,E-commerce,80548394,Government Tech
+546,Reliance Industries,Low,14442802,111,Singapore,Supply Chain,33772895,Healthcare Systems
+547,Andreessen Horowitz,Low,7124106,123,France,TravelTech,401580204,Smart Infrastructure
+548,Tencent Holdings,High,17575807,130,France,Supply Chain,419963284,Social Impact
+549,Matrix Partners,Medium,10956243,87,Canada,SaaS,65330759,B2B Platforms
+550,Google Ventures,Low,12030163,150,Netherlands,IoT,302352294,Government Tech
+551,Andreessen Horowitz,High,14038992,156,UK,HealthTech,407037966,Government Tech
+552,Meta Platforms,High,16070472,78,UK,Supply Chain,485643043,Enterprise
+553,Apple Ventures,High,12977171,89,UAE,Logistics,277866266,Research
+554,Cisco Investments,Medium,13538957,61,Netherlands,Biotechnology,369525407,Consumer Tech
+555,Andreessen Horowitz,High,8518364,46,France,Robotics,187191489,Startup
+556,Netflix Ventures,Low,13019073,118,South Korea,Blockchain,479584023,Enterprise
+557,Bessemer Venture Partners,Very High,1539051,41,India,Media & Entertainment,459289547,Social Impact
+558,Kalaari Capital,Medium,8056643,127,Australia,AgriTech,78278730,Smart Infrastructure
+559,Google Ventures,Medium,1393512,79,Netherlands,Gaming,499278606,Government Tech
+560,Amazon Ventures,High,10644681,154,Japan,FinTech,161527122,Research
+561,Tiger Global,Low,10772711,100,Canada,Biotechnology,379819808,Open Source
+562,Matrix Partners,Very High,10639769,161,France,Cybersecurity,190183455,Government Tech
+563,Amazon Ventures,High,1564062,151,Japan,Artificial Intelligence,132985415,Startup
+564,Accel,Low,13609081,19,Singapore,IoT,47852386,Education Platforms
+565,Wipro Ventures,Very High,10957151,190,UK,Media & Entertainment,244445322,Healthcare Systems
+566,Flipkart Ventures,Very High,10225546,24,Netherlands,FinTech,28011593,Deep Tech
+567,Paytm Ventures,High,1583253,88,South Korea,Blockchain,17021865,Smart Infrastructure
+568,Tata Capital,High,8717801,106,Australia,AgriTech,222349385,Consumer Tech
+569,Apple Ventures,Low,19165076,78,Singapore,E-commerce,249594185,Enterprise
+570,Nexus Venture Partners,Low,12800463,48,Japan,Clean Energy,269601088,Healthcare Systems
+571,Matrix Partners,Low,18550791,179,Japan,Manufacturing,33581414,Smart Infrastructure
+572,Meta Platforms,Low,2078029,25,Japan,Telecommunications,13012855,Enterprise
+573,Google Ventures,Low,11430338,39,India,FinTech,420657452,B2B Platforms
+574,Wipro Ventures,High,14729358,97,Germany,Automotive,311513451,Startup
+575,Intel Capital,Low,19100470,72,Canada,EdTech,484370132,B2C Platforms
+576,Adani Enterprises,Medium,5769960,132,USA,Telecommunications,389407364,B2B Platforms
+577,Lightspeed Venture Partners,Very High,1282321,144,Canada,EdTech,235941861,Government Tech
+578,Microsoft Ventures,Medium,15936057,174,France,TravelTech,180637667,Open Source
+579,Sequoia Capital,Low,5951443,79,France,Cybersecurity,79740269,Consumer Tech
+580,Infosys Ventures,High,16179971,18,Netherlands,IoT,395065014,Social Impact
+581,Intel Capital,Medium,14180208,39,France,SaaS,413768812,Social Impact
+582,Kalaari Capital,Medium,6070277,155,India,Telecommunications,203763256,Smart Infrastructure
+583,SoftBank Vision Fund,High,11294162,100,USA,Robotics,207095519,B2C Platforms
+584,Tiger Global,Low,10545359,150,Japan,Automotive,64850217,Research
+585,Sequoia Capital,High,10771798,157,Netherlands,Cybersecurity,101067205,Enterprise
+586,Meta Platforms,Medium,6367211,91,Canada,Blockchain,305820227,Social Impact
+587,Infosys Ventures,High,12095069,170,France,Blockchain,187935366,Open Source
+588,Lightspeed Venture Partners,Medium,10218569,167,UAE,FinTech,78993305,Healthcare Systems
+589,Netflix Ventures,Medium,9661447,27,Germany,Robotics,18994674,Smart Infrastructure
+590,Tencent Holdings,High,451257,196,India,TravelTech,408264251,Education Platforms
+591,Netflix Ventures,Low,14210540,133,India,IoT,263978947,B2B Platforms
+592,Tata Capital,Low,7924605,60,Germany,Telecommunications,478860858,Open Source
+593,Reliance Industries,Low,3313202,44,Australia,Robotics,13342791,Research
+594,Amazon Ventures,Very High,18049442,45,Netherlands,Clean Energy,187230933,B2C Platforms
+595,Matrix Partners,High,411243,189,Australia,FoodTech,131015964,B2C Platforms
+596,Flipkart Ventures,High,8863014,101,Canada,AgriTech,25034037,Education Platforms
+597,Tencent Holdings,Medium,5586558,87,South Korea,EdTech,280305352,Research
+598,Lightspeed Venture Partners,Low,11251624,178,Netherlands,Gaming,262832605,Enterprise
+599,Reliance Industries,Low,2639629,118,Australia,Real Estate Tech,169567885,Financial Services
+600,Kalaari Capital,Very High,11886688,152,Canada,Aerospace,463085079,Startup
+601,Microsoft Ventures,Low,4515968,102,Germany,Gaming,5988958,Consumer Tech
+602,Microsoft Ventures,Low,10155704,85,Netherlands,Biotechnology,360316285,Education Platforms
+603,Infosys Ventures,Medium,2500574,106,Canada,Artificial Intelligence,320133037,Education Platforms
+604,Tata Capital,High,3246961,134,Singapore,IoT,390951229,Education Platforms
+605,Apple Ventures,Medium,12682293,25,India,Biotechnology,267850341,Social Impact
+606,Kalaari Capital,Very High,4426007,93,France,Logistics,272776568,Deep Tech
+607,Uber Ventures,Medium,4851240,84,Canada,Aerospace,159612730,Deep Tech
+608,Amazon Ventures,Medium,10012129,61,Netherlands,Telecommunications,27640269,Government Tech
+609,Andreessen Horowitz,Medium,2923350,15,Japan,Gaming,161621750,Financial Services
+610,Tata Capital,Very High,6101602,195,Netherlands,Real Estate Tech,139517055,Social Impact
+611,Meta Platforms,Medium,15627078,178,Netherlands,Supply Chain,3492152,Social Impact
+612,Kalaari Capital,Very High,11792247,122,UK,Cybersecurity,361298484,Enterprise
+613,Accel,Very High,14639209,179,Canada,Biotechnology,202031752,Smart Infrastructure
+614,Apple Ventures,Very High,1787046,196,Germany,Media & Entertainment,69604382,Consumer Tech
+615,Tata Capital,Very High,7398889,151,India,AgriTech,406268343,Deep Tech
+616,Cisco Investments,Medium,12518295,79,Singapore,Cybersecurity,230683700,Enterprise
+617,Meta Platforms,Medium,694924,149,Australia,Clean Energy,465943100,Healthcare Systems
+618,Tata Capital,High,1943239,71,UAE,Real Estate Tech,327847080,Deep Tech
+619,Netflix Ventures,Low,18180921,25,India,Biotechnology,442395530,Smart Infrastructure
+620,SoftBank Vision Fund,Medium,9569178,108,UK,Robotics,179806265,Enterprise
+621,Paytm Ventures,Very High,7118453,38,Japan,Aerospace,163500147,Open Source
+622,Adani Enterprises,Very High,10403763,159,USA,AgriTech,151831156,Healthcare Systems
+623,Andreessen Horowitz,Very High,11342685,129,UAE,Logistics,306028985,Education Platforms
+624,Tencent Holdings,Medium,3302143,146,South Korea,E-commerce,139127275,Government Tech
+625,Uber Ventures,Medium,16987991,149,India,TravelTech,13135149,Social Impact
+626,Tiger Global,Very High,18684117,96,Singapore,Biotechnology,141079172,Healthcare Systems
+627,Flipkart Ventures,Low,17909990,66,Germany,Automotive,235522695,Enterprise
+628,SoftBank Vision Fund,Very High,19394918,123,France,Cybersecurity,256191156,Research
+629,Flipkart Ventures,Very High,2480737,26,Germany,Supply Chain,84237177,Deep Tech
+630,Paytm Ventures,Low,5512194,7,UAE,FoodTech,265668644,Consumer Tech
+631,Apple Ventures,Low,3173977,53,South Korea,Telecommunications,162316951,Education Platforms
+632,Netflix Ventures,Very High,1054722,127,UK,Gaming,1566205,Healthcare Systems
+633,Kalaari Capital,High,13974674,73,Australia,Clean Energy,150788289,B2B Platforms
+634,Adani Enterprises,Very High,2699246,53,UAE,TravelTech,18527881,Consumer Tech
+635,Paytm Ventures,Medium,1880813,165,France,TravelTech,8964454,Social Impact
+636,Paytm Ventures,Medium,6695167,72,India,E-commerce,121110981,Research
+637,Google Ventures,Medium,2743533,124,UK,FoodTech,153752692,Financial Services
+638,Lightspeed Venture Partners,Medium,14799394,158,Australia,Manufacturing,400002400,Startup
+639,Samsung Ventures,Medium,14797385,62,USA,Manufacturing,266890138,B2B Platforms
+640,Tata Capital,Medium,16172367,105,France,IoT,16694349,Healthcare Systems
+641,Tiger Global,Low,16950772,27,Canada,IoT,394694940,Financial Services
+642,Matrix Partners,High,6018141,125,Japan,E-commerce,166056563,Enterprise
+643,Meta Platforms,High,15495895,114,Japan,Blockchain,421812834,Consumer Tech
+644,Accel,High,2318141,50,UK,SaaS,451351674,Smart Infrastructure
+645,Alibaba Group,Very High,6879368,100,France,Biotechnology,475128075,Consumer Tech
+646,Matrix Partners,Very High,11328505,67,UK,IoT,475977602,Healthcare Systems
+647,Paytm Ventures,High,16927153,197,USA,Telecommunications,9566927,Open Source
+648,Matrix Partners,Very High,13117177,97,South Korea,EdTech,329787614,Social Impact
+649,Amazon Ventures,Medium,14963496,101,Netherlands,Blockchain,84984008,Startup
+650,Flipkart Ventures,Very High,3521540,166,Germany,Clean Energy,232877631,Open Source
+651,Tiger Global,Medium,19910674,64,USA,Clean Energy,121988027,Financial Services
+652,Cisco Investments,Very High,14742851,193,South Korea,Artificial Intelligence,489399607,Social Impact
+653,Kalaari Capital,Medium,15248415,182,Japan,Biotechnology,75950956,Enterprise
+654,Cisco Investments,High,9360069,119,France,Robotics,115260886,Government Tech
+655,Matrix Partners,Low,6984764,91,UAE,HealthTech,321626954,B2B Platforms
+656,Adani Enterprises,High,1576555,39,France,FoodTech,344623686,Financial Services
+657,Kalaari Capital,High,16439570,165,Germany,Cybersecurity,9637802,Smart Infrastructure
+658,Apple Ventures,Very High,10241327,38,France,IoT,490161295,B2C Platforms
+659,Intel Capital,Low,17713231,127,Netherlands,FoodTech,380213356,B2C Platforms
+660,Paytm Ventures,Very High,14589893,146,UK,Cybersecurity,238939182,Consumer Tech
+661,Wipro Ventures,Low,5937107,40,UAE,FoodTech,138478181,Open Source
+662,Intel Capital,Medium,9325179,86,Canada,TravelTech,19138139,B2C Platforms
+663,Cisco Investments,Medium,14850897,109,Canada,SaaS,74747889,Enterprise
+664,Reliance Industries,High,17165270,27,Netherlands,Manufacturing,237840009,Deep Tech
+665,Paytm Ventures,Medium,7785610,182,Singapore,Clean Energy,134863234,Social Impact
+666,Lightspeed Venture Partners,High,12350715,91,Netherlands,Biotechnology,163012345,Research
+667,Tencent Holdings,Very High,9238330,101,Germany,Manufacturing,314970564,Social Impact
+668,Accel,High,11314341,38,UAE,IoT,370496023,B2C Platforms
+669,Paytm Ventures,Low,8345793,176,France,EdTech,248962022,B2C Platforms
+670,Meta Platforms,High,11539068,110,USA,Telecommunications,7996051,Open Source
+671,Microsoft Ventures,Very High,6723972,186,South Korea,Manufacturing,288640418,Startup
+672,Uber Ventures,High,9305930,145,USA,Real Estate Tech,271319856,Government Tech
+673,Infosys Ventures,Low,9030566,180,Japan,EdTech,437669396,Open Source
+674,Microsoft Ventures,High,15599372,174,UK,HealthTech,65633239,Education Platforms
+675,Cisco Investments,Medium,9025495,149,South Korea,Cybersecurity,322453957,Consumer Tech
+676,Bessemer Venture Partners,Very High,19192086,26,Singapore,Logistics,320601224,Open Source
+677,Wipro Ventures,Low,18140707,137,India,Supply Chain,261126555,Consumer Tech
+678,Paytm Ventures,High,12449533,19,India,Media & Entertainment,267971101,Open Source
+679,Meta Platforms,High,16779300,53,UK,HealthTech,162592379,Education Platforms
+680,Samsung Ventures,Medium,8135718,29,South Korea,Real Estate Tech,14455198,Open Source
+681,Accel,Very High,17672691,170,UK,Automotive,466142584,B2C Platforms
+682,Infosys Ventures,Low,4864712,159,USA,IoT,293097953,Deep Tech
+683,SoftBank Vision Fund,Low,8902017,24,UAE,FoodTech,51508533,Financial Services
+684,Netflix Ventures,Low,13711886,71,Australia,TravelTech,266237994,Social Impact
+685,Alibaba Group,Very High,1158078,28,UAE,Manufacturing,465405625,Startup
+686,Alibaba Group,Very High,16893462,194,Singapore,HealthTech,41435757,Open Source
+687,Flipkart Ventures,Very High,11783131,124,France,Cybersecurity,345112301,Startup
+688,Google Ventures,Very High,2203810,49,Germany,Manufacturing,340334695,Enterprise
+689,Tata Capital,High,2131366,129,USA,IoT,182934096,Open Source
+690,Netflix Ventures,High,12362121,83,France,FinTech,224460243,Healthcare Systems
+691,Meta Platforms,Medium,7972391,172,Germany,Automotive,139198932,Consumer Tech
+692,Flipkart Ventures,High,17505462,51,Australia,Clean Energy,494858240,Smart Infrastructure
+693,Nexus Venture Partners,Medium,17951206,152,Germany,FoodTech,296368451,Education Platforms
+694,Google Ventures,High,17653633,147,Germany,Aerospace,283280530,Startup
+695,Google Ventures,Low,19410177,146,South Korea,Blockchain,325243143,Enterprise
+696,Apple Ventures,Very High,8331080,13,Japan,FoodTech,124880457,Smart Infrastructure
+697,Amazon Ventures,Low,15237912,163,USA,HealthTech,193753958,Deep Tech
+698,Amazon Ventures,Medium,2514613,45,Singapore,Robotics,497593808,Consumer Tech
+699,Netflix Ventures,Medium,2650128,131,Netherlands,HealthTech,495430114,B2B Platforms
+700,Apple Ventures,Low,12022432,107,USA,TravelTech,369360686,Deep Tech
+701,Nexus Venture Partners,Low,9768572,10,Germany,Gaming,326118446,Enterprise
+702,Accel,Medium,16735944,39,Canada,SaaS,37756807,B2B Platforms
+703,Meta Platforms,Low,9283342,67,Japan,Biotechnology,143247120,Startup
+704,Netflix Ventures,Low,203865,129,Singapore,E-commerce,457663537,Healthcare Systems
+705,Infosys Ventures,High,11789800,94,Australia,SaaS,432516311,Government Tech
+706,Bessemer Venture Partners,Very High,13348454,125,France,Logistics,385513216,B2B Platforms
+707,Infosys Ventures,High,19316800,80,Canada,E-commerce,183778273,Smart Infrastructure
+708,Flipkart Ventures,High,7745057,123,Singapore,FoodTech,436193770,Deep Tech
+709,Google Ventures,Medium,18353913,135,Germany,IoT,455958592,B2C Platforms
+710,Tata Capital,Medium,15045973,22,Japan,Biotechnology,142372353,Open Source
+711,Meta Platforms,Very High,6660486,59,Japan,Blockchain,134809494,Healthcare Systems
+712,Adani Enterprises,High,8114130,20,Australia,Blockchain,302276889,Open Source
+713,Google Ventures,Very High,11988025,80,Australia,HealthTech,362929607,Social Impact
+714,Adani Enterprises,Low,2835693,157,Japan,Gaming,420096369,Open Source
+715,Nexus Venture Partners,Medium,17003507,46,Singapore,Aerospace,189929635,Deep Tech
+716,Netflix Ventures,Very High,11138656,131,UAE,SaaS,286963443,Smart Infrastructure
+717,Amazon Ventures,High,1223186,18,France,IoT,492010252,Enterprise
+718,Intel Capital,Very High,171416,147,Canada,Biotechnology,360371331,B2C Platforms
+719,Alibaba Group,Low,16014134,112,India,Robotics,188200002,Smart Infrastructure
+720,Netflix Ventures,High,19141308,49,Germany,Logistics,376655353,Financial Services
+721,Tiger Global,Medium,17574941,13,India,Gaming,308483899,B2B Platforms
+722,Meta Platforms,Low,10864667,71,Australia,TravelTech,112240058,Government Tech
+723,Andreessen Horowitz,Low,10935594,108,India,Clean Energy,476130706,Startup
+724,Wipro Ventures,Medium,16858234,63,UAE,Blockchain,206245578,Enterprise
+725,Meta Platforms,High,2365640,72,Japan,Telecommunications,211639900,Government Tech
+726,Flipkart Ventures,Medium,3224510,195,Japan,FoodTech,15724658,Open Source
+727,Amazon Ventures,Very High,288549,146,Canada,Gaming,392593744,Startup
+728,Nexus Venture Partners,Medium,15217969,132,Canada,Supply Chain,263690481,B2C Platforms
+729,Tata Capital,High,11552992,132,India,FoodTech,43299924,Startup
+730,Microsoft Ventures,Medium,12689308,169,South Korea,Clean Energy,302074619,Financial Services
+731,Amazon Ventures,Very High,12845894,72,Japan,Cybersecurity,453891385,Education Platforms
+732,Accel,High,5826842,166,Canada,FoodTech,186793886,Startup
+733,Google Ventures,High,18680012,146,Netherlands,SaaS,471918090,Social Impact
+734,Tencent Holdings,High,14985851,194,Australia,Media & Entertainment,146129196,Education Platforms
+735,Alibaba Group,Low,12281906,48,Netherlands,TravelTech,228534577,Smart Infrastructure
+736,SoftBank Vision Fund,Very High,12259626,102,Singapore,IoT,74198518,B2C Platforms
+737,Flipkart Ventures,Low,3336395,147,South Korea,IoT,176726447,Smart Infrastructure
+738,Uber Ventures,High,13155444,41,Netherlands,Artificial Intelligence,293097263,Smart Infrastructure
+739,Google Ventures,High,8653786,12,India,FinTech,492329139,Healthcare Systems
+740,Infosys Ventures,Low,5162270,63,France,E-commerce,395306804,Government Tech
+741,Nexus Venture Partners,Medium,19433277,41,Australia,SaaS,457381944,Education Platforms
+742,Intel Capital,Very High,8674959,53,Japan,Automotive,310276845,Open Source
+743,Infosys Ventures,Medium,4394651,148,India,Blockchain,272360118,Deep Tech
+744,Reliance Industries,Medium,18629644,56,South Korea,Media & Entertainment,265773578,Open Source
+745,Apple Ventures,Low,8680809,8,Australia,Manufacturing,380905305,B2C Platforms
+746,Reliance Industries,Very High,13706284,111,Japan,Gaming,287678153,B2C Platforms
+747,Nexus Venture Partners,Low,16079749,12,Canada,FinTech,120612006,Smart Infrastructure
+748,Google Ventures,Medium,5129134,87,Germany,IoT,330318175,Education Platforms
+749,Flipkart Ventures,Very High,13933365,126,Netherlands,Media & Entertainment,184529087,Smart Infrastructure
+750,Paytm Ventures,Low,6422297,200,Australia,Blockchain,159239338,B2B Platforms
+751,Accel,Very High,11646662,176,India,Manufacturing,98107189,Open Source
+752,Tata Capital,Medium,395872,9,Australia,Cybersecurity,286120404,Smart Infrastructure
+753,Qualcomm Ventures,Low,13715566,162,Netherlands,Media & Entertainment,210372540,B2B Platforms
+754,Andreessen Horowitz,High,12984833,132,Canada,Robotics,254326780,Open Source
+755,Adani Enterprises,Very High,10033246,131,USA,TravelTech,79430527,Financial Services
+756,Flipkart Ventures,Low,808214,152,South Korea,IoT,315607766,Education Platforms
+757,Google Ventures,Very High,8062232,159,South Korea,TravelTech,160080197,Deep Tech
+758,Tencent Holdings,Very High,13062676,117,Canada,Aerospace,287064431,Startup
+759,Nexus Venture Partners,Medium,11843234,189,USA,FinTech,462858683,Consumer Tech
+760,Matrix Partners,High,12044209,35,Australia,Real Estate Tech,237966166,Open Source
+761,Amazon Ventures,Very High,5322585,79,France,Logistics,105976028,Education Platforms
+762,Tata Capital,Medium,15335752,197,Australia,Biotechnology,54016691,Smart Infrastructure
+763,Uber Ventures,High,7091862,131,Netherlands,EdTech,359067478,Open Source
+764,Tata Capital,High,11132117,127,France,Biotechnology,79223214,B2B Platforms
+765,Tata Capital,Very High,16416101,199,Netherlands,Aerospace,251734898,B2B Platforms
+766,Meta Platforms,Medium,16918700,33,Canada,FoodTech,93666684,Social Impact
+767,Apple Ventures,Medium,918709,88,Netherlands,Clean Energy,470082141,Enterprise
+768,Reliance Industries,Very High,2108610,172,France,Logistics,499586943,B2B Platforms
+769,Tencent Holdings,High,4652060,168,Japan,SaaS,9586233,Healthcare Systems
+770,Meta Platforms,Very High,8016474,30,UAE,Telecommunications,477058712,Social Impact
+771,Nexus Venture Partners,High,8291389,167,Australia,Biotechnology,206593473,Financial Services
+772,Kalaari Capital,Very High,1485338,156,Australia,FinTech,441487879,Government Tech
+773,Apple Ventures,Medium,6889600,152,Germany,FinTech,467303085,Financial Services
+774,Tiger Global,High,17571450,114,Netherlands,Automotive,385315251,Education Platforms
+775,Qualcomm Ventures,Medium,17394836,175,UK,Biotechnology,491754995,Social Impact
+776,Cisco Investments,Medium,8187357,105,Germany,Artificial Intelligence,322460357,Smart Infrastructure
+777,Uber Ventures,Very High,19821574,56,Singapore,Biotechnology,382991204,Healthcare Systems
+778,Microsoft Ventures,High,455970,138,Netherlands,Cybersecurity,68137240,Social Impact
+779,Microsoft Ventures,Medium,8172186,8,India,Media & Entertainment,415327930,Social Impact
+780,Lightspeed Venture Partners,Medium,16907633,46,UK,IoT,261803517,B2B Platforms
+781,Samsung Ventures,Very High,13695741,46,UAE,EdTech,221819820,Financial Services
+782,Amazon Ventures,Medium,15478129,42,India,Aerospace,131591819,Open Source
+783,Uber Ventures,Medium,14846102,62,Japan,Logistics,398061244,Education Platforms
+784,Bessemer Venture Partners,Low,8028682,39,USA,Cybersecurity,105498734,Smart Infrastructure
+785,Samsung Ventures,Low,17905086,135,France,Clean Energy,216021897,Consumer Tech
+786,Bessemer Venture Partners,Low,15929787,192,France,Real Estate Tech,372297060,B2B Platforms
+787,Infosys Ventures,Low,1141014,26,India,Robotics,268979915,Smart Infrastructure
+788,Intel Capital,Low,2250294,122,France,Real Estate Tech,476481375,Deep Tech
+789,SoftBank Vision Fund,Low,7691297,189,USA,Blockchain,144372924,B2B Platforms
+790,Bessemer Venture Partners,Low,13481326,63,Canada,Cybersecurity,48242537,B2C Platforms
+791,SoftBank Vision Fund,Low,17439472,65,South Korea,Logistics,276328421,Startup
+792,Netflix Ventures,Medium,14809727,148,Netherlands,Logistics,73555855,Government Tech
+793,Netflix Ventures,Low,15535671,27,USA,Cybersecurity,6612208,Smart Infrastructure
+794,Lightspeed Venture Partners,Low,19791256,20,Japan,FinTech,356306261,B2B Platforms
+795,Intel Capital,Very High,19076406,54,Australia,Clean Energy,52152813,Consumer Tech
+796,Amazon Ventures,Low,4889200,82,Singapore,FinTech,5966205,Consumer Tech
+797,Tiger Global,Medium,5362004,94,Germany,Clean Energy,265225901,Government Tech
+798,Amazon Ventures,Low,18141161,43,USA,SaaS,434578465,Consumer Tech
+799,Netflix Ventures,High,11998818,46,Australia,Artificial Intelligence,15713967,Startup
+800,SoftBank Vision Fund,High,8368713,194,Canada,Real Estate Tech,359730662,Healthcare Systems
+801,Matrix Partners,Medium,3281218,85,UK,Logistics,52931118,Government Tech
+802,Alibaba Group,Low,999719,152,UAE,Robotics,17550726,Smart Infrastructure
+803,Amazon Ventures,Very High,15367263,64,Netherlands,AgriTech,298752605,B2C Platforms
+804,Tata Capital,Low,10789588,156,South Korea,Logistics,307072334,Education Platforms
+805,Apple Ventures,High,13390695,15,UK,Clean Energy,52583968,Education Platforms
+806,Nexus Venture Partners,Low,6192706,190,UAE,Biotechnology,87207708,Smart Infrastructure
+807,Meta Platforms,High,7197666,6,USA,SaaS,231004924,Financial Services
+808,Reliance Industries,Low,11529657,62,UK,Robotics,367302981,Smart Infrastructure
+809,Tata Capital,Medium,7198301,168,Australia,Robotics,174465493,Consumer Tech
+810,Lightspeed Venture Partners,Medium,9468139,9,USA,Automotive,333741545,Open Source
+811,Adani Enterprises,Very High,17521516,143,France,Robotics,155564438,Startup
+812,Matrix Partners,Low,6878392,118,South Korea,Telecommunications,327538074,Open Source
+813,Accel,High,17977313,196,France,HealthTech,409146621,Social Impact
+814,Cisco Investments,Very High,11757366,14,Netherlands,Blockchain,234381307,Smart Infrastructure
+815,Qualcomm Ventures,Low,15118198,82,USA,Clean Energy,161277067,Government Tech
+816,Uber Ventures,High,11785787,179,South Korea,AgriTech,307721596,B2C Platforms
+817,Apple Ventures,Medium,11373114,194,Singapore,Supply Chain,242728710,Financial Services
+818,Bessemer Venture Partners,Medium,10640421,99,USA,Logistics,19348397,Research
+819,Infosys Ventures,High,16600698,80,India,EdTech,267004522,Research
+820,Google Ventures,High,12975996,23,USA,Robotics,315414055,Smart Infrastructure
+821,SoftBank Vision Fund,Medium,6390897,75,UAE,Telecommunications,286944217,Startup
+822,Tencent Holdings,Very High,15042689,141,Australia,Media & Entertainment,410360462,Education Platforms
+823,Tata Capital,Low,16725223,24,Japan,Artificial Intelligence,110761272,Enterprise
+824,Meta Platforms,Low,8236149,171,Germany,Gaming,421187351,Government Tech
+825,Tencent Holdings,Low,18582709,186,Singapore,E-commerce,40106908,Research
+826,Google Ventures,High,2957130,156,France,Blockchain,150386348,Financial Services
+827,Apple Ventures,High,8054188,136,Germany,Biotechnology,395184747,Deep Tech
+828,Microsoft Ventures,Very High,17906604,31,USA,Clean Energy,229251405,B2C Platforms
+829,Nexus Venture Partners,High,9877032,103,South Korea,HealthTech,134208049,Healthcare Systems
+830,Netflix Ventures,High,7148904,101,Japan,FoodTech,317398827,Research
+831,Uber Ventures,Very High,6382264,184,Australia,Clean Energy,328235248,Enterprise
+832,Paytm Ventures,Very High,1687444,39,France,EdTech,381398680,Smart Infrastructure
+833,Nexus Venture Partners,Medium,9429386,159,Singapore,AgriTech,438033227,Education Platforms
+834,Qualcomm Ventures,Very High,170994,58,Germany,TravelTech,20397759,Government Tech
+835,Samsung Ventures,High,16840502,106,Canada,Blockchain,444766259,Research
+836,Reliance Industries,High,9309853,48,Germany,IoT,174291508,Financial Services
+837,Adani Enterprises,Low,9490143,149,Netherlands,Clean Energy,470067227,Open Source
+838,Microsoft Ventures,Medium,10960492,65,France,IoT,341436757,Social Impact
+839,Cisco Investments,High,12181625,82,Netherlands,SaaS,455355176,Consumer Tech
+840,Tata Capital,Very High,4024583,63,Japan,FinTech,103892661,Research
+841,Meta Platforms,High,7038725,180,India,FoodTech,123912070,Financial Services
+842,Wipro Ventures,High,707886,120,Australia,IoT,187708750,Financial Services
+843,Wipro Ventures,Very High,145575,15,Singapore,E-commerce,233251307,B2C Platforms
+844,Adani Enterprises,Low,16401943,42,UK,Biotechnology,391607725,Education Platforms
+845,Microsoft Ventures,Very High,6974520,73,India,Clean Energy,427685640,Financial Services
+846,Qualcomm Ventures,High,14206541,171,South Korea,Automotive,244019921,B2C Platforms
+847,Microsoft Ventures,Low,6948982,103,Germany,Robotics,383052802,Government Tech
+848,Infosys Ventures,Low,9196013,113,Germany,SaaS,60987196,Enterprise
+849,Andreessen Horowitz,Very High,11422266,160,Germany,Real Estate Tech,76562660,Research
+850,Tencent Holdings,Low,14714856,166,USA,IoT,182076707,Healthcare Systems
+851,Sequoia Capital,Very High,10758198,116,USA,Blockchain,335988847,B2B Platforms
+852,Kalaari Capital,Medium,3183469,69,Japan,E-commerce,140479618,Smart Infrastructure
+853,Sequoia Capital,Very High,19425020,37,UAE,Real Estate Tech,486421041,Open Source
+854,Apple Ventures,High,2203263,169,Netherlands,Artificial Intelligence,163675671,B2C Platforms
+855,Wipro Ventures,Very High,13577291,87,UAE,Automotive,449581218,Government Tech
+856,Paytm Ventures,Low,13372876,73,UK,AgriTech,442935813,Research
+857,Nexus Venture Partners,High,2011702,87,India,Aerospace,180515577,B2C Platforms
+858,Uber Ventures,Low,13025160,131,Australia,Gaming,459136500,B2C Platforms
+859,Samsung Ventures,High,4302492,58,UAE,Media & Entertainment,286965583,Startup
+860,Uber Ventures,Low,3823505,76,South Korea,E-commerce,107178410,Enterprise
+861,Paytm Ventures,Very High,19921135,159,Australia,Clean Energy,290121168,Enterprise
+862,Kalaari Capital,Very High,5687311,188,UK,SaaS,324440643,Social Impact
+863,Wipro Ventures,Low,8328125,125,Singapore,Artificial Intelligence,43027394,Enterprise
+864,Infosys Ventures,High,4223248,55,UK,Aerospace,254092545,Research
+865,Adani Enterprises,High,7987635,195,Japan,Automotive,181893516,B2C Platforms
+866,Lightspeed Venture Partners,Medium,8808047,28,Canada,EdTech,204752475,Research
+867,Qualcomm Ventures,Low,12305750,162,India,FinTech,243447034,Open Source
+868,Apple Ventures,Low,18029595,164,Netherlands,Logistics,317110570,Enterprise
+869,Tencent Holdings,Very High,17410120,143,Australia,Manufacturing,238057206,Smart Infrastructure
+870,Nexus Venture Partners,High,7921933,105,Canada,Biotechnology,167107878,Deep Tech
+871,Apple Ventures,Medium,16135331,20,Netherlands,Supply Chain,89004329,Healthcare Systems
+872,Intel Capital,Low,9439317,67,South Korea,Aerospace,58959364,Government Tech
+873,Tencent Holdings,Very High,9965781,79,Singapore,FoodTech,122119865,B2C Platforms
+874,Qualcomm Ventures,Low,5498837,140,France,Clean Energy,488764542,Enterprise
+875,Samsung Ventures,Low,11306091,44,USA,Logistics,280861231,Social Impact
+876,Microsoft Ventures,High,19089854,8,France,Blockchain,159423925,Open Source
+877,Meta Platforms,Very High,6337452,161,Japan,AgriTech,81167860,B2B Platforms
+878,Microsoft Ventures,High,16317518,103,France,AgriTech,447836796,Social Impact
+879,Infosys Ventures,Medium,5255270,155,UAE,Automotive,2663292,B2B Platforms
+880,Tiger Global,Low,17987600,158,Australia,E-commerce,324708289,Deep Tech
+881,Tencent Holdings,Very High,1217129,90,Singapore,Cybersecurity,102822532,Startup
+882,Sequoia Capital,Very High,9268046,5,Japan,Supply Chain,190080084,Government Tech
+883,Flipkart Ventures,Very High,16767258,144,UK,AgriTech,208867716,Smart Infrastructure
+884,Wipro Ventures,High,5390840,81,France,Gaming,312666857,Consumer Tech
+885,Tiger Global,Medium,675781,195,UAE,Media & Entertainment,49101075,Enterprise
+886,Tencent Holdings,Medium,17362067,70,UAE,Blockchain,1356079,Education Platforms
+887,Sequoia Capital,High,19869207,161,Singapore,HealthTech,61309508,Startup
+888,Qualcomm Ventures,Very High,9598854,99,USA,Artificial Intelligence,300233574,Deep Tech
+889,Kalaari Capital,Low,12525548,106,Singapore,AgriTech,332072761,Deep Tech
+890,Andreessen Horowitz,Medium,2388517,64,Singapore,Artificial Intelligence,236547117,Healthcare Systems
+891,Flipkart Ventures,Medium,756774,153,Australia,Artificial Intelligence,129616085,B2C Platforms
+892,Andreessen Horowitz,Low,3187139,18,Singapore,Cybersecurity,29430912,Education Platforms
+893,Accel,Medium,3826769,179,Netherlands,Cybersecurity,479195590,Financial Services
+894,Meta Platforms,Medium,11474144,115,Australia,Gaming,100028829,Open Source
+895,Tata Capital,Very High,15327757,48,Canada,Blockchain,109984924,Social Impact
+896,Paytm Ventures,Very High,8481083,160,UK,TravelTech,415141661,Government Tech
+897,Sequoia Capital,Very High,3890377,104,India,Cybersecurity,131270366,Enterprise
+898,Andreessen Horowitz,Very High,17499637,17,Canada,AgriTech,344733974,B2C Platforms
+899,SoftBank Vision Fund,Low,7282212,174,Australia,Artificial Intelligence,120942366,Smart Infrastructure
+900,Google Ventures,Medium,7832808,180,South Korea,Logistics,218087643,Healthcare Systems
+901,Wipro Ventures,High,1461301,50,Japan,HealthTech,222568354,Government Tech
+902,Netflix Ventures,Low,15539352,34,Japan,AgriTech,79074582,Healthcare Systems
+903,Uber Ventures,Very High,1894593,123,Australia,Supply Chain,382102306,Research
+904,Intel Capital,Very High,19294542,113,Singapore,Real Estate Tech,481510630,Open Source
+905,Microsoft Ventures,Medium,13383076,27,Singapore,Manufacturing,250668465,Education Platforms
+906,Wipro Ventures,Very High,18473233,157,Australia,Biotechnology,139137161,Healthcare Systems
+907,Paytm Ventures,Medium,9836686,6,UK,Aerospace,325625284,B2C Platforms
+908,Tencent Holdings,Low,19802296,141,South Korea,Supply Chain,447619933,Research
+909,Qualcomm Ventures,Very High,17765097,68,UAE,Gaming,384354731,B2C Platforms
+910,Reliance Industries,Medium,2649906,45,Australia,Robotics,235923399,Healthcare Systems
+911,Paytm Ventures,High,10126838,73,Singapore,FinTech,284288895,Government Tech
+912,Samsung Ventures,Very High,16757915,156,South Korea,Gaming,499786707,Social Impact
+913,Accel,High,412886,133,USA,Clean Energy,159128174,Smart Infrastructure
+914,Uber Ventures,High,8213842,89,Japan,Biotechnology,53895891,Government Tech
+915,Tata Capital,Very High,2682903,120,USA,EdTech,390101208,Consumer Tech
+916,Adani Enterprises,High,7276067,54,USA,Supply Chain,244122293,Social Impact
+917,Accel,Medium,155557,182,Netherlands,Gaming,470445689,Enterprise
+918,Andreessen Horowitz,Low,4071308,120,India,Artificial Intelligence,453966431,Healthcare Systems
+919,Microsoft Ventures,High,11989389,49,France,Supply Chain,178240223,B2B Platforms
+920,Samsung Ventures,Very High,18167313,114,France,Artificial Intelligence,146026533,Education Platforms
+921,Uber Ventures,Very High,19405023,111,UK,Automotive,239399926,Open Source
+922,Bessemer Venture Partners,Very High,4899558,35,Japan,FoodTech,401300515,Financial Services
+923,Microsoft Ventures,Medium,11475977,39,Singapore,Clean Energy,433086509,B2B Platforms
+924,Tencent Holdings,Low,18061433,10,Netherlands,Telecommunications,115207032,Startup
+925,Bessemer Venture Partners,Medium,9721037,110,Australia,FinTech,405029849,Open Source
+926,Netflix Ventures,Low,14810404,89,Australia,SaaS,284861536,Enterprise
+927,Paytm Ventures,Low,7121030,22,France,Clean Energy,10478692,Education Platforms
+928,Matrix Partners,Medium,2274840,117,Canada,Biotechnology,426974424,Social Impact
+929,Netflix Ventures,Low,8059223,67,South Korea,Telecommunications,439235762,Social Impact
+930,Kalaari Capital,Low,11127006,41,India,HealthTech,110194707,Enterprise
+931,Intel Capital,Medium,6151398,83,Canada,E-commerce,180024269,Smart Infrastructure
+932,Netflix Ventures,Low,14476817,140,Japan,Media & Entertainment,331687436,Research
+933,Intel Capital,Very High,19795052,173,France,Manufacturing,255460289,Open Source
+934,Lightspeed Venture Partners,Low,19547872,77,India,Artificial Intelligence,214807911,Smart Infrastructure
+935,Cisco Investments,High,9090910,32,South Korea,TravelTech,199095038,Smart Infrastructure
+936,Tencent Holdings,Low,2875614,112,South Korea,IoT,152462239,B2B Platforms
+937,Amazon Ventures,High,12294015,70,Australia,Real Estate Tech,332944609,Open Source
+938,Tata Capital,Low,7497338,158,Singapore,Blockchain,202968551,B2C Platforms
+939,Paytm Ventures,High,19776261,167,South Korea,Artificial Intelligence,343814713,Deep Tech
+940,Google Ventures,Low,15480131,19,UK,Gaming,496173455,Enterprise
+941,Infosys Ventures,Low,2288192,126,Singapore,TravelTech,47465282,Education Platforms
+942,Samsung Ventures,Very High,1730087,155,UAE,Cybersecurity,176873032,Deep Tech
+943,Netflix Ventures,Low,4898127,30,Australia,E-commerce,452219856,Financial Services
+944,Accel,Very High,17296454,186,Canada,IoT,208613583,Research
+945,Sequoia Capital,Low,16302146,176,Singapore,IoT,186519484,Smart Infrastructure
+946,Tiger Global,Low,6822890,198,France,Artificial Intelligence,87626710,Research
+947,Intel Capital,Very High,4263998,95,UK,E-commerce,440005451,B2B Platforms
+948,Amazon Ventures,Low,17655752,151,Netherlands,FoodTech,22561413,Education Platforms
+949,Cisco Investments,Low,19310530,176,Netherlands,SaaS,372705880,B2B Platforms
+950,Paytm Ventures,Medium,9502845,15,UK,Manufacturing,326618383,B2B Platforms
+951,Andreessen Horowitz,Very High,11254509,33,UK,AgriTech,101857054,Social Impact
+952,Uber Ventures,Medium,8669940,174,UK,HealthTech,221305223,Education Platforms
+953,Cisco Investments,High,17926597,129,UK,Artificial Intelligence,168991113,Financial Services
+954,Lightspeed Venture Partners,Very High,13843539,126,USA,FinTech,459304111,Enterprise
+955,Sequoia Capital,Very High,5691378,101,Canada,SaaS,188726232,Social Impact
+956,Sequoia Capital,Medium,3034390,78,UAE,Real Estate Tech,244178068,Government Tech
+957,Lightspeed Venture Partners,Medium,10455864,152,Singapore,Aerospace,61702948,Enterprise
+958,Tencent Holdings,Very High,15314401,184,USA,Manufacturing,416060549,Research
+959,Microsoft Ventures,High,15011194,166,Netherlands,Aerospace,334020193,Deep Tech
+960,Flipkart Ventures,Medium,17317112,53,Netherlands,Clean Energy,410821596,Research
+961,Alibaba Group,Very High,9928565,53,India,Gaming,402762175,Research
+962,Tata Capital,Low,11726896,8,Japan,Gaming,370677833,Smart Infrastructure
+963,Infosys Ventures,Very High,15970123,144,Australia,TravelTech,53768625,Research
+964,Tencent Holdings,High,4808712,26,Canada,Artificial Intelligence,62937638,B2C Platforms
+965,Netflix Ventures,High,8358217,24,Singapore,Supply Chain,97322874,Consumer Tech
+966,Infosys Ventures,Low,2622540,96,UAE,Aerospace,253902357,Startup
+967,Matrix Partners,Medium,13824940,150,Germany,TravelTech,111181072,Government Tech
+968,Microsoft Ventures,Low,5616123,62,Netherlands,Artificial Intelligence,141814241,Government Tech
+969,Flipkart Ventures,Low,15887186,145,UK,FoodTech,95409138,Enterprise
+970,Kalaari Capital,Very High,13676858,113,France,Real Estate Tech,94812257,B2B Platforms
+971,Netflix Ventures,Medium,7698475,134,UAE,Media & Entertainment,481791628,Enterprise
+972,Adani Enterprises,Medium,2621215,39,France,Clean Energy,248701084,B2B Platforms
+973,Tencent Holdings,Low,6236217,12,USA,Logistics,204941891,Healthcare Systems
+974,Wipro Ventures,High,17796196,70,USA,Gaming,359869564,B2B Platforms
+975,Google Ventures,Medium,15689004,114,India,HealthTech,169028748,Startup
+976,Cisco Investments,Low,5358347,85,UAE,Media & Entertainment,287894756,Healthcare Systems
+977,Wipro Ventures,Very High,2824220,166,Germany,FinTech,252005365,Open Source
+978,Amazon Ventures,Low,15019679,21,India,EdTech,235551391,Education Platforms
+979,Tata Capital,Low,4650614,137,Japan,FinTech,248802074,Smart Infrastructure
+980,Wipro Ventures,Very High,1843369,192,UK,Real Estate Tech,356283346,Enterprise
+981,Paytm Ventures,Medium,9963122,32,Canada,Automotive,160485379,B2B Platforms
+982,Intel Capital,Low,7342152,117,India,E-commerce,418444257,Education Platforms
+983,Netflix Ventures,High,10401067,23,India,AgriTech,220279072,B2C Platforms
+984,Tiger Global,High,16448081,170,India,AgriTech,477940069,Government Tech
+985,Samsung Ventures,Very High,2713396,174,UAE,IoT,483219047,Smart Infrastructure
+986,Meta Platforms,High,9577077,106,Germany,AgriTech,416216883,Startup
+987,Adani Enterprises,Medium,11008246,68,Netherlands,Logistics,218112608,Healthcare Systems
+988,Infosys Ventures,Very High,19971088,42,UK,Real Estate Tech,156048900,Government Tech
+989,Paytm Ventures,High,13049435,57,South Korea,Biotechnology,280658159,Smart Infrastructure
+990,Adani Enterprises,High,7154705,68,Australia,Media & Entertainment,183562483,B2B Platforms
+991,Microsoft Ventures,Low,1670566,15,UK,Gaming,490782597,Social Impact
+992,Apple Ventures,Low,16108512,109,USA,Manufacturing,311685371,B2B Platforms
+993,Netflix Ventures,Very High,17302810,75,Netherlands,Artificial Intelligence,298993532,B2B Platforms
+994,Qualcomm Ventures,High,15169171,20,Japan,HealthTech,307027338,Research
+995,Tencent Holdings,High,13784179,156,South Korea,Robotics,263829588,B2B Platforms
+996,Intel Capital,Medium,6153657,115,South Korea,EdTech,123395431,Startup
+997,Paytm Ventures,Very High,557962,84,UK,TravelTech,400807714,Healthcare Systems
+998,Nexus Venture Partners,High,13437788,34,UK,SaaS,34072579,Government Tech
+999,Netflix Ventures,Low,9940454,76,Japan,Biotechnology,371446323,B2B Platforms
+1000,Andreessen Horowitz,Low,15522108,20,Canada,Gaming,199261034,Research

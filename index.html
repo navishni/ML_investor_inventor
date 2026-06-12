@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MatchTank AI</title>
+  <style>
+    :root {
+      --bg: #08131d;
+      --panel: rgba(12, 27, 40, 0.88);
+      --panel-strong: #0f2234;
+      --border: rgba(118, 157, 188, 0.2);
+      --text: #ecf6ff;
+      --muted: #96b1c8;
+      --accent: #35d0ff;
+      --accent-2: #ff8b3d;
+      --accent-3: #77d66d;
+      --danger: #ff657d;
+      --shadow: 0 22px 45px rgba(0, 0, 0, 0.26);
+      --radius: 22px;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(53, 208, 255, 0.18), transparent 34%),
+        radial-gradient(circle at bottom right, rgba(255, 139, 61, 0.16), transparent 28%),
+        linear-gradient(160deg, #071019 0%, #0c1824 50%, #07111a 100%);
+      min-height: 100vh;
+    }
+
+    .shell {
+      width: min(1220px, calc(100% - 32px));
+      margin: 24px auto 40px;
+    }
+
+    .hero, .panel {
+      background: var(--panel);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .hero {
+      padding: 28px;
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 24px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2.2rem, 5vw, 4.2rem);
+      line-height: 0.96;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .hero p {
+      color: var(--muted);
+      margin: 0 0 18px;
+      line-height: 1.6;
+      max-width: 640px;
+    }
+
+    .badge-row, .stat-grid, .card-grid, .two-col {
+      display: grid;
+      gap: 16px;
+    }
+
+    .badge-row {
+      grid-template-columns: repeat(3, max-content);
+      align-items: center;
+    }
+
+    .badge {
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 8px 14px;
+      color: var(--muted);
+      font-size: 0.82rem;
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .login-box {
+      padding: 22px;
+      border-radius: 18px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01));
+      border: 1px solid var(--border);
+    }
+
+    .login-box h2, .section-title {
+      margin: 0 0 12px;
+      font-size: 1.25rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .input-grid, .profile-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+
+    .full { grid-column: 1 / -1; }
+
+    label {
+      display: block;
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    input, textarea, button {
+      width: 100%;
+      border: 1px solid rgba(150, 177, 200, 0.24);
+      border-radius: 14px;
+      background: rgba(7, 17, 26, 0.88);
+      color: var(--text);
+      padding: 12px 14px;
+      font: inherit;
+    }
+
+    textarea {
+      min-height: 112px;
+      resize: vertical;
+    }
+
+    button {
+      cursor: pointer;
+      background: linear-gradient(135deg, var(--accent), #1a88ff);
+      border: none;
+      font-weight: 700;
+      color: #041019;
+      transition: transform 0.18s ease, opacity 0.18s ease;
+    }
+
+    button:hover { transform: translateY(-1px); }
+    .secondary {
+      background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03));
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .orange { background: linear-gradient(135deg, var(--accent-2), #ffc24a); color: #1b1208; }
+    .green { background: linear-gradient(135deg, var(--accent-3), #d8ff70); color: #16210d; }
+
+    .message {
+      margin-top: 12px;
+      padding: 12px 14px;
+      border-radius: 14px;
+      font-size: 0.9rem;
+      display: none;
+    }
+
+    .message.error { background: rgba(255, 101, 125, 0.15); color: #ffb5c0; display: block; }
+    .message.success { background: rgba(119, 214, 109, 0.15); color: #d3ffc6; display: block; }
+
+    .panel {
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+
+    .hidden { display: none !important; }
+
+    .stat-grid {
+      grid-template-columns: repeat(4, 1fr);
+      margin-top: 18px;
+    }
+
+    .stat, .model-card, .recommendation, .compact-card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+    }
+
+    .stat .label, .mini-label {
+      color: var(--muted);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .stat .value {
+      font-size: 1.7rem;
+      font-weight: 700;
+      margin-top: 8px;
+    }
+
+    .two-col {
+      grid-template-columns: 1.25fr 0.95fr;
+    }
+
+    .card-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .model-card h3, .recommendation h3 {
+      margin: 0 0 8px;
+    }
+
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+    }
+
+    .table th, .table td {
+      text-align: left;
+      padding: 12px 10px;
+      border-bottom: 1px solid rgba(150, 177, 200, 0.14);
+      font-size: 0.92rem;
+    }
+
+    .table th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; }
+
+    .pill {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 0.76rem;
+      background: rgba(53, 208, 255, 0.14);
+      color: #9eeeff;
+      margin-right: 8px;
+      margin-top: 8px;
+    }
+
+    .recommendation {
+      margin-bottom: 14px;
+    }
+
+    .rec-header, .row-between {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 14px;
+    }
+
+    .score {
+      min-width: 104px;
+      border-radius: 16px;
+      padding: 10px 12px;
+      text-align: center;
+      background: rgba(53, 208, 255, 0.12);
+      border: 1px solid rgba(53, 208, 255, 0.25);
+    }
+
+    .score strong {
+      display: block;
+      font-size: 1.4rem;
+      color: var(--accent);
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
+    .model-score-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .compact-card strong {
+      display: block;
+      font-size: 1.2rem;
+      margin-top: 8px;
+    }
+
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    @media (max-width: 980px) {
+      .hero, .two-col, .card-grid, .stat-grid, .input-grid, .profile-grid, .model-score-grid {
+        grid-template-columns: 1fr;
+      }
+      .badge-row {
+        grid-template-columns: 1fr;
+      }
+      .rec-header, .row-between, .toolbar {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="hero">
+      <div>
+        <div class="badge-row">
+          <span class="badge">3 ML models on full dataset</span>
+          <span class="badge">Investor-inventor matchmaking</span>
+          <span class="badge">Submission-ready dashboard</span>
+        </div>
+        <h1>MatchTank AI</h1>
+        <p>
+          A Shark Tank style matchmaking platform where investors discover the most suitable inventors,
+          inventors showcase patents and achievements, and the system compares three machine learning
+          models before selecting the strongest recommendation engine.
+        </p>
+        <div class="stat-grid" id="datasetStats"></div>
+      </div>
+
+      <div class="login-box">
+        <h2>Login</h2>
+        <div class="input-grid">
+          <div class="full">
+            <label for="username">Username</label>
+            <input id="username" placeholder="investor_1 or inventor_1">
+          </div>
+          <div class="full">
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="demo123">
+          </div>
+          <div>
+            <button id="loginBtn">Enter Platform</button>
+          </div>
+          <div>
+            <button class="secondary" id="loadInvestorBtn">Use Investor Demo</button>
+          </div>
+          <div class="full">
+            <button class="secondary" id="loadInventorBtn">Use Inventor Demo</button>
+          </div>
+        </div>
+        <div id="loginMessage" class="message"></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="toolbar">
+        <div>
+          <div class="mini-label">Model Winner</div>
+          <h2 class="section-title" id="bestModelTitle">Loading...</h2>
+        </div>
+        <button class="secondary hidden" id="logoutBtn">Logout</button>
+      </div>
+      <table class="table" id="modelTable">
+        <thead>
+          <tr>
+            <th>Model</th>
+            <th>Accuracy</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1</th>
+            <th>ROC AUC</th>
+            <th>Overall</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="panel hidden" id="investorDashboard">
+      <div class="toolbar">
+        <div>
+          <div class="mini-label">Investor Dashboard</div>
+          <h2 class="section-title" id="investorName"></h2>
+        </div>
+        <button class="orange" id="refreshInvestorBtn">Refresh Recommendations</button>
+      </div>
+      <div class="two-col">
+        <div>
+          <div class="panel" style="padding: 0; margin: 0; background: transparent; border: none; box-shadow: none;">
+            <div id="investorProfile" class="card-grid"></div>
+          </div>
+          <div class="panel" style="margin-top: 16px;">
+            <div class="mini-label">Best Matches</div>
+            <h2 class="section-title">Recommended Inventors</h2>
+            <div id="recommendations"></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="panel">
+            <div class="mini-label">Deal Support</div>
+            <h2 class="section-title">Equity Calculator</h2>
+            <div class="input-grid">
+              <div class="full">
+                <label for="preMoney">Pre-money valuation</label>
+                <input id="preMoney" type="number" placeholder="5000000">
+              </div>
+              <div class="full">
+                <label for="investmentAmount">Investment amount</label>
+                <input id="investmentAmount" type="number" placeholder="500000">
+              </div>
+              <div class="full">
+                <label for="founderEquityBefore">Founder equity before deal (%)</label>
+                <input id="founderEquityBefore" type="number" value="100">
+              </div>
+              <div class="full">
+                <button class="green" id="equityBtn">Calculate Equity Split</button>
+              </div>
+            </div>
+            <div id="equityResult" class="message"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel hidden" id="inventorDashboard">
+      <div class="toolbar">
+        <div>
+          <div class="mini-label">Inventor Dashboard</div>
+          <h2 class="section-title" id="inventorTitle"></h2>
+        </div>
+        <button class="orange" id="refreshInventorBtn">Refresh Investor Matches</button>
+      </div>
+
+      <div class="two-col">
+        <div>
+          <div class="panel">
+            <div class="mini-label">Profile</div>
+            <h2 class="section-title">Inventor Details</h2>
+            <div class="profile-grid">
+              <div>
+                <label for="founderName">Founder name</label>
+                <input id="founderName">
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input id="email">
+              </div>
+              <div class="full">
+                <label for="linkedin">LinkedIn</label>
+                <input id="linkedin">
+              </div>
+              <div class="full">
+                <label for="description">Project summary</label>
+                <textarea id="description"></textarea>
+              </div>
+              <div class="full">
+                <label for="achievements">Achievements</label>
+                <textarea id="achievements" placeholder="Awards, traction, incubators, prototype milestones"></textarea>
+              </div>
+              <div class="full">
+                <label for="patents">Patents</label>
+                <textarea id="patents" placeholder="Patent numbers, filed status, IP notes"></textarea>
+              </div>
+              <div class="full">
+                <button id="saveProfileBtn">Save Inventor Profile</button>
+              </div>
+            </div>
+            <div id="profileMessage" class="message"></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="panel">
+            <div class="mini-label">Investor Matchmaking</div>
+            <h2 class="section-title">Top Investor Matches</h2>
+            <div id="inventorMatches"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const state = {
+      bootstrap: null,
+      user: null,
+    };
+
+    async function api(url, options = {}) {
+      const response = await fetch(url, {
+        headers: { "Content-Type": "application/json" },
+        ...options,
+      });
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.error || "Request failed");
+      }
+      return data;
+    }
+
+    function money(value) {
+      return new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 }).format(value || 0);
+    }
+
+    function percent(value) {
+      return `${Number(value || 0).toFixed(2)}%`;
+    }
+
+    function renderDatasetStats(dataset) {
+      const stats = [
+        { label: "Investors", value: dataset.investors },
+        { label: "Inventors", value: dataset.inventors },
+        { label: "Interactions", value: dataset.interactions },
+        { label: "Positive History", value: dataset.positive_interactions },
+      ];
+      document.getElementById("datasetStats").innerHTML = stats.map(item => `
+        <div class="stat">
+          <div class="label">${item.label}</div>
+          <div class="value">${item.value}</div>
+        </div>
+      `).join("");
+    }
+
+    function renderModelTable(rows, bestModel) {
+      document.getElementById("bestModelTitle").textContent = bestModel;
+      document.querySelector("#modelTable tbody").innerHTML = rows.map(row => `
+        <tr>
+          <td>${row.name}${row.name === bestModel ? ' <span class="pill">Best</span>' : ''}</td>
+          <td>${percent(row.accuracy * 100)}</td>
+          <td>${percent(row.precision * 100)}</td>
+          <td>${percent(row.recall * 100)}</td>
+          <td>${percent(row.f1 * 100)}</td>
+          <td>${percent(row.roc_auc * 100)}</td>
+          <td>${percent(row.overall * 100)}</td>
+        </tr>
+      `).join("");
+    }
+
+    function renderInvestorProfile(profile) {
+      const cards = [
+        { label: "Focus domain", value: profile.focus_domain },
+        { label: "Industry", value: profile.industry_focus },
+        { label: "Location", value: profile.preferred_location },
+        { label: "Risk appetite", value: profile.preferred_risk_appetite },
+        { label: "Available funds", value: money(profile.available_funds) },
+        { label: "Past investments", value: profile.past_investments },
+      ];
+      document.getElementById("investorProfile").innerHTML = cards.map(card => `
+        <div class="compact-card">
+          <div class="mini-label">${card.label}</div>
+          <strong>${card.value}</strong>
+        </div>
+      `).join("");
+    }
+
+    function renderRecommendations(items) {
+      document.getElementById("recommendations").innerHTML = items.map(item => `
+        <article class="recommendation">
+          <div class="rec-header">
+            <div>
+              <h3>${item.idea_title}</h3>
+              <div class="meta">${item.domain} | ${item.technology} | ${item.risk_level} risk | ${item.location}</div>
+              <div class="meta">Funding required: ${money(item.funding_required)} | Team size: ${item.team_size}</div>
+              <p>${item.summary}</p>
+              ${item.reasons.map(reason => `<span class="pill">${reason}</span>`).join("")}
+            </div>
+            <div class="score">
+              <span>Best score</span>
+              <strong>${item.best_score}%</strong>
+              <small>${item.best_model}</small>
+            </div>
+          </div>
+          <div class="model-score-grid">
+            ${Object.entries(item.model_scores).map(([name, score]) => `
+              <div class="compact-card">
+                <div class="mini-label">${name}</div>
+                <strong>${score}%</strong>
+              </div>
+            `).join("")}
+          </div>
+        </article>
+      `).join("");
+    }
+
+    function renderInventorProfile(profile) {
+      document.getElementById("inventorTitle").textContent = profile.idea_title;
+      document.getElementById("founderName").value = profile.founder_name || "";
+      document.getElementById("email").value = profile.email || "";
+      document.getElementById("linkedin").value = profile.linkedin || "";
+      document.getElementById("description").value = profile.description || profile.idea_text || "";
+      document.getElementById("achievements").value = profile.achievements || "";
+      document.getElementById("patents").value = profile.patents || "";
+    }
+
+    function renderInvestorMatches(items) {
+      document.getElementById("inventorMatches").innerHTML = items.map(item => `
+        <article class="recommendation">
+          <div class="rec-header">
+            <div>
+              <h3>${item.investor_name}</h3>
+              <div class="meta">${item.focus_domain} | ${item.industry_focus}</div>
+              <div class="meta">${item.preferred_location} | ${item.preferred_risk_appetite} risk appetite</div>
+              <div class="meta">Available funds: ${money(item.available_funds)}</div>
+              ${item.reasons.map(reason => `<span class="pill">${reason}</span>`).join("")}
+            </div>
+            <div class="score">
+              <span>Best score</span>
+              <strong>${item.best_score}%</strong>
+              <small>${item.best_model}</small>
+            </div>
+          </div>
+          <div class="model-score-grid">
+            ${Object.entries(item.model_scores).map(([name, score]) => `
+              <div class="compact-card">
+                <div class="mini-label">${name}</div>
+                <strong>${score}%</strong>
+              </div>
+            `).join("")}
+          </div>
+        </article>
+      `).join("");
+    }
+
+    function setMessage(id, message, kind = "success") {
+      const node = document.getElementById(id);
+      node.className = `message ${kind}`;
+      node.textContent = message;
+    }
+
+    function clearMessage(id) {
+      const node = document.getElementById(id);
+      node.className = "message";
+      node.textContent = "";
+    }
+
+    async function loadBootstrap() {
+      const data = await api("/api/bootstrap");
+      state.bootstrap = data;
+      renderDatasetStats(data.dataset);
+      renderModelTable(data.model_comparison, data.best_model);
+    }
+
+    async function handleLogin() {
+      clearMessage("loginMessage");
+      try {
+        const data = await api("/api/login", {
+          method: "POST",
+          body: JSON.stringify({
+            username: document.getElementById("username").value,
+            password: document.getElementById("password").value,
+          }),
+        });
+        state.user = data.user;
+        renderModelTable(data.model_comparison, data.best_model);
+        document.getElementById("logoutBtn").classList.remove("hidden");
+        if (state.user.role === "investor") {
+          document.getElementById("investorDashboard").classList.remove("hidden");
+          document.getElementById("inventorDashboard").classList.add("hidden");
+          document.getElementById("investorName").textContent = state.user.display_name;
+          renderInvestorProfile(state.user.profile);
+          renderRecommendations(state.user.recommendations);
+        } else {
+          document.getElementById("inventorDashboard").classList.remove("hidden");
+          document.getElementById("investorDashboard").classList.add("hidden");
+          renderInventorProfile(state.user.profile);
+          renderInvestorMatches(state.user.matches);
+        }
+      } catch (error) {
+        setMessage("loginMessage", error.message, "error");
+      }
+    }
+
+    async function refreshInvestor() {
+      if (!state.user) return;
+      const data = await api(`/api/investor/${state.user.entity_id}/recommendations`);
+      renderInvestorProfile(data.investor);
+      renderRecommendations(data.recommendations);
+      renderModelTable(data.model_comparison, data.best_model);
+    }
+
+    async function refreshInventor() {
+      if (!state.user) return;
+      const data = await api(`/api/inventor/${state.user.entity_id}/matches`);
+      renderInventorProfile(data.inventor);
+      renderInvestorMatches(data.matches);
+      renderModelTable(data.model_comparison, data.best_model);
+    }
+
+    async function saveInventorProfile() {
+      try {
+        const payload = {
+          founder_name: document.getElementById("founderName").value,
+          email: document.getElementById("email").value,
+          linkedin: document.getElementById("linkedin").value,
+          description: document.getElementById("description").value,
+          achievements: document.getElementById("achievements").value,
+          patents: document.getElementById("patents").value,
+        };
+        const data = await api(`/api/inventor/${state.user.entity_id}/profile`, {
+          method: "POST",
+          body: JSON.stringify(payload),
+        });
+        setMessage("profileMessage", data.message, "success");
+      } catch (error) {
+        setMessage("profileMessage", error.message, "error");
+      }
+    }
+
+    async function calculateEquity() {
+      try {
+        const data = await api("/api/equity-calculator", {
+          method: "POST",
+          body: JSON.stringify({
+            pre_money_valuation: document.getElementById("preMoney").value,
+            investment_amount: document.getElementById("investmentAmount").value,
+            founder_equity_before: document.getElementById("founderEquityBefore").value,
+          }),
+        });
+        setMessage(
+          "equityResult",
+          `Post-money valuation: ${money(data.post_money_valuation)} | Investor equity: ${data.investor_equity_percent}% | Founder equity after deal: ${data.founder_equity_after_percent}% | Dilution: ${data.dilution_percent}%`,
+          "success"
+        );
+      } catch (error) {
+        setMessage("equityResult", error.message, "error");
+      }
+    }
+
+    function loadDemo(role) {
+      const account = state.bootstrap.demo_accounts[role];
+      document.getElementById("username").value = account.username;
+      document.getElementById("password").value = account.password;
+    }
+
+    function logout() {
+      state.user = null;
+      document.getElementById("logoutBtn").classList.add("hidden");
+      document.getElementById("investorDashboard").classList.add("hidden");
+      document.getElementById("inventorDashboard").classList.add("hidden");
+      clearMessage("loginMessage");
+      clearMessage("profileMessage");
+      clearMessage("equityResult");
+    }
+
+    document.getElementById("loginBtn").addEventListener("click", handleLogin);
+    document.getElementById("loadInvestorBtn").addEventListener("click", () => loadDemo("investor"));
+    document.getElementById("loadInventorBtn").addEventListener("click", () => loadDemo("inventor"));
+    document.getElementById("refreshInvestorBtn").addEventListener("click", refreshInvestor);
+    document.getElementById("refreshInventorBtn").addEventListener("click", refreshInventor);
+    document.getElementById("saveProfileBtn").addEventListener("click", saveInventorProfile);
+    document.getElementById("equityBtn").addEventListener("click", calculateEquity);
+    document.getElementById("logoutBtn").addEventListener("click", logout);
+
+    loadBootstrap();
+  </script>
+</body>
+</html>

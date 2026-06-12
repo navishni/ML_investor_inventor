@@ -1,0 +1,101 @@
+idea_id,idea_text,domain,funding_stage,required_funding,team_size,location,technology_tags,risk_level
+1,5G enabled rural broadband infrastructure using small cell technology,Telecom,Prototype,4051560,2,Asia,['Telecom'],Medium
+2,AI driven credit risk assessment platform for retail banking,FinTech,MVP,2388322,7,Asia,['FinTech'],Low
+3,Green hydrogen production and storage optimization using AI,CleanEnergy,Prototype,3478335,3,Europe,['CleanEnergy'],Medium
+4,Enterprise digital transformation platform using cloud and AI,ITServices,MVP,2206095,9,Global,['ITServices'],Low
+5,Smart traffic management system for urban infrastructure,Infrastructure,Prototype,4914276,2,Global,['Infrastructure'],Medium
+6,Sustainable packaging material from plant-based polymers,FMCG,Idea,4196531,3,Global,['FMCG'],High
+7,Electric vehicle powertrain optimization system,Automotive,MVP,969624,7,Global,['Automotive'],Low
+8,AI based predictive maintenance for oil and gas refineries,Energy,Prototype,2566608,3,Asia,['Energy'],Medium
+9,Personalized consumer analytics platform for retail chains,Retail,MVP,3012279,5,Asia,['Retail'],Low
+10,Agri equipment automation using IoT and machine learning,AgriTech,Prototype,4394065,6,Global,['AgriTech'],Medium
+11,AI based churn prediction system for telecom customers,Telecom,MVP,3543566,7,USA,['Telecom'],Low
+12,5G network optimization platform using machine learning,Telecom,Prototype,2856128,6,Europe,['Telecom'],Medium
+13,Digital loan approval system using alternative credit scoring,FinTech,MVP,1286002,2,USA,['FinTech'],Low
+14,AI powered fraud detection for credit card transactions,FinTech,Prototype,3199127,10,Asia,['FinTech'],Medium
+15,Blockchain based secure KYC verification platform,FinTech,Idea,4360475,9,Asia,['FinTech'],High
+16,Remote diagnostics platform for chronic disease management,HealthTech,MVP,2192285,9,Asia,['HealthTech'],Low
+17,AI assisted medical image analysis for early disease detection,HealthTech,Prototype,2011602,7,USA,['HealthTech'],Medium
+18,Smart hospital bed management and patient tracking system,HealthTech,Idea,2617823,9,USA,['HealthTech'],High
+19,Adaptive learning management system for universities,EdTech,MVP,1225592,8,USA,['EdTech'],Low
+20,AI based exam proctoring and cheating detection platform,EdTech,Prototype,1544340,9,Asia,['EdTech'],Medium
+21,Skill gap analysis and job recommendation engine,EdTech,Idea,2243384,4,Global,['EdTech'],High
+22,Cloud migration automation tool for enterprise applications,ITServices,MVP,3387212,4,Europe,['ITServices'],Low
+23,AI driven code quality and vulnerability detection platform,ITServices,Prototype,1686938,5,Europe,['ITServices'],Medium
+24,Low code platform for rapid enterprise application development,ITServices,Idea,4616818,9,Global,['ITServices'],High
+25,Smart traffic congestion prediction system for smart cities,Infrastructure,Prototype,4309936,9,Asia,['Infrastructure'],Medium
+26,AI based structural health monitoring for bridges,Infrastructure,MVP,4855974,8,Asia,['Infrastructure'],Low
+27,Digital twin platform for large scale construction projects,Infrastructure,Idea,4134702,7,Global,['Infrastructure'],High
+28,Supply chain demand forecasting system for FMCG companies,FMCG,MVP,4936665,2,Asia,['FMCG'],Low
+29,Consumer sentiment analysis platform for product optimization,FMCG,Prototype,798484,9,Europe,['FMCG'],Medium
+30,Sustainable supply chain tracking using blockchain,FMCG,Idea,745169,9,Asia,['FMCG'],High
+31,EV battery health monitoring and lifecycle optimization system,Automotive,MVP,3030581,7,Global,['Automotive'],Low
+32,Autonomous vehicle fleet management platform,Automotive,Prototype,2288580,10,Europe,['Automotive'],Medium
+33,AI based predictive maintenance for manufacturing plants,Automotive,Idea,3758886,8,Asia,['Automotive'],High
+34,AI powered refinery safety monitoring system,Energy,Prototype,4786617,3,Asia,['Energy'],Medium
+35,Carbon emission tracking and optimization platform,CleanEnergy,MVP,161027,2,USA,['CleanEnergy'],Low
+36,Smart grid energy consumption forecasting system,CleanEnergy,Prototype,1576818,7,Asia,['CleanEnergy'],Medium
+37,Personalized recommendation engine for large retail chains,Retail,MVP,3831103,8,USA,['Retail'],Low
+38,AI based dynamic pricing engine for e-commerce platforms,Retail,Prototype,1353044,3,USA,['Retail'],Medium
+39,Computer vision based inventory tracking system for warehouses,Retail,Idea,508315,2,Asia,['Retail'],High
+40,Precision farming system using satellite imagery and AI,AgriTech,MVP,2128959,7,USA,['AgriTech'],Low
+41,Crop yield prediction using weather and soil analytics,AgriTech,Prototype,3710521,5,USA,['AgriTech'],Medium
+42,Autonomous farming equipment management platform,AgriTech,Idea,3279838,9,Global,['AgriTech'],High
+43,AI driven HR talent screening and resume ranking platform,EnterpriseTech,MVP,4798216,3,Europe,['EnterpriseTech'],Low
+44,Employee attrition prediction system using HR analytics,EnterpriseTech,Prototype,2995432,10,Global,['EnterpriseTech'],Medium
+45,Cybersecurity threat detection platform using AI,EnterpriseTech,MVP,1043366,7,Europe,['EnterpriseTech'],Low
+46,Smart water distribution and leakage detection system,Infrastructure,Prototype,4398153,2,Global,['Infrastructure'],Medium
+47,Waste management optimization using IoT and analytics,Sustainability,MVP,2763021,10,USA,['Sustainability'],Low
+48,AI based ESG compliance monitoring platform,Sustainability,Idea,3568659,3,USA,['Sustainability'],High
+49,Voice based AI assistant for customer support automation,AI,MVP,3217609,8,Asia,['AI'],Low
+50,Large language model based enterprise knowledge management system,AI,Prototype,1474055,7,Global,['AI'],Medium
+51,Scalable AI model training platform using distributed cloud GPUs,AICloud,MVP,2535124,8,Asia,['AICloud'],Low
+52,Serverless AI inference engine optimized for low latency applications,AICloud,Prototype,2131164,4,Global,['AICloud'],Medium
+53,Cloud cost optimization system using predictive analytics,AICloud,Idea,1541730,4,USA,['AICloud'],High
+54,Managed foundation model deployment platform for enterprises,AICloud,MVP,3800556,7,Asia,['AICloud'],Low
+55,Secure multi-tenant data lake architecture for AI workloads,AICloud,Prototype,1074408,5,Asia,['AICloud'],Medium
+56,Autonomous vehicle simulation platform using reinforcement learning,AutonomousSystems,MVP,4296316,6,Europe,['AutonomousSystems'],Low
+57,Computer vision system for real-time obstacle detection in robotaxis,AutonomousSystems,Prototype,3544756,10,Asia,['AutonomousSystems'],Medium
+58,Edge AI platform for processing sensor data in self-driving vehicles,AutonomousSystems,Idea,1815699,10,Asia,['AutonomousSystems'],High
+59,AI powered fleet management system for autonomous mobility services,AutonomousSystems,MVP,2023753,3,Global,['AutonomousSystems'],Low
+60,Synthetic data generation platform for autonomous driving models,AutonomousSystems,Prototype,3766465,7,Europe,['AutonomousSystems'],Medium
+61,Hybrid cloud orchestration platform for enterprise AI workloads,HybridCloud,MVP,1915546,10,Global,['HybridCloud'],Low
+62,AI driven workload placement engine for multi-cloud environments,HybridCloud,Prototype,2547131,4,USA,['HybridCloud'],Medium
+63,Enterprise governance and compliance monitoring for AI systems,HybridCloud,Idea,1359973,7,USA,['HybridCloud'],High
+64,Natural language interface for managing cloud infrastructure,HybridCloud,MVP,3921965,3,Global,['HybridCloud'],Low
+65,AI based incident detection and auto-remediation system for cloud ops,HybridCloud,Prototype,1240951,9,Global,['HybridCloud'],Medium
+66,Custom AI accelerator design toolkit for data centers,AIHardware,MVP,112630,5,Asia,['AIHardware'],Low
+67,GPU resource virtualization platform for AI training clusters,AIHardware,Prototype,371372,9,USA,['AIHardware'],Medium
+68,Energy efficient chip scheduling system for AI supercomputers,AIHardware,Idea,4311966,5,Global,['AIHardware'],High
+69,Full stack AI performance monitoring and optimization platform,AIHardware,MVP,2745436,4,Asia,['AIHardware'],Low
+70,AI driven thermal management system for data center hardware,AIHardware,Prototype,3960572,7,Europe,['AIHardware'],Medium
+71,Virtual reality collaboration workspace for remote teams,Metaverse,Prototype,4406852,4,Asia,['Metaverse'],Medium
+72,AI powered avatar generation for immersive virtual environments,Metaverse,MVP,2956546,5,Europe,['Metaverse'],Low
+73,Mixed reality training platform for industrial applications,Metaverse,Idea,375212,6,Asia,['Metaverse'],High
+74,Real time spatial computing engine for AR devices,Metaverse,Prototype,381863,8,Global,['Metaverse'],Medium
+75,AI driven content moderation system for virtual worlds,Metaverse,MVP,3076698,10,Asia,['Metaverse'],Low
+76,End-to-end battery lifecycle management system for EV fleets,EVTech,MVP,2681680,10,Global,['EVTech'],Low
+77,AI based battery degradation prediction platform,EVTech,Prototype,2203386,4,Europe,['EVTech'],Medium
+78,Autonomous charging optimization system for electric vehicles,EVTech,Idea,2931266,6,Asia,['EVTech'],High
+79,Energy storage optimization platform for smart grids,EVTech,MVP,2980845,6,USA,['EVTech'],Low
+80,AI powered predictive maintenance system for EV manufacturing lines,EVTech,Prototype,3399786,6,Asia,['EVTech'],Medium
+81,Large language model based enterprise document intelligence system,EnterpriseAI,MVP,3663907,3,USA,['EnterpriseAI'],Low
+82,AI driven productivity assistant integrated with office workflows,EnterpriseAI,Prototype,1791685,10,Global,['EnterpriseAI'],Medium
+83,Context-aware AI meeting summarization and action tracking tool,EnterpriseAI,Idea,3281755,8,USA,['EnterpriseAI'],High
+84,Secure AI powered code generation and review platform,EnterpriseAI,MVP,4550650,7,Asia,['EnterpriseAI'],Low
+85,AI based knowledge graph construction for enterprise data,EnterpriseAI,Prototype,3495236,6,USA,['EnterpriseAI'],Medium
+86,Robotics driven warehouse automation system using reinforcement learning,Robotics,MVP,4472588,6,Global,['Robotics'],Low
+87,AI powered robotic picking and sorting system for logistics centers,Robotics,Prototype,2679614,4,USA,['Robotics'],Medium
+88,Digital twin platform for smart factories and warehouses,Robotics,Idea,1368748,10,USA,['Robotics'],High
+89,Autonomous inventory replenishment system using AI forecasting,Robotics,MVP,1999628,4,USA,['Robotics'],Low
+90,Human-robot collaboration safety monitoring platform,Robotics,Prototype,849588,8,Europe,['Robotics'],Medium
+91,Carbon aware workload scheduling for cloud data centers,SustainableAI,MVP,4694409,4,Asia,['SustainableAI'],Low
+92,AI based renewable energy forecasting for grid operators,SustainableAI,Prototype,1188103,2,USA,['SustainableAI'],Medium
+93,Green data center design optimization platform using AI,SustainableAI,Idea,2561334,5,Asia,['SustainableAI'],High
+94,Real time carbon footprint tracking for AI workloads,SustainableAI,MVP,2851369,4,Europe,['SustainableAI'],Low
+95,AI powered ESG compliance analytics platform,SustainableAI,Prototype,4825876,10,Global,['SustainableAI'],Medium
+96,Privacy preserving machine learning platform using federated learning,AIPrivacy,MVP,138336,10,USA,['AIPrivacy'],Low
+97,AI driven data anonymization and compliance system,AIPrivacy,Prototype,2261928,2,Asia,['AIPrivacy'],Medium
+98,Secure AI model sharing marketplace for enterprises,AIPrivacy,Idea,3335778,3,Global,['AIPrivacy'],High
+99,Trust and explainability layer for large AI models,AIPrivacy,MVP,4973670,7,USA,['AIPrivacy'],Low
+100,AI governance and risk management platform for regulated industries,AIPrivacy,Prototype,3435954,2,USA,['AIPrivacy'],Medium

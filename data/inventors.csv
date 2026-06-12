@@ -1,0 +1,1001 @@
+idea_id,idea_title,idea_text,domain,funding_st_required,f_team_size,location,technology,risk_level
+1,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,3960293,13,USA,AI,Low
+2,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4723803,8,Australia,ML,Low
+3,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,950333,5,UAE,Data Analytics,Low
+4,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,100405,4,France,ML,Low
+5,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,4021142,3,Canada,Data Analytics,Low
+6,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2654374,11,Canada,AI,Low
+7,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,1771094,18,Germany,Blockchain,Very High
+8,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,224328,25,India,Data Analytics,Low
+9,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,2535698,18,Canada,Data Analytics,Medium
+10,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,4034496,12,France,IoT,High
+11,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2702982,15,Singapore,AI,Low
+12,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,4025482,10,France,Blockchain,Low
+13,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,3609391,24,UAE,Cloud,Medium
+14,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,160083,7,USA,IoT,Low
+15,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3041360,13,Singapore,Cloud,Low
+16,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3651347,8,Germany,AI,Medium
+17,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,587640,16,India,AI,Very High
+18,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,4745111,11,Australia,Data Analytics,High
+19,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,3975038,17,Canada,Blockchain,Low
+20,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,2990381,14,Japan,ML,Medium
+21,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,4783134,20,Japan,Cloud,Low
+22,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,214970,24,Canada,IoT,High
+23,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,676907,17,UK,Cloud,Very High
+24,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,4633374,6,India,IoT,Medium
+25,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,4752810,15,Japan,Cloud,High
+26,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,1278223,12,USA,Data Analytics,Low
+27,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,3608376,4,UAE,IoT,Very High
+28,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,4261594,10,India,ML,High
+29,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1562026,13,India,Blockchain,Medium
+30,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,448886,12,Canada,Data Analytics,Medium
+31,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,3552066,18,Australia,Cloud,Very High
+32,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,826936,4,UAE,Blockchain,Low
+33,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2794762,13,UAE,Data Analytics,Low
+34,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,754456,16,Singapore,Blockchain,High
+35,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,4534711,3,Singapore,Cloud,Low
+36,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,3682571,19,France,Cloud,Low
+37,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,147414,4,UK,IoT,High
+38,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,1812443,12,Germany,Data Analytics,Very High
+39,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1032299,6,Japan,ML,Medium
+40,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,1454595,9,Australia,Data Analytics,Low
+41,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,3443606,14,Japan,IoT,Low
+42,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,3020716,20,UAE,IoT,High
+43,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,1299678,12,UAE,Blockchain,Low
+44,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,344191,12,UK,Cloud,Medium
+45,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,2193904,9,France,IoT,Low
+46,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2239530,19,Singapore,Blockchain,Low
+47,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1288478,15,India,Cloud,Medium
+48,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,3605442,21,Singapore,Cloud,High
+49,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,4125264,8,UK,Blockchain,High
+50,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,1360503,8,Germany,IoT,Medium
+51,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,3564593,8,Singapore,Data Analytics,High
+52,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,3895556,15,Australia,Blockchain,Medium
+53,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,4771826,16,Canada,Blockchain,Medium
+54,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,4400520,20,UK,IoT,Very High
+55,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,1712546,24,Australia,Cloud,Very High
+56,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,4117769,12,India,Cloud,Low
+57,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,1152731,22,India,Cloud,Low
+58,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2277979,23,France,Data Analytics,Medium
+59,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,953874,5,USA,IoT,Medium
+60,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,1666847,3,Singapore,Blockchain,High
+61,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,2912797,19,India,IoT,Medium
+62,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1367726,21,Australia,ML,Low
+63,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,1334331,21,Japan,Data Analytics,High
+64,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,1357398,5,Singapore,ML,High
+65,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2566213,16,France,Data Analytics,Low
+66,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,389641,4,UK,ML,Medium
+67,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,4055848,5,Germany,Cloud,Low
+68,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3733345,12,India,IoT,Medium
+69,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,659971,11,UK,Cloud,Very High
+70,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,506305,13,USA,ML,Medium
+71,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,4206320,4,Australia,IoT,High
+72,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,3022208,23,India,AI,Medium
+73,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,2488328,6,Japan,Blockchain,Medium
+74,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,1100569,15,Singapore,AI,High
+75,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,1706113,16,Japan,AI,High
+76,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,354749,16,UK,AI,High
+77,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,1392472,4,Singapore,Blockchain,Medium
+78,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,4353944,20,Australia,Blockchain,High
+79,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,992243,21,UK,Cloud,Medium
+80,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,1791781,4,Australia,IoT,Medium
+81,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,3004681,25,India,Blockchain,Low
+82,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,4152987,8,Australia,Cloud,Medium
+83,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,928500,20,Singapore,Data Analytics,Medium
+84,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,1498887,17,Germany,AI,High
+85,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,4028235,8,Japan,Blockchain,Low
+86,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,1048114,12,India,Blockchain,Medium
+87,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,2347904,15,Canada,AI,Medium
+88,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3815906,24,Singapore,Cloud,Medium
+89,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,1652967,20,Germany,IoT,Very High
+90,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,3914800,18,France,Data Analytics,High
+91,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,3133057,19,Australia,Cloud,Medium
+92,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,4252261,19,Australia,Blockchain,Medium
+93,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,2959538,16,UAE,Blockchain,Very High
+94,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2852632,11,Australia,AI,Medium
+95,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,4810877,20,USA,AI,Medium
+96,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,616985,15,Australia,AI,Very High
+97,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,3273630,21,USA,Cloud,Low
+98,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,1116653,12,Australia,Cloud,High
+99,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,2266045,8,UAE,IoT,Medium
+100,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,1473603,16,India,Blockchain,Very High
+101,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,2139271,5,Canada,Data Analytics,Medium
+102,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,2812237,5,Singapore,Data Analytics,High
+103,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,2907703,21,France,AI,Very High
+104,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,56810,19,UAE,ML,Low
+105,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,1929450,15,UK,Blockchain,Low
+106,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,2047132,22,India,IoT,Medium
+107,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,917685,13,Australia,IoT,Low
+108,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,896006,8,France,Cloud,High
+109,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,1196622,14,India,Cloud,Low
+110,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,1655898,3,Canada,Blockchain,Very High
+111,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,3386477,14,Germany,ML,Low
+112,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,1196337,9,USA,ML,High
+113,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,3647465,13,Australia,Blockchain,High
+114,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,1825699,15,France,IoT,Medium
+115,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,3468074,19,France,ML,Very High
+116,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,4349562,19,Canada,Cloud,Very High
+117,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,4771643,14,Singapore,Cloud,Low
+118,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,4874707,15,Germany,Cloud,Very High
+119,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2215260,15,India,Cloud,Very High
+120,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4269455,17,UAE,AI,High
+121,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,1601211,3,India,ML,Low
+122,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,3559997,20,Singapore,IoT,High
+123,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,882774,25,UAE,AI,Medium
+124,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,2381358,18,India,Data Analytics,Low
+125,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,2167383,12,France,AI,High
+126,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,2686596,22,UK,ML,Very High
+127,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,3515986,14,UK,ML,Medium
+128,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,4714949,20,Canada,Data Analytics,Very High
+129,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,3480202,15,Canada,IoT,Low
+130,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2581007,9,USA,IoT,Very High
+131,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,3596074,3,Germany,Data Analytics,Medium
+132,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,1232813,20,Singapore,Blockchain,High
+133,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,3112441,7,UK,IoT,Very High
+134,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,482223,12,Germany,Cloud,Medium
+135,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,171876,17,Australia,Blockchain,High
+136,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,2016892,23,UAE,AI,Medium
+137,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,3330770,20,Australia,Data Analytics,Low
+138,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,337509,4,UK,Cloud,Low
+139,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,3610139,20,Singapore,ML,High
+140,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,1776174,24,UAE,AI,High
+141,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,1788288,24,Australia,AI,Very High
+142,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,2786066,19,Canada,AI,Low
+143,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,1919022,12,Australia,AI,High
+144,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,75045,17,Canada,ML,Very High
+145,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,2338775,8,UK,Data Analytics,High
+146,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,98758,23,Australia,Cloud,Medium
+147,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,3333788,5,USA,IoT,Medium
+148,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,2581503,6,Canada,Data Analytics,Very High
+149,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,4910945,7,Japan,Data Analytics,Very High
+150,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,502493,5,France,ML,Low
+151,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,466074,17,Australia,Data Analytics,Very High
+152,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,2354143,12,Japan,ML,Very High
+153,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,237045,24,USA,IoT,Medium
+154,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,2476286,13,France,IoT,Low
+155,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,4503672,23,France,ML,High
+156,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,1109024,12,USA,Data Analytics,Very High
+157,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,1616080,4,India,AI,Very High
+158,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2492913,20,UAE,ML,High
+159,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2133471,24,UAE,AI,Very High
+160,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2451021,13,Australia,AI,High
+161,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,330287,6,Singapore,Blockchain,Low
+162,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1435171,16,India,ML,Medium
+163,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2178064,25,Canada,ML,Low
+164,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,3274549,19,Japan,ML,Medium
+165,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,3259866,15,Japan,ML,Low
+166,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,627217,16,Canada,Blockchain,Medium
+167,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,173296,21,Australia,Data Analytics,Low
+168,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,826280,12,UK,Data Analytics,High
+169,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2602738,4,UAE,AI,Low
+170,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,2686702,9,France,IoT,Medium
+171,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2993100,5,UAE,Data Analytics,Very High
+172,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,4707318,17,USA,ML,Low
+173,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,1803025,8,Singapore,Blockchain,High
+174,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,4439814,13,UK,IoT,Very High
+175,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2828134,11,Canada,Blockchain,High
+176,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2061144,19,Japan,IoT,Low
+177,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,66308,15,UK,ML,High
+178,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,4772301,5,Canada,ML,High
+179,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,3978123,4,Canada,Data Analytics,Very High
+180,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,503655,6,France,Data Analytics,Low
+181,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4426329,18,Canada,Blockchain,Very High
+182,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,277750,13,Germany,AI,Very High
+183,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,3679137,14,France,IoT,Very High
+184,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,365059,4,UAE,Cloud,High
+185,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,1365444,24,France,IoT,Very High
+186,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,235402,15,Canada,Cloud,High
+187,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,2174412,11,Singapore,ML,Low
+188,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,1166555,25,UAE,IoT,Low
+189,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,4070822,20,UAE,Cloud,Low
+190,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,1575194,16,India,AI,Very High
+191,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,2890469,4,Australia,IoT,High
+192,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,1776185,6,Singapore,IoT,Very High
+193,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,3007755,17,Singapore,ML,High
+194,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,412793,21,UK,ML,Very High
+195,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,991896,4,UK,Blockchain,Very High
+196,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3719416,5,Australia,Data Analytics,Medium
+197,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,1857437,7,UK,Cloud,High
+198,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,595459,23,Germany,IoT,Low
+199,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,2305410,16,France,AI,Low
+200,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,3063486,10,France,Data Analytics,High
+201,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,1105207,5,USA,Blockchain,Very High
+202,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,3446526,23,Australia,Blockchain,High
+203,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,1366814,22,USA,ML,Low
+204,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2790274,7,Singapore,Blockchain,Low
+205,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1434831,4,USA,Cloud,Very High
+206,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,99635,12,Australia,Blockchain,High
+207,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,4684515,16,USA,ML,High
+208,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,535726,8,Australia,ML,Very High
+209,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,870960,21,France,Cloud,Very High
+210,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,588547,22,India,Cloud,High
+211,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,2134042,4,UAE,Cloud,Very High
+212,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,3612792,25,Canada,Data Analytics,Low
+213,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,3637154,23,France,ML,High
+214,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,1944275,16,Singapore,AI,Very High
+215,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,2661302,11,Canada,Data Analytics,Medium
+216,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,1283739,10,Germany,Data Analytics,Low
+217,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,1446078,22,Germany,Blockchain,Medium
+218,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,2163169,19,Australia,AI,Medium
+219,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,819154,18,France,ML,Medium
+220,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,3568792,23,UK,Data Analytics,High
+221,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,4838085,11,France,Cloud,Medium
+222,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,1721232,16,Canada,Cloud,Very High
+223,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,3699650,9,UK,Blockchain,Medium
+224,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,4777571,23,Singapore,Cloud,Medium
+225,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,589177,21,Canada,Cloud,High
+226,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,397824,20,France,ML,Very High
+227,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2566700,14,USA,IoT,High
+228,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,697868,9,USA,AI,Medium
+229,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2848895,19,India,Cloud,Medium
+230,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,501833,3,UK,AI,Very High
+231,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,195350,18,UK,Data Analytics,Low
+232,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,3081875,20,USA,Cloud,Low
+233,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2174034,17,Singapore,Blockchain,Medium
+234,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,750992,12,India,AI,Very High
+235,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,706293,9,Singapore,Cloud,Low
+236,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,3074970,24,Japan,Data Analytics,Low
+237,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,4698212,16,UK,Cloud,Low
+238,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,1096999,5,Germany,Cloud,Very High
+239,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,3580162,7,France,Data Analytics,Low
+240,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,3643582,14,France,IoT,Very High
+241,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,2528461,10,Canada,Data Analytics,High
+242,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,175202,19,UAE,AI,Low
+243,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,3125820,23,Canada,AI,High
+244,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,713908,5,Japan,Data Analytics,Medium
+245,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,1939510,12,France,ML,High
+246,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,1393443,21,UAE,AI,Low
+247,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,3346927,7,USA,Cloud,Medium
+248,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,3650706,18,UAE,AI,Medium
+249,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,3378775,3,UK,Blockchain,Very High
+250,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,3157708,16,UAE,AI,Medium
+251,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2206648,7,Australia,Cloud,Medium
+252,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,1505466,8,USA,ML,Medium
+253,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,342826,20,UK,Blockchain,High
+254,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,3174687,23,Singapore,Blockchain,High
+255,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,3918333,6,UAE,ML,Medium
+256,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,4707924,12,UK,AI,Medium
+257,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,4485231,22,India,ML,Medium
+258,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,4562707,6,Singapore,ML,High
+259,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2967556,3,Japan,Data Analytics,Very High
+260,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,3658718,17,Canada,ML,Low
+261,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,4103939,4,Japan,Data Analytics,Very High
+262,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,1539660,11,UK,Cloud,High
+263,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,4297242,11,UK,Cloud,Low
+264,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,748598,21,India,IoT,Very High
+265,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2870846,6,Germany,ML,Medium
+266,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,2991244,25,UK,IoT,High
+267,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,1197427,21,UAE,Cloud,Medium
+268,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,3803485,14,USA,AI,Low
+269,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,629395,6,France,IoT,Very High
+270,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,4834244,10,France,ML,High
+271,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,2724211,9,UAE,IoT,Medium
+272,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2000479,12,Canada,Cloud,Very High
+273,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,1627483,11,Australia,Cloud,Low
+274,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,4774447,5,Canada,AI,Medium
+275,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,4157712,9,Japan,AI,High
+276,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,3131476,6,Canada,Blockchain,Low
+277,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,310269,18,Canada,IoT,Very High
+278,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,4276506,9,Canada,IoT,High
+279,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,4848750,24,Australia,AI,High
+280,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,4115235,21,Canada,ML,Medium
+281,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,4857736,18,USA,IoT,Medium
+282,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2421192,20,Japan,Blockchain,Very High
+283,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,2025387,23,India,ML,Low
+284,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,3030966,25,Singapore,IoT,Low
+285,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,2413262,13,Australia,IoT,Very High
+286,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,3901567,10,USA,Cloud,Medium
+287,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,3448966,24,India,IoT,Low
+288,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,950598,7,Canada,Blockchain,Low
+289,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,2811349,14,India,ML,Medium
+290,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,1713908,7,Japan,Blockchain,Low
+291,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,917309,18,Australia,Cloud,High
+292,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,3881340,20,Singapore,Cloud,High
+293,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,968885,14,UAE,IoT,Low
+294,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,4963646,8,France,Cloud,Very High
+295,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,1617179,18,Singapore,Cloud,Medium
+296,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,3442120,10,Japan,Cloud,Low
+297,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,2731752,22,Germany,IoT,Very High
+298,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,4009502,19,Germany,AI,Low
+299,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,2430613,16,India,ML,Low
+300,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,913638,13,Japan,Cloud,High
+301,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,1061008,22,UK,Data Analytics,High
+302,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,1981232,22,Canada,Data Analytics,Low
+303,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,3504994,20,Australia,Cloud,Low
+304,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,3430673,4,Germany,Data Analytics,Medium
+305,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,464442,22,Germany,AI,Low
+306,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,3758625,4,Canada,Cloud,Medium
+307,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,2943090,8,Singapore,Data Analytics,Low
+308,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,958434,12,Germany,Cloud,Very High
+309,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,742011,22,Germany,ML,Medium
+310,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,4175067,20,France,Cloud,Very High
+311,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,3453768,21,Germany,ML,Medium
+312,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,160525,7,Canada,Cloud,High
+313,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,4139351,6,UAE,AI,Low
+314,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,4795999,10,Canada,Cloud,High
+315,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,2592023,22,Australia,AI,Low
+316,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,552898,22,Japan,IoT,Very High
+317,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,71382,5,France,Data Analytics,Low
+318,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4172553,7,India,ML,Medium
+319,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,2540597,5,France,AI,High
+320,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,1994347,11,Canada,Cloud,Low
+321,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,962383,10,Canada,Data Analytics,Medium
+322,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,3008170,10,UK,Data Analytics,Very High
+323,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2960847,25,USA,IoT,Medium
+324,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,85254,24,Singapore,IoT,Medium
+325,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,4906574,24,UK,Blockchain,Very High
+326,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,595975,4,Germany,AI,Very High
+327,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,4157900,18,UK,ML,High
+328,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,4544017,4,USA,Blockchain,Very High
+329,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,854982,5,France,Cloud,Low
+330,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,779512,20,Australia,AI,High
+331,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,846454,20,France,Data Analytics,Low
+332,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,1103028,16,USA,IoT,High
+333,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,3900141,25,India,AI,Very High
+334,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,2201822,15,UK,Blockchain,Medium
+335,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4182524,8,UK,Data Analytics,Low
+336,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2473526,9,UAE,Data Analytics,Medium
+337,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,1477899,21,Germany,AI,High
+338,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2665495,18,France,AI,Low
+339,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,3027173,14,Australia,Data Analytics,Low
+340,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,4386906,23,Japan,ML,High
+341,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,3767848,21,USA,Cloud,High
+342,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2345376,22,India,ML,Very High
+343,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,4615147,5,Canada,IoT,High
+344,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,4579790,20,France,IoT,Low
+345,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,670227,24,Japan,Data Analytics,Low
+346,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,3725682,11,Germany,Data Analytics,Low
+347,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,623687,7,Singapore,Data Analytics,Low
+348,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,3839803,17,Germany,Cloud,Medium
+349,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4053253,9,India,Cloud,Low
+350,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,2146340,14,UK,AI,Very High
+351,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,1650734,9,France,AI,High
+352,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,702986,23,India,IoT,Very High
+353,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,2531187,22,UK,Blockchain,Low
+354,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,229900,18,Japan,ML,Low
+355,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,66465,20,Japan,Blockchain,High
+356,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,2490195,22,Australia,Data Analytics,Medium
+357,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,2203305,11,Germany,Cloud,Very High
+358,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,1025713,12,Germany,IoT,Medium
+359,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,2674323,23,Singapore,Cloud,Low
+360,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,118620,16,Germany,AI,Medium
+361,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,1689548,19,Canada,Data Analytics,Low
+362,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,4595124,4,UK,Blockchain,Low
+363,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1938789,19,USA,AI,Medium
+364,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,3457119,6,Canada,IoT,Medium
+365,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,2997879,16,Canada,Data Analytics,Medium
+366,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,1698180,20,UAE,Blockchain,Very High
+367,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,4871754,8,Germany,Cloud,Medium
+368,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,2749157,8,Japan,Blockchain,Very High
+369,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1603769,11,UAE,AI,High
+370,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,1446010,10,France,Data Analytics,Low
+371,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,2885224,21,UAE,IoT,Very High
+372,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,155651,13,Singapore,Blockchain,Medium
+373,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3176675,10,UAE,AI,Low
+374,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4644754,16,UK,Data Analytics,Very High
+375,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,1259869,15,India,Cloud,Low
+376,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,1446475,14,USA,ML,High
+377,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2257052,4,UK,ML,Medium
+378,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,4764198,8,Germany,Blockchain,Very High
+379,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,927522,14,UAE,IoT,High
+380,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,1364194,23,France,IoT,High
+381,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,4608311,16,Canada,AI,Medium
+382,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,1079906,8,India,AI,Low
+383,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,4754731,16,UAE,IoT,High
+384,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,2059026,7,Canada,Data Analytics,Very High
+385,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3718325,11,Germany,ML,High
+386,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,373002,8,Canada,Blockchain,Medium
+387,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,4625997,14,UK,ML,High
+388,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,1133285,6,UK,IoT,Medium
+389,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,2211602,8,Canada,Data Analytics,Very High
+390,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,1619325,7,Germany,Cloud,Very High
+391,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,2658495,18,UK,IoT,Low
+392,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,2477542,4,France,AI,Low
+393,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,3612080,14,UK,Data Analytics,Low
+394,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4980667,25,USA,ML,Medium
+395,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2097771,4,India,Data Analytics,Low
+396,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,1671958,13,Germany,IoT,Low
+397,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,115129,25,UAE,ML,Medium
+398,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,4914045,7,Australia,ML,Low
+399,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,2140912,15,Australia,AI,Very High
+400,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,2430925,23,Australia,Blockchain,Very High
+401,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,2448713,23,Germany,AI,Low
+402,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,2499275,13,Singapore,ML,High
+403,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,4230329,25,Germany,AI,Very High
+404,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,4339649,12,Australia,IoT,High
+405,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,1975915,12,UAE,Blockchain,Medium
+406,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,4062298,18,France,AI,Very High
+407,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,2644415,14,Singapore,ML,Low
+408,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,53850,5,India,IoT,High
+409,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,1892278,23,France,AI,Low
+410,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,3000657,12,Germany,Blockchain,Low
+411,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,569044,9,Singapore,AI,High
+412,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,4810055,12,France,IoT,Medium
+413,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,815378,13,Germany,AI,High
+414,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,3434242,9,Japan,Blockchain,Low
+415,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,1470568,18,Germany,Cloud,Low
+416,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,3634236,11,UK,AI,Very High
+417,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,1759490,16,UAE,AI,High
+418,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,4064722,5,Canada,AI,High
+419,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,1920431,17,France,Data Analytics,High
+420,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,1300330,11,France,IoT,Medium
+421,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3058987,14,Canada,IoT,Low
+422,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,1769177,25,Singapore,IoT,Low
+423,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,865742,8,France,Cloud,Medium
+424,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,360975,17,Singapore,Blockchain,Medium
+425,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,1011016,16,Singapore,ML,Very High
+426,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,533933,7,USA,IoT,Very High
+427,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,2605221,14,Singapore,ML,Very High
+428,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2883722,10,Canada,AI,High
+429,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,917009,8,France,Cloud,Low
+430,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,1183795,25,USA,Blockchain,Medium
+431,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,3268900,9,UAE,AI,Low
+432,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,1289899,10,Japan,AI,Low
+433,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,1841676,10,Singapore,Data Analytics,Low
+434,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,911110,11,Canada,Blockchain,Low
+435,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,507110,8,Germany,Blockchain,Very High
+436,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,2914591,5,Germany,IoT,High
+437,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,3930022,16,Singapore,Cloud,Medium
+438,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,3905650,18,Australia,AI,Very High
+439,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,2821635,25,UK,AI,Low
+440,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,1272697,8,USA,ML,Very High
+441,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,4324867,14,USA,Blockchain,Low
+442,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,3485225,17,Japan,IoT,Medium
+443,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,2485975,3,Japan,Blockchain,Very High
+444,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,3443015,24,Germany,AI,Low
+445,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,1280912,24,Singapore,Blockchain,Medium
+446,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,4347114,16,Japan,Data Analytics,High
+447,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,3379826,18,India,Blockchain,Medium
+448,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,947005,7,Singapore,AI,Medium
+449,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,4151912,20,UK,IoT,Low
+450,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,124769,19,France,AI,Very High
+451,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,1142130,21,UAE,AI,Very High
+452,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,4841872,4,Australia,IoT,Medium
+453,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2305875,13,Singapore,ML,Medium
+454,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,2261069,23,India,Blockchain,Very High
+455,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,4606853,3,Australia,Cloud,Very High
+456,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,4291836,8,Singapore,Cloud,Medium
+457,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,1712075,8,UK,AI,High
+458,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,1754677,16,Canada,Blockchain,Medium
+459,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,2796473,23,Germany,AI,High
+460,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4988160,6,USA,IoT,Medium
+461,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,3259026,9,Australia,IoT,Very High
+462,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,2562651,8,UAE,AI,Low
+463,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3374428,10,Australia,Data Analytics,Medium
+464,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,1949037,11,UK,Cloud,Very High
+465,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,3731769,19,Singapore,Blockchain,Medium
+466,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,1160172,17,USA,Data Analytics,Low
+467,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,4443092,6,Canada,AI,Very High
+468,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,4005695,16,France,AI,High
+469,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,3801842,8,Japan,Data Analytics,Very High
+470,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4294893,7,Australia,AI,Very High
+471,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,4964403,25,UAE,Data Analytics,High
+472,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,2023033,16,Australia,Data Analytics,High
+473,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,571646,19,UAE,Blockchain,High
+474,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,3858018,4,Singapore,IoT,Very High
+475,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,3177509,5,Canada,Cloud,High
+476,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2052717,21,France,Cloud,Medium
+477,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,2223663,20,Singapore,ML,Medium
+478,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,314484,18,USA,Blockchain,Very High
+479,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,1189254,19,Japan,ML,Very High
+480,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,4691540,9,UAE,ML,Very High
+481,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,1627688,23,USA,AI,Low
+482,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,4789283,25,Germany,Blockchain,Very High
+483,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,3645049,6,Germany,Blockchain,Very High
+484,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,3921413,5,France,Blockchain,High
+485,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,1091675,15,UK,Cloud,High
+486,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,1863518,19,Singapore,Cloud,Very High
+487,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,2108254,9,Canada,AI,Low
+488,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,3528807,14,India,Cloud,High
+489,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,1012486,6,France,Data Analytics,High
+490,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,3071554,9,Canada,Data Analytics,Very High
+491,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,1595800,20,India,ML,Low
+492,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,3863126,25,Germany,Blockchain,Medium
+493,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1023848,5,UAE,Cloud,Medium
+494,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,4021261,18,USA,Cloud,Low
+495,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,450233,6,UK,AI,Medium
+496,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,268120,7,Japan,Blockchain,Very High
+497,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,4899299,19,Japan,Data Analytics,Medium
+498,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,4141470,6,Germany,Data Analytics,Medium
+499,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,420109,19,UAE,Blockchain,High
+500,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,4188862,25,India,ML,High
+501,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,1379551,24,Japan,ML,Low
+502,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,1330925,25,Germany,Blockchain,Very High
+503,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,1930811,6,USA,Blockchain,High
+504,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,277512,10,Germany,Data Analytics,Medium
+505,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,476677,17,Singapore,Cloud,Very High
+506,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,1643910,7,Australia,AI,Very High
+507,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4256286,25,UAE,Data Analytics,Low
+508,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,862836,22,USA,Data Analytics,Medium
+509,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2399860,9,Canada,IoT,Very High
+510,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,163249,7,Canada,AI,Medium
+511,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,4947359,23,Japan,Blockchain,Low
+512,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,4206404,9,India,ML,Very High
+513,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,1081018,16,France,ML,Very High
+514,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4823361,18,Australia,ML,Low
+515,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,3343830,19,UAE,Blockchain,Medium
+516,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,3466166,16,France,ML,High
+517,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,1815588,17,UK,Data Analytics,High
+518,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,3444964,16,Canada,IoT,High
+519,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,3960435,18,UAE,Data Analytics,Low
+520,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,460280,4,India,IoT,Very High
+521,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3684277,8,Germany,ML,High
+522,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,4404310,7,Germany,IoT,Low
+523,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,2845990,12,Canada,Data Analytics,Very High
+524,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,2466044,3,Germany,IoT,Medium
+525,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,202163,11,UAE,Blockchain,Medium
+526,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,1204919,24,Germany,ML,High
+527,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4589143,6,Singapore,Data Analytics,Very High
+528,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,4425003,25,Canada,IoT,Medium
+529,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,1243600,18,UAE,ML,Medium
+530,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,3180763,7,Germany,Data Analytics,Very High
+531,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,1147350,25,Singapore,Data Analytics,Very High
+532,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,4508546,9,France,Data Analytics,High
+533,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,125819,13,UK,Cloud,Medium
+534,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,3932630,13,Canada,AI,High
+535,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,4238213,24,Germany,ML,Low
+536,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,3587747,11,UAE,AI,High
+537,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,2457693,22,Japan,AI,Medium
+538,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,4890968,17,Germany,IoT,Very High
+539,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,767434,20,Singapore,Blockchain,Medium
+540,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,517347,5,USA,Data Analytics,Medium
+541,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,4858602,17,Canada,Blockchain,Low
+542,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,398295,12,UK,AI,Very High
+543,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,1047836,9,UK,Blockchain,Low
+544,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,864600,14,Japan,ML,Medium
+545,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,1392461,7,Canada,Cloud,Very High
+546,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,3478833,12,France,ML,Very High
+547,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,231322,24,UAE,Data Analytics,Medium
+548,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,313202,23,UAE,Cloud,High
+549,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,4050183,15,USA,Blockchain,Very High
+550,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,2295178,4,Australia,IoT,Low
+551,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,3134175,9,Canada,Blockchain,Very High
+552,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,3356814,25,USA,Blockchain,High
+553,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,1936186,16,Germany,IoT,Very High
+554,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,1015982,5,UAE,Blockchain,Very High
+555,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,4116664,18,Germany,IoT,Very High
+556,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,4580059,19,France,Data Analytics,High
+557,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,3151710,20,UAE,Cloud,Low
+558,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,3827088,15,UK,ML,Low
+559,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,2951307,18,Germany,IoT,Medium
+560,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,3074899,12,Germany,IoT,High
+561,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,1315705,8,Australia,Cloud,Low
+562,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,1981832,18,Singapore,Blockchain,Very High
+563,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,244342,5,UAE,Data Analytics,High
+564,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,2238985,10,UAE,Data Analytics,Very High
+565,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,2460160,19,France,AI,Very High
+566,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2994306,19,UAE,AI,Low
+567,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,3844986,21,Germany,Cloud,Medium
+568,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,2854989,6,UK,Cloud,Medium
+569,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,968749,17,UAE,ML,Very High
+570,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,4987088,24,India,IoT,Medium
+571,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,350894,3,UK,Blockchain,High
+572,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,365739,8,Singapore,Cloud,Low
+573,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,1850539,23,USA,AI,Low
+574,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,1949899,8,Japan,ML,Very High
+575,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,4756972,20,Canada,Cloud,High
+576,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2193750,7,Japan,Blockchain,Medium
+577,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,2619713,15,France,Blockchain,Low
+578,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,1563100,16,India,Cloud,Medium
+579,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,2666590,5,Japan,Data Analytics,Very High
+580,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,3626563,13,France,AI,Very High
+581,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,2283670,13,UAE,AI,Medium
+582,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,4398707,24,Australia,AI,High
+583,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,3966174,20,France,IoT,Medium
+584,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,3623510,12,Singapore,Blockchain,Low
+585,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,2495146,7,France,Cloud,Very High
+586,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,2076109,18,Japan,Cloud,Low
+587,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2700273,18,Singapore,IoT,Medium
+588,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,1854279,10,Canada,ML,Low
+589,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,105764,6,Japan,IoT,High
+590,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,4715651,21,France,ML,Low
+591,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,892616,21,Australia,Blockchain,Low
+592,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2102287,13,Singapore,ML,High
+593,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,1491896,7,UK,ML,High
+594,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,3487014,19,Australia,Data Analytics,Medium
+595,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,4546426,15,USA,Data Analytics,Very High
+596,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2961573,10,Germany,AI,High
+597,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,3561334,14,France,ML,Low
+598,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,3501862,10,India,Cloud,Very High
+599,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,3062677,11,France,Cloud,High
+600,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,4065730,16,Japan,AI,Very High
+601,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,4272590,11,Japan,AI,High
+602,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,806695,24,UAE,ML,Very High
+603,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,3360692,24,Singapore,ML,High
+604,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,3048734,3,Singapore,ML,Low
+605,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,3907357,15,India,IoT,Medium
+606,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,3845144,9,Australia,Data Analytics,Low
+607,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,1465479,16,UK,Blockchain,Medium
+608,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,1421028,4,Germany,Blockchain,High
+609,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,4044617,6,UK,Blockchain,Medium
+610,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,1274900,24,Japan,Blockchain,Very High
+611,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,2488618,24,Singapore,Cloud,Low
+612,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,4036774,8,UAE,Blockchain,Very High
+613,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,2495887,25,Canada,ML,Medium
+614,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,4371197,18,USA,Cloud,Low
+615,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,3636964,21,France,AI,High
+616,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,1857816,10,India,ML,Low
+617,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,1542375,22,UK,Cloud,Low
+618,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,3263734,13,India,Blockchain,Low
+619,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,3916256,8,India,IoT,Medium
+620,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,1930963,13,Singapore,Data Analytics,Very High
+621,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,2931537,5,Japan,Data Analytics,Low
+622,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2581534,14,France,ML,Very High
+623,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,1815124,17,USA,ML,Medium
+624,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,2219848,11,Australia,Cloud,High
+625,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,1827166,13,Australia,Cloud,Low
+626,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,4035851,23,France,IoT,Low
+627,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,4446339,14,Singapore,AI,Low
+628,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1613383,10,USA,Blockchain,High
+629,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,1667356,7,USA,Cloud,High
+630,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,4572324,18,India,ML,High
+631,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,4934452,25,UK,IoT,High
+632,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,979730,12,Singapore,Blockchain,Very High
+633,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,2095032,15,France,Blockchain,High
+634,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1804106,4,USA,Cloud,Low
+635,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,3069087,24,India,IoT,Medium
+636,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,442706,5,France,AI,Medium
+637,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,3387662,6,UK,ML,Low
+638,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,227848,9,France,Blockchain,Low
+639,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,3600589,21,India,ML,High
+640,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,3542709,24,India,Data Analytics,Medium
+641,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4977805,22,UAE,Cloud,Medium
+642,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,4347719,14,USA,AI,High
+643,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,3767623,15,Canada,Blockchain,High
+644,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,821904,22,Singapore,Data Analytics,Very High
+645,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,3187003,20,Germany,Cloud,Medium
+646,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,2085065,25,Australia,Data Analytics,Very High
+647,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,599777,19,Canada,IoT,Low
+648,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,1309284,7,Germany,Cloud,Low
+649,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,519151,4,Singapore,Blockchain,Very High
+650,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,799198,11,Canada,Data Analytics,Low
+651,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,4736373,19,Canada,ML,Low
+652,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,3795460,24,UK,IoT,Low
+653,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,3705343,21,Canada,Data Analytics,Medium
+654,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4945684,23,Singapore,Cloud,Very High
+655,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,3763220,23,USA,Cloud,Low
+656,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,2254482,23,Japan,IoT,Low
+657,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,154769,16,Singapore,AI,Low
+658,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,4104722,15,France,IoT,Medium
+659,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,2196479,21,Canada,AI,High
+660,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3055252,11,Japan,IoT,Very High
+661,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,3383611,7,UK,Cloud,Very High
+662,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,3119599,6,UAE,AI,Medium
+663,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4986621,12,UK,IoT,High
+664,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,933138,5,Canada,IoT,Very High
+665,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,4871973,25,Japan,Data Analytics,Medium
+666,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,4541508,20,Canada,Data Analytics,Medium
+667,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,2709669,7,Singapore,ML,High
+668,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,3399068,5,UK,ML,Low
+669,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2667639,19,Australia,Data Analytics,High
+670,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,4402627,8,Germany,IoT,High
+671,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,1941178,6,Japan,Data Analytics,Low
+672,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,2611055,12,UK,IoT,Low
+673,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,159829,5,UK,IoT,Low
+674,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,4679147,22,Singapore,ML,Very High
+675,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,3795353,24,India,AI,Low
+676,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,4096821,20,Germany,Blockchain,Low
+677,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,2796105,17,Australia,AI,Medium
+678,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,319091,16,Singapore,AI,Very High
+679,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,4959288,7,Singapore,Data Analytics,Medium
+680,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,4704230,20,USA,ML,Very High
+681,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,2335922,5,UAE,AI,Medium
+682,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,1625355,19,UAE,Blockchain,Medium
+683,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,4165379,13,India,AI,Very High
+684,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,483118,11,UAE,Blockchain,Low
+685,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,2899001,17,Singapore,AI,Very High
+686,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,804804,10,UAE,ML,Low
+687,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,3329766,3,France,Data Analytics,Low
+688,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,3836340,9,Singapore,Cloud,High
+689,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2704175,6,India,IoT,Low
+690,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,1559082,17,France,ML,Very High
+691,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,1922733,5,Japan,AI,Very High
+692,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,4052945,16,Australia,ML,Medium
+693,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,1591342,11,Australia,AI,Very High
+694,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,3916120,22,UK,IoT,Medium
+695,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,2393102,16,Australia,AI,Low
+696,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,1609025,6,Canada,Data Analytics,Medium
+697,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,1926285,15,UK,Blockchain,Very High
+698,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,481934,3,France,AI,Medium
+699,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,2439055,21,Australia,AI,Low
+700,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,3286477,15,Australia,Data Analytics,Very High
+701,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4475073,12,UAE,AI,Very High
+702,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,1273732,18,France,Blockchain,High
+703,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,3573719,21,India,Data Analytics,Very High
+704,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,4599326,7,Singapore,AI,High
+705,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,2528380,14,UK,Blockchain,Low
+706,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,2402191,22,USA,ML,Low
+707,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,1513689,23,UAE,Data Analytics,Medium
+708,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,2346447,9,France,Data Analytics,Very High
+709,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,3771950,3,Germany,IoT,Low
+710,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,1158534,12,UK,IoT,High
+711,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2760990,23,India,Cloud,Medium
+712,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,3648925,7,UK,AI,Medium
+713,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,583161,3,France,IoT,Medium
+714,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1714823,7,UK,Blockchain,Medium
+715,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,879700,9,Germany,Cloud,High
+716,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,1316487,22,UAE,ML,Low
+717,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,2801970,4,UK,AI,Medium
+718,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,361113,22,Canada,Blockchain,Very High
+719,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,589914,23,Japan,Data Analytics,Very High
+720,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,2268378,10,USA,Data Analytics,Low
+721,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,1074198,15,USA,ML,High
+722,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,1246108,21,Singapore,Blockchain,High
+723,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,4426785,10,UK,Blockchain,Medium
+724,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,4190525,6,Germany,IoT,Medium
+725,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,2822213,3,Australia,Cloud,Medium
+726,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,4153605,12,Canada,IoT,Very High
+727,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,4923455,15,USA,Cloud,High
+728,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,4433972,22,India,IoT,Low
+729,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,3442719,13,Canada,AI,Very High
+730,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,1018807,5,UAE,ML,Very High
+731,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2269447,6,Canada,ML,Low
+732,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,3290806,11,Japan,ML,Medium
+733,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,4574286,20,UAE,IoT,Low
+734,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,1502701,5,UK,Cloud,Low
+735,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,3739341,20,UAE,Data Analytics,Medium
+736,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,2340402,19,Canada,IoT,Low
+737,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,3741477,24,India,ML,Very High
+738,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,4982178,16,Singapore,Data Analytics,High
+739,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,1770864,23,USA,ML,Very High
+740,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,253494,3,Germany,IoT,Very High
+741,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,3970934,19,Singapore,Blockchain,Very High
+742,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2495481,13,Canada,Blockchain,Low
+743,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,2534800,17,Japan,Cloud,Very High
+744,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,3409775,6,Singapore,Data Analytics,Low
+745,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,3773068,17,India,AI,High
+746,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,4177707,16,India,IoT,High
+747,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3690668,6,Singapore,ML,Very High
+748,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,2389900,23,France,Blockchain,High
+749,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,950036,12,Japan,AI,Very High
+750,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,3180656,25,USA,Cloud,Very High
+751,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,762996,12,India,ML,Very High
+752,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,89124,7,Australia,AI,Low
+753,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3244257,16,France,Data Analytics,Very High
+754,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,3664265,24,Australia,AI,Medium
+755,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,3873091,18,France,Data Analytics,Low
+756,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,289604,22,France,Cloud,Very High
+757,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,128388,18,Singapore,Cloud,Low
+758,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,709691,19,Canada,AI,Very High
+759,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1835335,24,USA,AI,High
+760,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,1425034,19,UAE,ML,Medium
+761,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,1293289,10,UK,Blockchain,Low
+762,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,1601962,14,France,Cloud,Low
+763,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,2098726,17,Canada,ML,Medium
+764,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,922602,21,USA,Data Analytics,High
+765,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2524495,23,USA,Data Analytics,High
+766,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,4060313,11,USA,IoT,Medium
+767,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,2617044,10,USA,Blockchain,High
+768,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,3970115,19,USA,Data Analytics,Low
+769,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,4510107,11,UAE,ML,Medium
+770,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4968936,7,Japan,Cloud,High
+771,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,833487,15,UK,Data Analytics,Medium
+772,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,2823528,12,Japan,Data Analytics,Medium
+773,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,2148071,21,France,IoT,Medium
+774,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,2086484,21,India,Cloud,High
+775,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,1211260,9,Canada,Data Analytics,High
+776,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,1131312,7,USA,Cloud,Very High
+777,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,3251976,5,USA,Blockchain,High
+778,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,1205895,14,Japan,Cloud,High
+779,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,2127734,22,Australia,Data Analytics,High
+780,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,4795459,8,Canada,AI,Medium
+781,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2084050,6,Australia,Data Analytics,Very High
+782,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,796609,20,India,Cloud,Medium
+783,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,4167412,15,UAE,IoT,High
+784,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,390542,19,Germany,Blockchain,Low
+785,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,4376379,18,Australia,ML,Medium
+786,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,2718675,21,UK,Blockchain,Medium
+787,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,1442267,14,Australia,Cloud,Medium
+788,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,1399580,4,UK,Data Analytics,Very High
+789,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,4133106,17,India,Cloud,Medium
+790,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,430805,6,UAE,ML,Low
+791,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,552276,9,India,IoT,High
+792,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,4473316,24,Australia,Data Analytics,Very High
+793,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,475836,23,Australia,ML,Medium
+794,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,937219,24,France,ML,Low
+795,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,3468411,23,USA,Blockchain,Low
+796,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3903834,17,Germany,IoT,Medium
+797,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2154214,9,Japan,IoT,Medium
+798,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,2079905,9,Germany,Cloud,Low
+799,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,3920308,12,France,AI,Medium
+800,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,4956714,9,Singapore,AI,Low
+801,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,778331,16,France,IoT,Medium
+802,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,4437006,15,UK,Cloud,Low
+803,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,2023683,23,UAE,Blockchain,High
+804,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,3601588,22,Germany,ML,Low
+805,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,3496258,24,Canada,IoT,Very High
+806,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,3600343,15,USA,AI,Very High
+807,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,4680387,4,Australia,ML,High
+808,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,4971014,10,Japan,Data Analytics,Medium
+809,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3663868,24,UK,AI,Very High
+810,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,3567127,21,Canada,AI,Very High
+811,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,2979644,7,USA,Data Analytics,Very High
+812,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,3614359,9,UK,AI,High
+813,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,4356116,18,USA,Data Analytics,Low
+814,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3578474,9,India,ML,Very High
+815,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,3390836,20,UAE,ML,Medium
+816,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,4088083,9,UK,AI,Very High
+817,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,1912977,16,Australia,Data Analytics,High
+818,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,95886,11,UAE,IoT,Low
+819,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,857469,3,Japan,IoT,Low
+820,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,2563646,25,France,ML,Low
+821,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,3613152,19,Germany,IoT,Low
+822,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,2111190,24,Canada,Cloud,Low
+823,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,4083394,19,USA,ML,Low
+824,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2890516,19,USA,Data Analytics,High
+825,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,3768360,7,Australia,Cloud,High
+826,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,3983985,14,Japan,ML,Low
+827,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,56275,11,USA,IoT,Low
+828,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,242523,12,Singapore,AI,High
+829,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,1117446,25,USA,Data Analytics,Low
+830,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,3865246,4,USA,Cloud,High
+831,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,3654217,12,Singapore,Cloud,Low
+832,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,1360185,18,Singapore,Blockchain,Medium
+833,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,1382581,5,Canada,Data Analytics,Low
+834,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,1664143,8,India,Blockchain,High
+835,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,614819,21,Japan,AI,Very High
+836,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,2325403,20,UAE,ML,Very High
+837,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,93765,17,USA,Blockchain,Medium
+838,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,1743077,19,UAE,Blockchain,Medium
+839,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,3698340,17,USA,IoT,Medium
+840,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,2292255,23,Australia,Cloud,High
+841,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1907327,17,UAE,ML,Low
+842,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,3854686,16,UAE,Blockchain,High
+843,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,4257822,22,Japan,AI,Low
+844,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,4093713,15,Germany,ML,Medium
+845,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,4746066,12,Japan,Blockchain,Medium
+846,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,821876,3,Australia,Blockchain,Low
+847,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,1817613,12,Australia,AI,High
+848,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,4405352,23,Japan,AI,Medium
+849,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,3771253,16,UK,Cloud,Low
+850,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,438769,25,UAE,Cloud,Very High
+851,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,2131471,15,Canada,Data Analytics,High
+852,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,733633,7,UK,Blockchain,High
+853,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,1364315,21,Japan,Data Analytics,Medium
+854,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,4481805,4,USA,IoT,Medium
+855,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,4335598,22,Germany,Data Analytics,Medium
+856,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,3617106,14,France,Data Analytics,High
+857,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,1401524,21,Australia,ML,Very High
+858,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1822675,4,UK,ML,Medium
+859,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,2814199,16,India,Cloud,Very High
+860,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,4933623,22,Australia,AI,High
+861,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,182409,18,UK,Data Analytics,High
+862,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,1774306,18,Canada,AI,Very High
+863,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2013824,20,Australia,AI,Medium
+864,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,1824007,12,USA,Cloud,Very High
+865,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,81682,16,Germany,Data Analytics,Low
+866,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,1128406,13,India,Blockchain,High
+867,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,1697657,19,Singapore,ML,High
+868,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,200211,17,France,Cloud,Medium
+869,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,1697200,15,Singapore,ML,Medium
+870,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,2772543,25,Canada,AI,Medium
+871,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,2803199,10,France,Data Analytics,Very High
+872,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,4529731,7,Australia,Data Analytics,Medium
+873,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,3894881,6,Australia,Blockchain,Very High
+874,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,4307103,14,Canada,AI,High
+875,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,3916612,18,India,IoT,Medium
+876,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,2868008,23,Singapore,AI,Medium
+877,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,560347,4,Germany,ML,High
+878,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,3620022,17,India,IoT,Low
+879,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2394700,17,Australia,IoT,Low
+880,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,1754324,5,France,AI,Very High
+881,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,161261,25,Singapore,Blockchain,High
+882,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2796799,21,Germany,ML,Medium
+883,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,3947228,14,Canada,Blockchain,Low
+884,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,4443707,12,UK,AI,Medium
+885,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,3520756,23,Canada,Cloud,Medium
+886,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3601333,15,UK,AI,Low
+887,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,4557454,3,Germany,Blockchain,Very High
+888,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,149163,12,UAE,AI,Very High
+889,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,2881157,12,Germany,IoT,High
+890,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,831071,16,Australia,Cloud,Low
+891,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,2835807,7,UAE,Blockchain,Low
+892,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,2541384,13,Singapore,ML,Low
+893,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,4572393,11,Japan,Blockchain,Medium
+894,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2331249,15,Australia,ML,Medium
+895,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,1832504,9,India,Blockchain,Very High
+896,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,88083,4,Australia,ML,Low
+897,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,4725791,25,UK,ML,Low
+898,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4998240,13,Singapore,ML,Very High
+899,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,471184,16,Germany,ML,High
+900,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,3206824,8,UK,Data Analytics,Very High
+901,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,2934850,22,Australia,Data Analytics,Low
+902,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,2544120,11,Germany,AI,Low
+903,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,874508,25,Canada,Blockchain,Low
+904,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,4674058,14,UK,AI,Low
+905,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,1446160,6,UAE,Data Analytics,High
+906,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,1421196,17,UK,AI,Very High
+907,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,1924091,20,Canada,IoT,Very High
+908,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,4219111,19,France,Cloud,Very High
+909,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,864310,24,Japan,ML,Very High
+910,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,481619,18,India,Blockchain,High
+911,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,1952487,11,UK,AI,Medium
+912,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,3709015,20,India,Cloud,High
+913,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,4348120,22,UAE,Blockchain,Very High
+914,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1721848,22,India,Data Analytics,Low
+915,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,2457605,17,Germany,IoT,High
+916,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,1729777,21,Singapore,Blockchain,High
+917,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,3841742,6,UK,Blockchain,High
+918,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,4005672,8,Germany,AI,High
+919,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,2093651,18,Australia,Cloud,Medium
+920,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,4723942,8,USA,AI,Very High
+921,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,1144788,3,France,AI,Medium
+922,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,1665860,13,Japan,ML,Very High
+923,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,2956998,3,Singapore,ML,Very High
+924,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,3728530,25,Singapore,ML,High
+925,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,2761061,21,India,ML,Low
+926,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,2961676,12,Australia,Data Analytics,High
+927,AI Medical Diagnosis Tool,An AI-driven diagnostic tool that assists doctors by analyzing medical images and patient data.,HealthTech,2037918,13,Singapore,ML,Low
+928,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,1611984,8,USA,AI,High
+929,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,3176151,22,Singapore,Blockchain,Low
+930,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,3530707,16,USA,Cloud,Medium
+931,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,4503496,5,Canada,Data Analytics,Low
+932,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,4849064,23,Australia,Cloud,Very High
+933,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,387791,18,USA,IoT,High
+934,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,4239124,25,UAE,Cloud,Medium
+935,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,1482921,23,Australia,ML,High
+936,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,2393779,10,France,Data Analytics,Very High
+937,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,2522109,19,Germany,Blockchain,Medium
+938,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,1554775,20,India,IoT,Very High
+939,E-commerce Innovation Platform,A technology-driven solution focused on solving key challenges in the e-commerce sector through scalable digital platforms.,E-commerce,2124812,14,France,IoT,Very High
+940,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,2337552,13,Germany,AI,Low
+941,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,2191189,20,USA,AI,High
+942,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,2206112,13,Japan,AI,High
+943,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,1761490,19,Singapore,ML,High
+944,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,146122,6,Canada,Cloud,Low
+945,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,3447790,3,Australia,Blockchain,Very High
+946,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,488190,19,UK,ML,Medium
+947,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,3659257,18,Australia,Cloud,Medium
+948,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,2655230,12,UK,IoT,Very High
+949,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,1652949,7,Singapore,IoT,Very High
+950,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,1909338,12,UAE,Blockchain,Very High
+951,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,3623504,24,UAE,Data Analytics,High
+952,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,2709823,18,UK,Blockchain,High
+953,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,4008808,16,UK,Blockchain,Low
+954,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,1838498,11,India,Cloud,Very High
+955,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,4996352,6,India,Blockchain,Very High
+956,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,4844102,14,Japan,Blockchain,Low
+957,Smart Crop Monitoring System,"An IoT-enabled system that monitors soil health, crop growth, and weather conditions to improve farm productivity.",AgriTech,2390047,25,UK,Cloud,High
+958,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,3265959,17,Australia,Blockchain,Medium
+959,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,4497366,17,Australia,IoT,Very High
+960,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,131534,14,Australia,AI,Low
+961,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,3222732,12,Japan,IoT,Medium
+962,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,2397967,22,Germany,IoT,Low
+963,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,3709805,20,Australia,ML,Very High
+964,Biotechnology Innovation Platform,A technology-driven solution focused on solving key challenges in the biotechnology sector through scalable digital platforms.,Biotechnology,4718641,12,Australia,AI,High
+965,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,1032789,6,Japan,ML,Very High
+966,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,2523265,18,Singapore,IoT,Low
+967,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,4686450,3,Canada,ML,Low
+968,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,3960898,17,Canada,AI,Medium
+969,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,837364,14,Australia,Data Analytics,Medium
+970,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,2400524,14,Germany,Blockchain,Very High
+971,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,2940510,8,Canada,IoT,Medium
+972,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,3535298,17,Japan,Blockchain,Low
+973,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,3248915,24,USA,Blockchain,High
+974,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1941217,11,Canada,IoT,High
+975,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,389668,17,Singapore,Blockchain,Very High
+976,Predictive Maintenance System,A machine learning system that predicts equipment failures in industries using sensor data and historical maintenance records.,Artificial Intelligence,3158230,16,UAE,Data Analytics,Low
+977,AI-Powered Hiring Platform,"An AI-based recruitment platform that screens resumes, evaluates candidate skills, and predicts job fit using machine learning.",Artificial Intelligence,914886,15,Australia,AI,Low
+978,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,4843413,8,USA,Cloud,Low
+979,Logistics Innovation Platform,A technology-driven solution focused on solving key challenges in the logistics sector through scalable digital platforms.,Logistics,1540557,11,USA,Cloud,Very High
+980,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,1957144,7,Germany,Cloud,Low
+981,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,2140587,12,Singapore,ML,Medium
+982,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,3525844,17,Japan,Cloud,Low
+983,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,719790,6,USA,ML,Low
+984,AI Yield Prediction Tool,A predictive analytics tool that forecasts crop yield using satellite imagery and climate data.,AgriTech,4954301,18,India,AI,High
+985,Smart Cities Innovation Platform,A technology-driven solution focused on solving key challenges in the smart cities sector through scalable digital platforms.,Smart Cities,2816889,12,Germany,Data Analytics,Medium
+986,Online Skill Assessment Tool,A web-based assessment platform to evaluate technical and soft skills for students and professionals.,EdTech,1988355,15,UK,IoT,Very High
+987,FoodTech Innovation Platform,A technology-driven solution focused on solving key challenges in the foodtech sector through scalable digital platforms.,FoodTech,1730610,11,Germany,Blockchain,High
+988,Clean Energy Innovation Platform,A technology-driven solution focused on solving key challenges in the clean energy sector through scalable digital platforms.,Clean Energy,2688146,19,UK,Cloud,Very High
+989,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,2952030,20,USA,ML,Medium
+990,Personalized Learning Platform,An adaptive learning platform that personalizes educational content based on student performance and learning pace.,EdTech,1928725,21,UK,Cloud,High
+991,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,4883609,23,UK,AI,High
+992,Digital Lending Platform,A fintech platform providing instant loans using alternative credit scoring models based on transaction and behavioral data.,FinTech,681032,11,India,Cloud,Very High
+993,SaaS Innovation Platform,A technology-driven solution focused on solving key challenges in the saas sector through scalable digital platforms.,SaaS,4060596,13,France,Data Analytics,Very High
+994,AI Fraud Detection System,A real-time fraud detection system for banks using AI to monitor and flag suspicious transactions.,FinTech,132958,17,UAE,IoT,Medium
+995,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,4348040,25,Canada,ML,Medium
+996,Remote Patient Monitoring System,A healthcare platform that remotely monitors patient vitals using wearable devices and alerts doctors in real time.,HealthTech,2315591,3,Canada,Blockchain,Very High
+997,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,1572227,23,Japan,Data Analytics,Very High
+998,Cybersecurity Innovation Platform,A technology-driven solution focused on solving key challenges in the cybersecurity sector through scalable digital platforms.,Cybersecurity,4565845,4,UAE,Data Analytics,Very High
+999,IoT Innovation Platform,A technology-driven solution focused on solving key challenges in the iot sector through scalable digital platforms.,IoT,1426883,17,Japan,IoT,Very High
+1000,Blockchain Innovation Platform,A technology-driven solution focused on solving key challenges in the blockchain sector through scalable digital platforms.,Blockchain,123177,3,Japan,Data Analytics,Low

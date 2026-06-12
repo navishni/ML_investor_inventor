@@ -1,0 +1,27 @@
+# Python cache and local environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+
+# Local app state
+platform.db
+platform.db-journal
+users.json
+inventor_profiles.json
+chat_threads.json
+chat_reads.json
+recommendation_feedback.json
+
+# Generated model cache
+data/model_cache*.pkl
+!data/model_cache_v9.pkl
+
+# Generated reports and presentation assets
+MatchTank_AI_Final_Report.docx
+Investor_Inventor_Review_Deck*.pptx
+ppt_assets/
+report_assets/
+

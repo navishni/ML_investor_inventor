@@ -1,0 +1,61 @@
+investor_id,investor_name,preferred_domains,risk_appetite,company_type,investment_size_range,past_investments,preferred_stage,location,industry_focus,available_funds
+201,Amazon AWS,"AICloud,HybridCloud,EnterpriseAI,AIHardware,SustainableAI",High,Cloud & AI,10M-50M,30,Growth,Europe,"AICloud,HybridCloud,EnterpriseAI,AIHardware,SustainableAI",675392
+202,Google Alphabet,"AI,AutonomousSystems,AICloud,Metaverse,AIHardware",High,AI & Internet,2M-10M,13,Early,Asia,"AI,AutonomousSystems,AICloud,Metaverse,AIHardware",3044626
+203,Microsoft,"EnterpriseAI,HybridCloud,AICloud,ITServices,AIPrivacy",Medium,Software & Cloud,2M-10M,18,Growth,USA,"EnterpriseAI,HybridCloud,AICloud,ITServices,AIPrivacy",1498722
+204,NVIDIA,"AIHardware,AICloud,AutonomousSystems,Robotics",High,Semiconductors,100k-500k,36,Seed,Europe,"AIHardware,AICloud,AutonomousSystems,Robotics",2682724
+205,Meta Platforms,"Metaverse,AI,EnterpriseAI,AIPrivacy",High,Social & VR,2M-10M,19,Seed,USA,"Metaverse,AI,EnterpriseAI,AIPrivacy",3630343
+206,Tesla,"EVTech,AutonomousSystems,Energy,SustainableAI",High,EV & Energy,2M-10M,29,Early,Global,"EVTech,AutonomousSystems,Energy,SustainableAI",5388253
+207,IBM,"HybridCloud,EnterpriseAI,AIPrivacy,ITServices",Medium,Enterprise Tech,2M-10M,33,Growth,Europe,"HybridCloud,EnterpriseAI,AIPrivacy,ITServices",5246344
+208,Oracle,"AICloud,HybridCloud,EnterpriseAI,ITServices",Medium,Enterprise Software,500k-2M,34,Early,Europe,"AICloud,HybridCloud,EnterpriseAI,ITServices",7694367
+209,Intel,"AIHardware,AICloud,AutonomousSystems",Medium,Semiconductors,2M-10M,35,Seed,Europe,"AIHardware,AICloud,AutonomousSystems",4840681
+210,AMD,"AIHardware,AICloud",High,Semiconductors,500k-2M,5,Early,USA,"AIHardware,AICloud",5077461
+211,Apple,"Metaverse,AIHardware,EnterpriseAI",Medium,Consumer Tech,500k-2M,28,Early,Asia,"Metaverse,AIHardware,EnterpriseAI",479958
+212,Salesforce,"EnterpriseAI,AI,ITServices",Low,Enterprise SaaS,500k-2M,33,Early,Asia,"EnterpriseAI,AI,ITServices",6363037
+213,Adobe,"EnterpriseAI,AI,Metaverse",Low,Creative Software,100k-500k,5,Seed,Global,"EnterpriseAI,AI,Metaverse",7890355
+214,Siemens,"Infrastructure,Energy,Robotics,SustainableAI",Medium,Industrial Tech,2M-10M,47,Early,Asia,"Infrastructure,Energy,Robotics,SustainableAI",1325605
+215,Bosch,"AutonomousSystems,Robotics,Automotive,AI",Medium,Engineering,100k-500k,19,Seed,Europe,"AutonomousSystems,Robotics,Automotive,AI",9900068
+216,ABB,"Energy,EVTech,Infrastructure,SustainableAI",Medium,Industrial Automation,100k-500k,45,Growth,Europe,"Energy,EVTech,Infrastructure,SustainableAI",9962256
+217,Qualcomm,"AIHardware,AutonomousSystems,EVTech",High,Chipsets,10M-50M,41,Growth,Asia,"AIHardware,AutonomousSystems,EVTech",6061741
+218,Palantir,"EnterpriseAI,AIPrivacy,SustainableAI",Medium,Data Analytics,2M-10M,47,Early,USA,"EnterpriseAI,AIPrivacy,SustainableAI",3298450
+219,Accenture,"HybridCloud,EnterpriseAI,ITServices",Low,Consulting,2M-10M,15,Growth,Global,"HybridCloud,EnterpriseAI,ITServices",307077
+220,Infosys,"ITServices,EnterpriseAI,HybridCloud",Low,IT Services,10M-50M,8,Seed,Europe,"ITServices,EnterpriseAI,HybridCloud",3837761
+221,Tata Consultancy Services,"ITServices,EnterpriseAI,AICloud",Low,IT Services,2M-10M,47,Growth,Europe,"ITServices,EnterpriseAI,AICloud",7406666
+222,Capgemini,"HybridCloud,EnterpriseAI,ITServices",Low,Consulting,2M-10M,41,Growth,USA,"HybridCloud,EnterpriseAI,ITServices",6066039
+223,VMware,"HybridCloud,AICloud,EnterpriseAI",Low,Cloud Infrastructure,100k-500k,50,Seed,Global,"HybridCloud,AICloud,EnterpriseAI",1722582
+224,Red Hat,"HybridCloud,AICloud,EnterpriseAI",Low,Open Source Cloud,500k-2M,23,Seed,Asia,"HybridCloud,AICloud,EnterpriseAI",2919962
+225,BYD,"EVTech,Energy,SustainableAI",High,EV & Energy,500k-2M,6,Early,Asia,"EVTech,Energy,SustainableAI",4489112
+226,Panasonic,"EVTech,Energy,AIHardware",Medium,Electronics,2M-10M,6,Seed,Asia,"EVTech,Energy,AIHardware",1576337
+227,Schneider Electric,"Energy,SustainableAI,Infrastructure",Low,Energy Management,100k-500k,18,Early,Asia,"Energy,SustainableAI,Infrastructure",3850124
+228,GE Renewable Energy,"CleanEnergy,SustainableAI,Energy",Medium,Renewable Energy,2M-10M,8,Early,Global,"CleanEnergy,SustainableAI,Energy",8646826
+229,ServiceNow,"EnterpriseAI,ITServices,AI",Low,Enterprise Platforms,500k-2M,5,Seed,Asia,"EnterpriseAI,ITServices,AI",3976487
+230,UiPath,"EnterpriseAI,AI,ITServices",Medium,Automation,500k-2M,31,Early,Asia,"EnterpriseAI,AI,ITServices",3635177
+231,Uber ATG,"AutonomousSystems,AI,Robotics",High,Mobility & AI,500k-2M,20,Growth,Global,"AutonomousSystems,AI,Robotics",1180044
+232,Cruise (GM),"AutonomousSystems,AI,EVTech",High,Mobility & AI,500k-2M,28,Growth,USA,"AutonomousSystems,AI,EVTech",977986
+233,Baidu Apollo,"AutonomousSystems,AI,AIHardware",Medium,Autonomy & AI,500k-2M,34,Growth,Asia,"AutonomousSystems,AI,AIHardware",498515
+234,Mobileye,"AutonomousSystems,AIHardware,EVTech",Medium,Autonomy & AI,10M-50M,25,Seed,Global,"AutonomousSystems,AIHardware,EVTech",1244960
+235,Zoox,"AutonomousSystems,EVTech,AI",High,Mobility & AI,10M-50M,35,Early,Global,"AutonomousSystems,EVTech,AI",6276211
+236,Boston Dynamics,"Robotics,AI,AutonomousSystems",High,Robotics,2M-10M,50,Early,Global,"Robotics,AI,AutonomousSystems",6226763
+237,KUKA,"Robotics,Infrastructure,AI",Medium,Industrial Robotics,2M-10M,46,Seed,USA,"Robotics,Infrastructure,AI",4531740
+238,Fanuc,"Robotics,AI,Automation",Medium,Industrial Automation,100k-500k,18,Growth,Asia,"Robotics,AI,Automation",4924956
+239,Ocado Technology,"Robotics,AI,SupplyChain",Medium,Robotics & Logistics,100k-500k,43,Seed,Asia,"Robotics,AI,SupplyChain",6462881
+240,Apple AR/VR,"Metaverse,AIHardware,AI",High,Consumer Tech,100k-500k,32,Early,Global,"Metaverse,AIHardware,AI",6988051
+241,HTC Vive,"Metaverse,VR,AI",Medium,VR Hardware,10M-50M,5,Seed,Global,"Metaverse,VR,AI",1807792
+242,Unity Technologies,"Metaverse,AI,EnterpriseAI",Medium,3D/Software,100k-500k,36,Seed,USA,"Metaverse,AI,EnterpriseAI",9826367
+243,Epic Games,"Metaverse,AI,Gaming",Medium,Gaming & Software,2M-10M,22,Growth,Asia,"Metaverse,AI,Gaming",3160299
+244,Snap Inc.,"Metaverse,AI,AR",Medium,Social & AR,500k-2M,35,Growth,USA,"Metaverse,AI,AR",9195826
+245,Siemens Healthineers,"HealthTech,AI,Infrastructure",Medium,Healthcare Tech,10M-50M,26,Seed,USA,"HealthTech,AI,Infrastructure",3785446
+246,BioNTech,"HealthTech,AI,EnterpriseAI",High,Biotech & AI,500k-2M,42,Seed,USA,"HealthTech,AI,EnterpriseAI",8851747
+247,Philips Healthcare,"HealthTech,AI,IoT",Medium,Healthcare Tech,10M-50M,26,Growth,Asia,"HealthTech,AI,IoT",2462781
+248,Medtronic,"HealthTech,AI,Robotics",Medium,Medical Devices,100k-500k,47,Early,Europe,"HealthTech,AI,Robotics",6274964
+249,Byju's,"EdTech,AI,EnterpriseAI",Low,Education Tech,2M-10M,25,Seed,Europe,"EdTech,AI,EnterpriseAI",7302466
+250,Unacademy,"EdTech,AI,EnterpriseAI",Low,Education Tech,10M-50M,14,Seed,Asia,"EdTech,AI,EnterpriseAI",2990217
+251,Chegg,"EdTech,AI,AICloud",Low,Education Tech,100k-500k,30,Early,USA,"EdTech,AI,AICloud",4647861
+252,Khan Academy,"EdTech,AI,AICloud",Low,Education Tech,500k-2M,22,Seed,Global,"EdTech,AI,AICloud",9118492
+253,Zoom Video,"EnterpriseAI,AI,Metaverse",Medium,Collaboration Tech,100k-500k,38,Early,Asia,"EnterpriseAI,AI,Metaverse",5787097
+254,Slack,"EnterpriseAI,AI,ITServices",Low,Collaboration Tech,2M-10M,15,Seed,USA,"EnterpriseAI,AI,ITServices",9154656
+255,Dropbox,"EnterpriseAI,Cloud,AI",Low,Cloud & SaaS,100k-500k,22,Growth,Asia,"EnterpriseAI,Cloud,AI",874925
+256,Tencent,"AI,Metaverse,EnterpriseAI",High,Tech Conglomerate,500k-2M,47,Seed,Asia,"AI,Metaverse,EnterpriseAI",5494866
+257,Alibaba Cloud,"AICloud,EnterpriseAI,AIHardware",High,Cloud & AI,10M-50M,26,Growth,Global,"AICloud,EnterpriseAI,AIHardware",7581029
+258,Spotify,"AI,EnterpriseAI,Metaverse",Low,Entertainment & AI,10M-50M,29,Growth,Asia,"AI,EnterpriseAI,Metaverse",8368522
+259,Netflix,"AI,Metaverse,EnterpriseAI",Low,Entertainment & AI,100k-500k,33,Early,Europe,"AI,Metaverse,EnterpriseAI",3917223
+260,Twitter/X,"AI,Metaverse,EnterpriseAI",Medium,Social Media,100k-500k,21,Early,Asia,"AI,Metaverse,EnterpriseAI",9102150
