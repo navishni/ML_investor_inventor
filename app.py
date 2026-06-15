@@ -456,9 +456,7 @@ def build_public_stats() -> dict:
 
 @app.get("/")
 def home():
-    if get_current_user():
-        return redirect(url_for("dashboard_router"))
-    return redirect(url_for("login_page"))
+    return "MatchTank AI deployed successfully"
 
 
 @app.route("/login", methods=["GET", "POST"])
