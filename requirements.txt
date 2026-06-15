@@ -1,8 +1,8 @@
-Flask==3.1.1
-gunicorn==23.0.0
-numpy==2.3.0
-pandas==2.3.0
-scikit-learn==1.8.0
-joblib==1.5.1
-scipy==1.16.0
-threadpoolctl==3.6.0
+Flask==3.0.3
+gunicorn==21.2.0
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+joblib==1.4.2
+scipy==1.13.1
+threadpoolctl==3.5.0
