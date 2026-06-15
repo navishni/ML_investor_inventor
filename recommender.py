@@ -30,7 +30,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 
 PROJECT_DATA_DIR = Path(__file__).resolve().parent / "data"
-LEGACY_DATA_DIR = Path(r"C:\Users\navis\OneDrive\Desktop\Data Science2")
+LEGACY_DATA_DIR = PROJECT_DATA_DIR
 AUGMENTED_HISTORY_PATH = PROJECT_DATA_DIR / "history_augmented.csv"
 CACHE_VERSION = 9
 AUGMENTATION_VERSION = 2
