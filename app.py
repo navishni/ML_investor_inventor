@@ -23,7 +23,7 @@ app = Flask(__name__)
 app.config["JSON_SORT_KEYS"] = False
 app.secret_key = os.environ.get("SECRET_KEY", "matchtank-secret-key")
 
-engine = none
+engine = PlatformRecommender()
 engine.train()
 
 
@@ -456,7 +456,9 @@ def build_public_stats() -> dict:
 
 @app.get("/")
 def home():
-    return "MatchTank AI deployed successfully"
+    if get_current_user():
+        return redirect(url_for("dashboard_router"))
+    return redirect(url_for("login_page"))
 
 
 @app.route("/login", methods=["GET", "POST"])
