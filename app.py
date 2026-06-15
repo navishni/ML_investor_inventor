@@ -23,7 +23,7 @@ app = Flask(__name__)
 app.config["JSON_SORT_KEYS"] = False
 app.secret_key = os.environ.get("SECRET_KEY", "matchtank-secret-key")
 
-engine = PlatformRecommender()
+engine = none
 engine.train()
 
 
